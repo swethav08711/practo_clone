@@ -1,0 +1,24 @@
+{
+  "name": "practo_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server db.json --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swethav08711/practo_clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swethav08711/practo_clone/issues"
+  },
+  "homepage": "https://github.com/swethav08711/practo_clone#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
