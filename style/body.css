@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: Camphor, Helvetica, Arial, sans-serif !important;
+  }
+  body {
+    margin: auto;
+    width: 90%;
+
+  }
+#location{
+    /* width: 100%; */
+    display: flex;
+    /* border: 1px solid black; */
+    
+    margin: auto;
+}
+#location>div:nth-child(1){
+    margin: 2.5%;
+    width: 75%;
+    
+}
+#location>div:nth-child(1)>input{
+    height: 45px;
+}
+#location>div:nth-child(1)>input:nth-child(1){
+    width: 40%;
+}
+#location>div:nth-child(1)>input:nth-child(2){
+    width: 30%;
+}
+#location>div:nth-child(2){
+    margin: 2.5%;
+    width: 20%;   
+}
+#location>div:nth-child(2)>img{
+    height: 50px;
+}
+/* BANNER */
+#banner-start{
+    
+    width: 90%;
+    margin: auto;
+}
+#banner{
+    
+    margin-top: 30px;
+    display: flex;
+    background: linear-gradient(105.21deg,#3743ab 2.85%,#141b56 99.41%);
+    height: 310px;
+    padding: 20px;
+    border-radius: 40px;
+}
+#banner-left{
+    width: 50%;
+    padding: 50px;
+}
+#banner-right{
+    width: 30%;
+    padding: 50px;
+}
+#banner-left>img{
+    width: 40%;
+}
+#banner-left>p{
+    margin-bottom: 0;
+    color: white;
+}
+#banner-left>h1{
+    margin-top: 0;
+    color: white;
+    font-size: 40px;
+}
+#banner-right>img{
+    width: 450px;
+    height: 350px;
+    margin-top: -110px;
+}
+#banner-btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#prop1{
+    grid-area: prop1;
+    background-color: rgb(197, 197, 235);
+    
+}
+#prop2{
+    grid-area: prop2;
+    background-color: rgb(125, 211, 192);
+}
+#prop3{
+    grid-area: prop3;
+    background-color: rgb(179, 173, 173);
+}
+#prop4{
+    grid-area: prop4;
+    background-color: rgb(197, 197, 235);
+}
+#prop5{
+    grid-area: prop5;
+    background-color: rgb(192, 216, 207);
+}
+.prop{
+    width: 100%;
+    /* padding: 10px 10px 0 10px; */
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid rgb(148, 142, 142);
+    height: 300px;
+}
+.prop>img{
+    width: 130px;
+    height: 145px;
+    margin-top: 20px;
+    /* margin-bottom: -19px; */
+}
+.prop>div{
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid rgb(167, 164, 164);
+    border-radius: 20px;
+
+}
+.prop>div>p{
+    font-size: 15px;
+}
+@media screen and (max-width:1000px) {
+    #property{
+        display: grid;
+        gap: 10px;
+        grid-template-areas: "prop1 prop2"
+                             "prop3 prop4" 
+                             "prop5 prop6"
+    }
+    .prop>div{
+        padding: 20px;
+    }
+  }
+@media screen and (min-width:1000px){
+    #property{
+        padding: 20px;
+        /* background-color: violet; */
+        width: 90%;
+        margin: auto;
+        display: grid;
+        gap: 10px;
+        grid-template-areas: "prop1 prop2 prop3 prop4 prop5";
+        
+        
+    }
+    
+}
