@@ -44,3 +44,42 @@ body {
   cursor: pointer;
   border-bottom: 1px solid white;
 }
+#header_part {
+  display: flex;
+  padding: 5px 60px;
+  justify-content: center;
+  align-items: center;
+}
+.header_container {
+  padding: 0px 18px;
+  margin: 19px 0px;
+}
+.header_container > h1 {
+  font-size: 14px;
+  margin: 0px;
+  font-weight: 500;
+}
+.header_container > p {
+  font-size: 12px;
+  margin: 0px;
+  color: grey;
+}
+.header_container #provide {
+  border: none;
+  background-color: #fff;
+  font-size: 14px;
+  color: rgb(27, 26, 26);
+}
+.header_container #Security {
+  border: none;
+  background-color: #fff;
+  font-size: 14px;
+  color: rgb(27, 26, 26);
+}
+.header_container #login {
+  padding: 7px;
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: grey;
+}

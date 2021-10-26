@@ -1,4 +1,4 @@
-function footer() {
+export function footer() {
   return `<div id="footer">
   <div id="first_container">
     <div class="container">
@@ -69,4 +69,40 @@ function footer() {
   </p>
 </div> `
 }
-export default footer
+
+export function header() {
+  return `<div id="header_part">
+    <div class="header_container min_sreen">
+      <img src="/images/practo.8e3ca798.svg" alt="" />
+    </div>
+    <div class="header_container">
+      <h1>Find Doctors</h1>
+      <p>Book an appointment</p>
+    </div>
+    <div class="header_container">
+      <h1>Video Consult</h1>
+      <p>Consult top Doctors</p>
+    </div>
+    <div class="header_container">
+      <h1>Medicines</h1>
+      <p>Practo pharmacy</p>
+    </div>
+    <div class="header_container">
+      <h1>Lab Tests</h1>
+      <p>Book tests & checkup</p>
+    </div>
+    <div class="header_container">
+      <h1>Surgeries</h1>
+      <p>Expert surgical care</p>
+    </div>
+    <div class="header_container min_sreen">
+      <button id="provide">For Provides</button>
+    </div>
+    <div class="header_container min_sreen">
+      <button id="Security">Security & help</button>
+    </div>
+    <div class="header_container min_sreen">
+      <button id="login">Login / Signup</button>
+    </div>
+  </div>`
+}
