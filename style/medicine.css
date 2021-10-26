@@ -29,3 +29,29 @@ body {
   margin-right: 15px;
   border-radius: 5px;
 }
+#input_container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+#input_container input {
+  width: 600px;
+  height: 40px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+#input_container button {
+  margin-left: auto;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  background-color: rgb(20, 190, 240);
+  font-size: 16px;
+  font-weight: 400px;
+}
+#input_container input:focus {
+  outline: 1px solid rgb(20, 190, 240);
+}

@@ -106,3 +106,14 @@ export function header() {
     </div>
   </div>`
 }
+
+export function searchbar() {
+  return ` <div id="input_container">
+  
+  <input
+    type="text"
+    placeholder="Search for medicines, health products and more"
+  />
+  <button><i class="fas fa-search"></i>VIEW CART</button>
+</div>`
+}

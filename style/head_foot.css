@@ -49,6 +49,7 @@ body {
   padding: 5px 60px;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid rgb(221, 208, 208);
 }
 .header_container {
   padding: 0px 18px;
