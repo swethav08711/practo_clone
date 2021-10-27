@@ -7,7 +7,7 @@ header_import.innerHTML = header()
 const body_import = document.getElementById("body_import")
 body_import.innerHTML = homebody()
 
-slideshow
+//slideshow
 var slideIndex = 0
 showSlides()
 
