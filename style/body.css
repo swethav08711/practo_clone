@@ -1,360 +1,362 @@
 * {
-    box-sizing: border-box;
-    font-family: Camphor, Helvetica, Arial, sans-serif !important;
-  }
-  body {
-    margin: auto;
-    width: 90%;
+  box-sizing: border-box;
+  font-family: Camphor, Helvetica, Arial, sans-serif !important;
+}
+body {
+  margin: auto;
+  width: 100%;
+}
+#body_import {
+  width: 80%;
+  margin: auto;
+}
+#location {
+  /* width: 100%; */
+  display: flex;
+  /* border: 1px solid black; */
 
-  }
-#location{
-    /* width: 100%; */
-    display: flex;
-    /* border: 1px solid black; */
-    
-    margin: auto;
+  margin: auto;
 }
-#location>div:nth-child(1){
-    margin: 2.5%;
-    width: 75%;
-    
+#location > div:nth-child(1) {
+  margin: 2.5%;
+  width: 75%;
 }
-#location>div:nth-child(1)>input{
-    height: 45px;
+#location > div:nth-child(1) > input {
+  height: 45px;
 }
-#location>div:nth-child(1)>input:nth-child(1){
-    width: 40%;
+#location > div:nth-child(1) > input:nth-child(1) {
+  width: 40%;
 }
-#location>div:nth-child(1)>input:nth-child(2){
-    width: 30%;
+#location > div:nth-child(1) > input:nth-child(2) {
+  width: 30%;
 }
-#location>div:nth-child(2){
-    margin: 2.5%;
-    width: 20%;   
+#location > div:nth-child(2) {
+  margin: 2.5%;
+  width: 20%;
 }
-#location>div:nth-child(2)>img{
-    height: 50px;
+#location > div:nth-child(2) > img {
+  height: 50px;
 }
 /* BANNER */
-#banner-start{
-    
-    width: 90%;
-    margin: auto;
+#banner-start {
+  width: 90%;
+  margin: auto;
 }
-#banner{
-    
-    margin-top: 30px;
-    display: flex;
-    background: linear-gradient(105.21deg,#3743ab 2.85%,#141b56 99.41%);
-    height: 310px;
-    padding: 20px;
-    border-radius: 40px;
+#banner {
+  margin-top: 30px;
+  display: flex;
+  background: linear-gradient(105.21deg, #3743ab 2.85%, #141b56 99.41%);
+  height: 310px;
+  padding: 20px;
+  border-radius: 40px;
 }
-#banner-left{
-    width: 50%;
-    padding: 50px;
+#banner-left {
+  width: 50%;
+  padding: 50px;
 }
-#banner-right{
-    width: 30%;
-    padding: 50px;
+#banner-right {
+  width: 30%;
+  padding: 50px;
 }
-#banner-left>img{
-    width: 40%;
+#banner-left > img {
+  width: 40%;
 }
-#banner-left>p{
-    margin-bottom: 0;
-    color: white;
+#banner-left > p {
+  margin-bottom: 0;
+  color: white;
 }
-#banner-left>h1{
-    margin-top: 0;
-    color: white;
-    font-size: 40px;
+#banner-left > h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 40px;
 }
-#banner-right>img{
-    width: 450px;
-    height: 350px;
-    margin-top: -110px;
+#banner-right > img {
+  width: 450px;
+  height: 350px;
+  margin-top: -110px;
 }
-#banner-btn{
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 10px;
+#banner-btn {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
 }
-#prop1{
-    grid-area: prop1;
-    background-color: rgb(197, 197, 235);
-    
+#prop1 {
+  grid-area: prop1;
+  background-color: rgb(197, 197, 235);
 }
-#prop2{
-    grid-area: prop2;
-    background-color: rgb(125, 211, 192);
+#prop2 {
+  grid-area: prop2;
+  background-color: rgb(125, 211, 192);
 }
-#prop3{
-    grid-area: prop3;
-    background-color: rgb(179, 173, 173);
+#prop3 {
+  grid-area: prop3;
+  background-color: rgb(179, 173, 173);
 }
-#prop4{
-    grid-area: prop4;
-    background-color: rgb(197, 197, 235);
+#prop4 {
+  grid-area: prop4;
+  background-color: rgb(197, 197, 235);
 }
-#prop5{
-    grid-area: prop5;
-    background-color: rgb(192, 216, 207);
+#prop5 {
+  grid-area: prop5;
+  background-color: rgb(192, 216, 207);
 }
-.prop{
-    width: 100%;
-    /* padding: 10px 10px 0 10px; */
-    text-align: center;
-    border-radius: 20px;
-    border: 1px solid rgb(148, 142, 142);
-    height: 300px;
+.prop {
+  width: 100%;
+  /* padding: 10px 10px 0 10px; */
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid rgb(148, 142, 142);
+  height: 300px;
 }
-.prop>img{
-    width: 130px;
-    height: 145px;
-    margin-top: 20px;
-    /* margin-bottom: -19px; */
+.prop > img {
+  width: 130px;
+  height: 145px;
+  margin-top: 20px;
+  /* margin-bottom: -19px; */
 }
-.prop>div{
-    background-color: white;
-    text-align: left;
-    padding: 20px;
-    border-bottom: 1px solid rgb(167, 164, 164);
-    border-radius: 20px;
-
+.prop > div {
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+  border-bottom: 1px solid rgb(167, 164, 164);
+  border-radius: 20px;
 }
-.prop>div>p{
-    font-size: 15px;
+.prop > div > p {
+  font-size: 15px;
 }
 .Medicine_subheader {
+  width: 90%;
+  margin: auto;
+}
+.sliding_medicine_images {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 360px;
+  overflow-x: scroll;
+}
+
+.sliding_medicine_images > div > img {
+  width: 290px;
+  height: 200px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.sliding-data > div {
+  padding: 10px;
+}
+.sliding-data > div > h4 {
+  margin-bottom: 0;
+}
+#consult-heading {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+#consult-heading > div:nth-child(1) {
+  width: 80%;
+}
+#consult-heading > div:nth-child(1) > p {
+  margin: 0;
+}
+#consult-heading > div:nth-child(2) {
+  width: 15%;
+  margin: 2.5%;
+}
+#specification {
+  font-size: 15px;
+  padding: 15px;
+  border: 1px solid rgb(73, 221, 247);
+  color: rgb(73, 221, 247);
+  background-color: rgb(245, 252, 253);
+}
+#consult {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  gap: 10px;
+  text-align: center;
+}
+#consult > a {
+  width: 90%;
+  margin: 5%;
+  text-decoration: none;
+}
+#consult > a > div > img {
+  border-radius: 50%;
+  width: 150px;
+}
+#consult > a > div > p {
+  color: rgb(73, 221, 247);
+}
+#consult1 {
+  grid-area: c1;
+}
+#consult2 {
+  grid-area: c2;
+}
+#consult3 {
+  grid-area: c3;
+}
+#consult4 {
+  grid-area: c4;
+}
+#consult5 {
+  grid-area: c5;
+}
+#consult6 {
+  grid-area: c6;
+}
+#line-clear {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#article {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+}
+
+#article > div > a {
+  text-decoration: none;
+  padding: 10px;
+}
+#article > div > a > img {
+  width: 100%;
+}
+#article > div > a > div {
+  padding: 0 15px 0 15px;
+  color: black;
+}
+#article > div > a > div > h3 {
+  margin: 0;
+}
+#article1 {
+  grid-area: act1;
+  padding: 10px;
+}
+#article2 {
+  grid-area: act2;
+}
+#article3 {
+  grid-area: act3;
+}
+
+#slider-auto {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides > div {
+  width: 70%;
+  margin: auto;
+}
+.mySlides > div > p {
+  font-size: 25px;
+  color: grey;
+}
+#downlaord {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  gap: 90px;
+}
+#down1 > img {
+  width: 350px;
+}
+#down1 {
+  grid-area: down1;
+}
+#down2 {
+  grid-area: down2;
+}
+#phone {
+  display: flex;
+  gap: 20px;
+}
+#phone > div {
+  display: flex;
+}
+#phone > div > h3 {
+  border-left: 0.5px solid rgb(141, 134, 134);
+  border-top: 0.5px solid rgb(141, 134, 134);
+  border-bottom: 0.5px solid rgb(141, 134, 134);
+  padding: 14px;
+}
+#phone > div > input {
+  margin-top: 18px;
+  height: 52px;
+  width: 250px;
+}
+#phone > button,
+#article1 > button {
+  background-color: rgb(35, 196, 245);
+  color: white;
+  font-size: 15px;
+  border: 0;
+  height: 52px;
+  margin-top: 18px;
+  padding: 15px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+#app > img {
+  width: 120px;
+  height: 40px;
+}
+@media screen and (max-width: 1000px) {
+  #property {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+      "prop1 prop2"
+      "prop3 prop4"
+      "prop5 prop6";
+  }
+  .prop > div {
+    padding: 20px;
+  }
+  #consult {
+    grid-template-areas:
+      "c1 c2 "
+      " c3 c4"
+      " c5 c6";
+  }
+  #article {
+    grid-template-areas:
+      "act1 act1 "
+      "act2 act3";
+  }
+  #downlaord {
+    grid-template-areas:
+      "down1 "
+      "down2";
+  }
+}
+@media screen and (min-width: 1000px) {
+  #property {
+    padding: 20px;
+    /* background-color: violet; */
     width: 90%;
     margin: auto;
-  }
-  .sliding_medicine_images {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    height: 360px;
-    overflow-x: scroll;
-  }
-  
-  .sliding_medicine_images > div > img {
-    width: 290px;
-    height: 200px;
-    margin-right: 15px;
-    border-radius: 5px;
-  }
-.sliding-data>div{
-    padding: 10px;
-}
-.sliding-data>div>h4{
-    margin-bottom: 0;
-}
-    #consult-heading{
-        display: flex;
-        width: 90%;
-        margin: auto;
-    }
-    #consult-heading>div:nth-child(1){
-        width: 80%;
-    }
-    #consult-heading>div:nth-child(1)>p{
-        margin: 0;
-    }
-    #consult-heading>div:nth-child(2){
-        width: 15%;
-        margin: 2.5%;
-    }
-    #specification{
-        font-size: 15px;
-        padding: 15px;
-        border: 1px solid rgb(73, 221, 247);
-        color: rgb(73, 221, 247);
-        background-color: rgb(245, 252, 253);
-    }
-  #consult{
-      width: 90%;
-      margin: auto;
-      display: grid;
-      gap: 10px;
-      text-align: center;
-  }
-  #consult>a{
-      width: 90%;
-      margin: 5%;
-      text-decoration: none;
-  }
-  #consult>a>div>img{
-      border-radius: 50%;
-      width: 150px;
-  }
-  #consult>a>div>p{
-    color:rgb(73, 221, 247)
-  }
-  #consult1{
-      grid-area: c1;
-  }
-  #consult2{
-      grid-area: c2;
-  }
-  #consult3{
-      grid-area: c3;
-  }
-  #consult4{
-      grid-area: c4;
-  }
-  #consult5{
-      grid-area: c5;
-  }
-  #consult6{
-      grid-area: c6;
-  }
-  #line-clear{
-      margin-top: 50px;
-      margin-bottom: 50px;
-  }
-  #article{
-      width: 70%;
-      margin: auto;
-      display: grid;
-      gap: 20px;
-      
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "prop1 prop2 prop3 prop4 prop5";
   }
 
-  #article>div>a{
-    text-decoration: none;
-    padding: 10px;
+  #consult {
+    grid-template-areas: "c1 c2 c3 c4 c5 c6";
   }
-  #article>div>a>img{
-      width: 100%;
+  #article {
+    grid-template-areas: "act1 act2 act3";
   }
-  #article>div>a>div{
-      padding: 0 15px 0 15px;
-      color: black;
+  #downlaord {
+    grid-template-areas: "down1 down2";
   }
-  #article>div>a>div>h3{
-      margin: 0;
-  }
-  #article1{
-      grid-area: act1;
-      padding: 10px;
-  }
-  #article2{
-      grid-area: act2;
-  }
-  #article3{
-      grid-area: act3;
-  }
-
-  #slider-auto{
-      text-align: center;
-      width: 50%;
-      margin: auto;
-  }
-  .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  .mySlides>div{
-      width: 70%;
-      margin: auto;
-  }
-  .mySlides>div>p{
-      font-size: 25px;
-      color: grey;
-  }
-  #downlaord{
-      width: 60%;
-      margin: auto;
-      display: grid;
-      gap: 90px;
-  }
-  #down1>img{
-      width: 350px;
-  }
-  #down1{
-      grid-area: down1;
-  }
-  #down2{
-      grid-area: down2;
-  }
-  #phone{
-      display: flex;
-      gap: 20px;
-  }
-  #phone>div{
-      display: flex;
-  }
-  #phone>div>h3{
-      border-left: 0.5px solid rgb(141, 134, 134);
-      border-top: 0.5px solid rgb(141, 134, 134);
-      border-bottom: 0.5px solid rgb(141, 134, 134);
-      padding: 14px;
-  }
-  #phone>div>input{
-      margin-top: 18px;
-      height: 52px;
-      width: 250px;
-  }
-  #phone>button,#article1>button{
-      background-color: rgb(35, 196, 245);
-      color: white;
-      font-size: 15px;
-      border: 0;
-      height: 52px;
-      margin-top: 18px;
-      padding: 15px;
-      font-weight: 700;
-      border-radius: 10px;
-  }
-  #app>img{
-      width: 120px;
-      height: 40px;
-  }
-@media screen and (max-width:1000px) {
-    #property{
-        display: grid;
-        gap: 10px;
-        grid-template-areas: "prop1 prop2"
-                             "prop3 prop4" 
-                             "prop5 prop6"
-    }
-    .prop>div{
-        padding: 20px;
-    }
-    #consult{
-        grid-template-areas: "c1 c2 "
-                             " c3 c4"
-                             " c5 c6";
-    }
-    #article{
-        grid-template-areas: "act1 act1 "
-                             "act2 act3";
-    }
-    #downlaord{
-        grid-template-areas: "down1 "
-                              "down2";
-    }
-  }
-@media screen and (min-width:1000px){
-    #property{
-        padding: 20px;
-        /* background-color: violet; */
-        width: 90%;
-        margin: auto;
-        display: grid;
-        gap: 10px;
-        grid-template-areas: "prop1 prop2 prop3 prop4 prop5";  
-    }
-
-    #consult{
-        grid-template-areas: "c1 c2 c3 c4 c5 c6";
-    }
-    #article{
-        grid-template-areas: "act1 act2 act3";
-    }
-    #downlaord{
-        grid-template-areas: "down1 down2";
-    }
 }

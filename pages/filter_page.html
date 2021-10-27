@@ -7,28 +7,26 @@
     <title>Medicines</title>
     <link rel="stylesheet" href="/style/head_foot.css" />
     <link rel="stylesheet" href="/style/medicine.css" />
-   
   </head>
   <body>
     <div id="header_import"></div>
     <div id="input_container">
       <div class="search_btn_icon" style="width: 24px; height: 24px">
         <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-        />
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          />
+        </svg>
       </div>
-      
-      </svg>
       <input
         id="input_search_value"
         oninput="main()"
@@ -48,38 +46,158 @@
             stroke-linejoin="round"
             stroke-width="2"
             d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-          /></svg
-        >VIEW CART
+          />
+        </svg>
+        VIEW CART
       </button>
     </div>
-    <div id="Search-bar_results">
-      </div>
+    <div id="Search-bar_results"></div>
     <div class="dashline"></div>
     <div id="filter_container">
-      <div><p>Family Care<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 19 15 l -7 7 l -7 -7" />
-      </svg></p></div>
-      <div><p>Fitness & Wellness<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 19 15 l -7 7 l -7 -7" />
-      </svg></p></div>
-      <div><p>Skin care<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 19 15 l -7 7 l -7 -7" />
-      </svg></p></div>
-      <div><p>Hair care<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 19 15 l -7 7 l -7 -7" />
-      </svg></p></div>
-      <div><p>Lip Care<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 19 15 l -7 7 l -7 -7" />
-      </svg></p></div>
-      <div><p>Sexual wellness<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 19 15 l -7 7 l -7 -7" />
-      </svg></p></div>
-      <div><p>Women's Care<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 19 15 l -7 7 l -7 -7" />
-      </svg></p></div>
-      <div><p>Baby care<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M 19 15 l -7 7 l -7 -7" />
-      </svg></p></div>
+      <div>
+        <p>
+          Family Care<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+        </p>
+      </div>
+      <div>
+        <p>
+          Fitness & Wellness<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+        </p>
+      </div>
+      <div>
+        <p>
+          Skin care<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+        </p>
+      </div>
+      <div>
+        <p>
+          Hair care<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+        </p>
+      </div>
+      <div>
+        <p>
+          Lip Care<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+        </p>
+      </div>
+      <div>
+        <p>
+          Sexual wellness<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+        </p>
+      </div>
+      <div>
+        <p>
+          Women's Care<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+        </p>
+      </div>
+      <div>
+        <p>
+          Baby care<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+        </p>
+      </div>
     </div>
     <div class="dashline"></div>
     <div id="main_catergory_container">
@@ -102,60 +220,16 @@
         <div id="best_seller">
           <h2>Best Sellers</h2>
 
-          <div id="filter_side_container">
-            <div class="filter_side_container1">
-              <img src="/images/placeholder_product.39dd65c8.png" alt="" />
-              <div class="line"></div>
-              <p>Arlin Liniment</p>
-              <div class="button_contaner">
-                <button>--</button>
-                <button>Unavailable</button>
-              </div>
-            </div>
-            <div class="filter_side_container1">
-              <img src="/images/placeholder_product.39dd65c8.png" alt="" />
-              <div class="line"></div>
-              <p>Arlin Liniment</p>
-              <div class="button_contaner">
-                <button>--</button>
-                <button>Unavailable</button>
-              </div>
-            </div>
-            <div class="filter_side_container1">
-              <img src="/images/placeholder_product.39dd65c8.png" alt="" />
-              <div class="line"></div>
-              <p>Arlin Liniment</p>
-              <div class="button_contaner">
-                <button>--</button>
-                <button>Unavailable</button>
-              </div>
-            </div>
-            <div class="filter_side_container1">
-              <img src="/images/placeholder_product.39dd65c8.png" alt="" />
-              <div class="line"></div>
-              <p>Arlin Liniment</p>
-              <div class="button_contaner">
-                <button>--</button>
-                <button>Unavailable</button>
-              </div>
-            </div>
-            <div class="filter_side_container1">
-              <img src="/images/placeholder_product.39dd65c8.png" alt="" />
-              <div class="line"></div>
-              <p>Arlin Liniment</p>
-              <div class="button_contaner">
-                <button>--</button>
-                <button>Unavailable</button>
-              </div>
-            </div>
-          </div>
+          <div id="filter_side_container"></div>
         </div>
       </div>
     </div>
+    <div id="a"></div>
     <div id="footer_import"></div>
   </body>
 </html>
 <script type="module" src="/script/index.js"></script>
+
 <script>
   var extra_div = document.getElementById("Search-bar_results")
   async function fetchdata() {
@@ -167,31 +241,30 @@
   }
 
   function appendMovies(movies) {
-    movies.forEach(({ tablet ,image,price,discount}) => {
-      
-      let main_div = document.createElement('div')
+    movies.forEach(({ tablet, image, price, discount }) => {
+      let main_div = document.createElement("div")
       main_div.className = "main_div_style"
-      let div = document.createElement('div')
+      let div = document.createElement("div")
       div.className = "small_div"
-      let img = document.createElement('img')
+      let img = document.createElement("img")
       img.className = "search_img"
       img.src = image
-      let div2 = document.createElement('div')
+      let div2 = document.createElement("div")
       div2.className = "div2_style"
       let p = document.createElement("p")
       p.className = "text-charcoal-grey-two"
       p.innerText = tablet
-      let pri = document.createElement('p')
+      let pri = document.createElement("p")
       pri.className = "price_style"
       pri.innerText = `${price}₹`
-      let dis = document.createElement('p')
-      dis.className="disco_style"
+      let dis = document.createElement("p")
+      dis.className = "disco_style"
       dis.innerText = `${discount}% off`
       let btn = document.createElement("button")
       btn.className = "btn_style"
       btn.textContent = "ADD"
-      div2.append(p,pri,dis)
-      div.append(img,div2,btn)
+      div2.append(p, pri, dis)
+      div.append(img, div2, btn)
       main_div.append(div)
       extra_div.append(main_div)
     })
@@ -202,4 +275,37 @@
     let medi = await fetchdata()
     appendMovies(medi)
   }
+</script>
+
+<script>
+  var min_app = document.getElementById("filter_side_container")
+  async function getdata() {
+    let res = await fetch("http://localhost:1212/medicine?q=Fitness")
+    let data = await res.json()
+    console.log(data)
+    append(data)
+  }
+  function append(d) {
+    d.forEach(({ image, tablet }) => {
+      let div = document.createElement("div")
+      div.className = "filter_side_container1"
+      let img = document.createElement("img")
+
+      img.src = image
+      let p = document.createElement("p")
+      p.innerText = tablet
+      let btn_div = document.createElement("div")
+      btn_div.className = "button_contaner"
+      let buttn1 = document.createElement("button")
+
+      buttn1.textContent = "--"
+      let buttn2 = document.createElement("button")
+
+      buttn2.textContent = "Unavailable"
+      btn_div.append(buttn1, buttn2)
+      div.append(img, p, btn_div)
+      min_app.append(div)
+    })
+  }
+  getdata()
 </script>

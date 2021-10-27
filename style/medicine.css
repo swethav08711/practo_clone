@@ -72,8 +72,7 @@ body {
 #filter_container > div > p > svg {
   width: 24px;
 }
-#filter_container > div > p > svg > path {
-}
+
 #main_catergory_container {
   width: 80%;
   display: grid;
@@ -208,4 +207,10 @@ body {
   margin-left: auto;
   background-color: #fff;
   color: #1ebef0;
+}
+#flexing {
+  display: flex;
+}
+.flexbox1 {
+  margin-right: -20px;
 }

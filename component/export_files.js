@@ -83,7 +83,7 @@ export function header() {
       <h1>Video Consult</h1>
       <p>Consult top Doctors</p>
     </div>
-    <div class="header_container">
+    <div class="header_container"  onclick="(location.href='medicines.html')">
       <h1>Medicines</h1>
       <p>Practo pharmacy</p>
     </div>
@@ -129,15 +129,7 @@ export function header() {
 
 ////
 export function homebody() {
-  return ` <div id="location">
-  <div>
-      <input type="text"><input type="search" name="" id="">
-  </div>
-  <div>
-      <img src="/images/home_body/plus-tag.png" alt="">
-  </div>
-</div>
-<!-- Location part ends -->
+  return `<!-- Location part ends -->
 <div id="banner-start">
   <div id="banner">
       <div id="banner-left">
