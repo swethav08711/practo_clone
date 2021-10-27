@@ -84,3 +84,8 @@ body {
   border-radius: 5px;
   color: grey;
 }
+.search_btn_icon {
+  margin-left: 78px;
+  margin-top: 19px;
+  position: relative;
+}
