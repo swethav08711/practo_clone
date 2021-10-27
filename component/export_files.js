@@ -71,7 +71,7 @@ export function footer() {
 }
 
 export function header() {
-  return `<div id="header_part">
+  return `<div id="header_part" onclick="(location.href='../pages/index.html')">
     <div class="header_container min_sreen">
       <img src="/images/practo.8e3ca798.svg" alt="" />
     </div>
@@ -83,7 +83,7 @@ export function header() {
       <h1>Video Consult</h1>
       <p>Consult top Doctors</p>
     </div>
-    <div class="header_container"  onclick="(location.href='medicines.html')">
+    <div class="header_container"  onclick="(location.href='../pages/medicines.html')">
       <h1>Medicines</h1>
       <p>Practo pharmacy</p>
     </div>
@@ -101,7 +101,7 @@ export function header() {
     <div class="header_container min_sreen">
       <button id="Security">Security & help</button>
     </div>
-    <div class="header_container min_sreen">
+    <div class="header_container min_sreen"  onclick="(location.href='../pages/login.html')">
       <button id="login">Login / Signup</button>
     </div>
   </div>`

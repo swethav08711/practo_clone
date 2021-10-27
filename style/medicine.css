@@ -129,7 +129,7 @@ body {
   margin: auto;
 }
 .filter_side_container1 p {
-  margin-bottom: 65px;
+  margin-bottom: 34px;
   margin-left: 10px;
 }
 .button_contaner {
@@ -145,7 +145,13 @@ body {
   border: 0.5px solid rgb(226, 224, 224);
 }
 .button_contaner > button:nth-child(2) {
-  border: 0.5px solid rgb(156, 154, 154);
+  background: #fff;
+  color: #14bef0;
+  border-color: #14bef0;
+}
+.button_contaner > button:nth-child(2):hover {
+  background-color: #14bef0;
+  color: white;
 }
 .filter_side_container1:hover {
   box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.2);
@@ -213,4 +219,7 @@ body {
 }
 .flexbox1 {
   margin-right: -20px;
+}
+.price_style_filter {
+  font-size: 21px;
 }
