@@ -53,6 +53,7 @@ body {
   background-color: rgb(20, 190, 240);
   font-size: 16px;
   font-weight: 400px;
+  border-radius: 5px;
 }
 #input_container input:focus {
   outline: 1px solid rgb(20, 190, 240);
@@ -70,10 +71,9 @@ body {
   width: 166px;
 }
 #filter_container > div > p > svg {
-  width: 24px;
+  width: 17px;
 }
-#filter_container > div > p > svg > path {
-}
+
 #main_catergory_container {
   width: 80%;
   display: grid;
@@ -98,6 +98,9 @@ body {
 #products_container_section {
   display: flex;
   margin-left: 50px;
+}
+.container1 {
+  cursor: pointer;
 }
 #products_container_section > p {
   margin-top: 40px;
@@ -130,12 +133,13 @@ body {
   margin: auto;
 }
 .filter_side_container1 p {
-  margin-bottom: 65px;
+  margin-bottom: 34px;
   margin-left: 10px;
 }
 .button_contaner {
   width: 100%;
   margin: 5px;
+  display: flex;
 }
 .button_contaner > button {
   width: 45%;
@@ -146,7 +150,13 @@ body {
   border: 0.5px solid rgb(226, 224, 224);
 }
 .button_contaner > button:nth-child(2) {
-  border: 0.5px solid rgb(156, 154, 154);
+  background: #fff;
+  color: #14bef0;
+  border-color: #14bef0;
+}
+.button_contaner > button:nth-child(2):hover {
+  background-color: #14bef0;
+  color: white;
 }
 .filter_side_container1:hover {
   box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.2);
@@ -171,6 +181,7 @@ body {
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 9%);
   cursor: pointer;
   z-index: 1;
+  display: none;
 }
 
 .small_div {
@@ -208,4 +219,24 @@ body {
   margin-left: auto;
   background-color: #fff;
   color: #1ebef0;
+}
+#flexing {
+  display: flex;
+}
+.flexbox1 {
+  margin-right: -20px;
+}
+.price_style_filter {
+  font-size: 21px;
+}
+.search_btn_icon2 {
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.seconf_btn {
+  display: flex;
+}
+.seconf_btn > P {
+  margin-left: 25px;
+  margin-top: 9px;
 }

@@ -450,7 +450,7 @@
     },
     {
       "id": 32,
-      "tablet": "Acetaminophen, Dextromethorphan HBr, Doxylamine succinate",
+      "tablet": "Acetaminophen",
       "price": 384,
       "discount": 4.9,
       "highlights": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -520,7 +520,7 @@
     },
     {
       "id": 37,
-      "tablet": "diphenhydramine citrate, ibuprofen",
+      "tablet": "diphenhydramine citrate",
       "price": 298,
       "discount": 9.7,
       "highlights": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",

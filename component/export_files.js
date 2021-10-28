@@ -71,9 +71,9 @@ export function footer() {
 }
 
 export function header() {
-  return `<div id="header_part">
+  return `<div id="header_part" >
     <div class="header_container min_sreen">
-      <img src="/images/practo.8e3ca798.svg" alt="" />
+      <img src="/images/practo.8e3ca798.svg" alt="" onclick="(location.href='../pages/index.html')"/ >
     </div>
     <div class="header_container">
       <h1>Find Doctors</h1>
@@ -83,8 +83,8 @@ export function header() {
       <h1>Video Consult</h1>
       <p>Consult top Doctors</p>
     </div>
-    <div class="header_container">
-      <h1>Medicines</h1>
+    <div class="header_container" >
+      <h1 onclick="(location.href='/pages/medicines.html')">Medicines</h1>
       <p>Practo pharmacy</p>
     </div>
     <div class="header_container">
@@ -95,13 +95,41 @@ export function header() {
       <h1>Surgeries</h1>
       <p>Expert surgical care</p>
     </div>
-    <div class="header_container min_sreen">
-      <button id="provide">For Provides</button>
+    <div class="header_container min_sreen fle_btn_img">
+      <button id="provide">For Provides
+      </button>
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M 19 15 l -7 7 l -7 -7"
+      />
+    </svg>
     </div>
-    <div class="header_container min_sreen">
-      <button id="Security">Security & help</button>
+    <div class="header_container min_sreen fle_btn_img">
+      <button id="Security">Security & help</button><svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M 19 15 l -7 7 l -7 -7"
+      />
+    </svg>
     </div>
-    <div class="header_container min_sreen">
+    <div class="header_container min_sreen"  onclick="(location.href='../pages/login.html')">
       <button id="login">Login / Signup</button>
     </div>
   </div>`
@@ -129,15 +157,7 @@ export function header() {
 
 ////
 export function homebody() {
-  return ` <div id="location">
-  <div>
-      <input type="text"><input type="search" name="" id="">
-  </div>
-  <div>
-      <img src="/images/home_body/plus-tag.png" alt="">
-  </div>
-</div>
-<!-- Location part ends -->
+  return `<!-- Location part ends -->
 <div id="banner-start">
   <div id="banner">
       <div id="banner-left">
@@ -170,7 +190,7 @@ export function homebody() {
       </div>
   </div>
   <div class="prop"  id="prop3">
-      <img src="/images/home_body/dweb_medicines.png" alt="">
+      <img src="/images/home_body/dweb_medicines.png" alt="" >
       <div>
           <h3>Medicines</h3>
       <p>Essentials at your doorstep</p>
