@@ -7,6 +7,7 @@
     <title>Medicines</title>
     <link rel="stylesheet" href="/style/head_foot.css" />
     <link rel="stylesheet" href="/style/medicine.css" />
+    <link rel="stylesheet" href="/style/view_cart.css" />
   </head>
   <body>
     <div id="header_import"></div>
@@ -237,55 +238,3 @@
 
 <script src="/src/filter.js"></script>
 <script src="/src//filter_extract.js"></script>
-<!-- <script>
-  var filter = document.getElementById("filter_side_container")
-  appendchild(JSON.parse(localStorage.getItem("category")))
-  function appendchild(d) {
-    d.forEach(({ image, tablet, price }) => {
-      let div = document.createElement("div")
-      div.className = "filter_side_container1"
-
-      let img = document.createElement("img")
-      img.src = image
-      let p = document.createElement("p")
-      p.innerText = tablet
-      let pri = document.createElement("p")
-      pri.className = "price_style_filter"
-      pri.innerText = `${price}₹`
-      let btn_div = document.createElement("div")
-      btn_div.className = "button_contaner"
-      let buttn1 = document.createElement("button")
-      buttn1.textContent = "--"
-      let buttn2 = document.createElement("button")
-      buttn2.textContent = "ADD"
-      btn_div.append(buttn1, buttn2)
-      div.append(img, p, pri, btn_div)
-      filter.append(div)
-    })
-  }
-  var filter = document.getElementById("filter_side_container")
-  appendchild(JSON.parse(localStorage.getItem("skin")))
-  function appendchild(d) {
-    d.forEach(({ image, tablet, price }) => {
-      let div = document.createElement("div")
-      div.className = "filter_side_container1"
-
-      let img = document.createElement("img")
-      img.src = image
-      let p = document.createElement("p")
-      p.innerText = tablet
-      let pri = document.createElement("p")
-      pri.className = "price_style_filter"
-      pri.innerText = `${price}₹`
-      let btn_div = document.createElement("div")
-      btn_div.className = "button_contaner"
-      let buttn1 = document.createElement("button")
-      buttn1.textContent = "--"
-      let buttn2 = document.createElement("button")
-      buttn2.textContent = "ADD"
-      btn_div.append(buttn1, buttn2)
-      div.append(img, p, pri, btn_div)
-      filter.append(div)
-    })
-  }
-</script> -->

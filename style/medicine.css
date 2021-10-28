@@ -139,6 +139,7 @@ body {
 .button_contaner {
   width: 100%;
   margin: 5px;
+  display: flex;
 }
 .button_contaner > button {
   width: 45%;
