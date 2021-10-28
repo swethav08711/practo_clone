@@ -1,139 +1,134 @@
-.login-register-top-div{
-    text-align: center;
-    word-spacing: 40px;
+.login-register-top-div {
+  text-align: center;
+  word-spacing: 40px;
+  margin-top: 25px;
 }
-.login-register-top-div > a{
-    font-size: 17px;
-    color: #191925;
-    text-decoration: unset;
+.login-register-top-div > a {
+  font-size: 17px;
+  color: #191925;
+  text-decoration: unset;
 }
 
 .login-register-top-div > a:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    text-decoration-thickness: 5%;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 5%;
 }
-.login-register-top-div > a:nth-child(2){
-    color: rgb(12, 169, 231);
-    text-decoration: underline; 
-    text-decoration-thickness: 18%;
-    text-underline-offset: 65%;
+.login-register-top-div > a:nth-child(2) {
+  color: rgb(12, 169, 231);
+  text-decoration: underline;
+  text-decoration-thickness: 18%;
+  text-underline-offset: 88%;
 }
-.line-below-login-register-navigator{
-    width: 60%;
-    margin-top: 10px;
+.line-below-login-register-navigator {
+  width: 60%;
+  margin-top: 13px;
 }
-.main-div-of-form-with-beside-image{
-    display: flex;
-    width: 60%;
-    margin: auto;
-    margin-top: 50px;
+.main-div-of-form-with-beside-image {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
 }
-.image-left-on-register-form{
-    width: 95%;
-    height: 97%;
+.image-left-on-register-form {
+  width: 95%;
+  height: 97%;
 }
-.form-left-side-image-div{
-    padding: 5%;
+.form-left-side-image-div {
+  padding: 5%;
 }
-.register-form-main-div{
-    width: 50%;
-    margin-top: 4%;
-    border-radius: 5px;
-    padding: 2%;
-    border: 1px solid lightgrey;
+.register-form-main-div {
+  width: 50%;
+  margin-top: 4%;
+  border-radius: 5px;
+  padding: 2%;
+  border: 1px solid lightgrey;
 }
-.join-practo-top-of-register-form{
-    display: flex;
+.join-practo-top-of-register-form {
+  display: flex;
 }
-.join-practo-top-of-register-form > div:nth-child(1){
-    font-size: 15px;
-    font-weight: 700;
-    color: grey;
-    margin-left: 2%;
+.join-practo-top-of-register-form > div:nth-child(1) {
+  font-size: 15px;
+  font-weight: 700;
+  color: grey;
+  margin-left: 2%;
 }
-.doctor-div{
-    color: grey;
-    font-size: 13px;
-    margin-left: 20%;
+.doctor-div {
+  color: grey;
+  font-size: 13px;
+  margin-left: 20%;
 }
-.join-practo-top-of-register-form > div >a{
-    color: orange;
-    text-decoration: unset;
+.join-practo-top-of-register-form > div > a {
+  color: orange;
+  text-decoration: unset;
 }
-.div-below-join-practo-doctor-div{
-    padding: unset;
-    margin: unset;
-    background-color: lightgrey;
-    height: 0.05rem;
-    width: 100%;
-    margin-top: 3%;
+.div-below-join-practo-doctor-div {
+  padding: unset;
+  margin: unset;
+  background-color: lightgrey;
+  height: 0.05rem;
+  width: 100%;
+  margin-top: 3%;
 }
-.name-div >p , .mobile-number-div >p , .password-div > p{
-    font-size: 14px;
-    color: rgb(95, 95, 95);
+.name-div > p,
+.mobile-number-div > p,
+.password-div > p {
+  font-size: 14px;
+  color: rgb(95, 95, 95);
 }
-.name-div > input , .password-div > input{
-    border: 1px solid lightgrey;
-    padding: 2.5%;
-    width: 100%;
+.name-div > input,
+.password-div > input {
+  border: 1px solid lightgrey;
+  padding: 2.5%;
+  width: 100%;
 }
-select{
-    border: 1px solid lightgrey;
-    color: rgb(100, 100, 100);
-    padding: 2.5%;
+select {
+  border: 1px solid lightgrey;
+  color: rgb(100, 100, 100);
+  padding: 2.5%;
 }
-.mobile-number-div > div > input{
-    border: 1px solid lightgrey;
-    color: rgb(100, 100, 100);
-    margin-left: 5%;
-    width: 63%;
-    padding: 2.5%;
+.mobile-number-div > div > input {
+  border: 1px solid lightgrey;
+  color: rgb(100, 100, 100);
+  margin-left: 5%;
+  width: 63%;
+  padding: 2.5%;
 }
 .agree-cheque-box {
-    display: flex;
-    color: rgb(95, 95, 95);
-    font-size: 13px;
-    margin-top: 25px;
+  display: flex;
+  color: rgb(95, 95, 95);
+  font-size: 13px;
+  margin-top: 25px;
 }
-.chequebox-div > input{
-    width: 18px;
-    height: 18px;
-    color: rgb(95, 95, 95);
+.chequebox-div > input {
+  width: 18px;
+  height: 18px;
+  color: rgb(95, 95, 95);
 }
-.agree-cheque-box > label{
-    margin-left: 2%;
+.agree-cheque-box > label {
+  margin-left: 2%;
 }
-.terms-div-below-the-form{
-    display: flex;
-    color: rgb(95, 95, 95);
-    font-size: 13px;
-    margin-top: 12px;
-    margin-left: 9%;
+.terms-div-below-the-form {
+  display: flex;
+  color: rgb(95, 95, 95);
+  font-size: 13px;
+  margin-top: 12px;
+  margin-left: 9%;
 }
-.terms-div-below-the-form > a{
-    margin-left: 0.2rem;
-    color: #13BEF0;
+.terms-div-below-the-form > a {
+  margin-left: 0.2rem;
+  color: #13bef0;
 }
-.send-otp-button{
-    border: unset;
-    background-color: #13BEF0;
-    color: white;
-    border-radius: 5px;
-    margin-top: 20px;
-    width: 100%;
-    height: 48px;
+.send-otp-button {
+  border: unset;
+  background-color: #13bef0;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%;
+  height: 48px;
 }
 
-
-
-
-
-
-
-
-
-
-#footer_import{
-    margin-top: 170px;
+#footer_import {
+  margin-top: 170px;
 }
