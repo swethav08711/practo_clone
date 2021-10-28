@@ -34,9 +34,12 @@
           
             <div class="mobile-number-div">
                 <p>Mobile Number / Email ID</p>
-                    <input type="tel" id="mobile-number" type="tel" placeholder="Mobile Number / Email ID">
+                    <input type="tel" id="login-mobile-number" type="tel" placeholder="Mobile Number / Email ID">
             </div>
-            <div class="password-div"><p>Password</p><input type="password" id="password" placeholder="Password"></div>
+            <div class="Mobile-Number-field-cannot-be-empty">Mobile Number / Email ID field cannot be empty</div>
+
+            <div class="password-div"><p id="password-label">Password</p><input type="password" id="password" placeholder="Password"></div>
+            <div class="Password-field-cannot-be-empty">Password field cannot be empty</div>
 
             <div class="agree-cheque-box">
                 <input type="checkbox">
@@ -47,7 +50,7 @@
                 <input type="checkbox">
                 <label>Login with OTP instead of password</label>
             </div>
-            <button class="login-button">Login</button>
+            <button class="login-button" id="login-button">Login</button>
 
             <div class="or-div">
                 <hr/><span>or</span><hr/>
@@ -63,6 +66,9 @@
     </div>
 
     <div id="footer_import"></div>
+
+    <script type="module" src="/script/index.js"></script>
+    <script type="text/javascript" src="../script/login.js"></script>
   </body>
 </html>
-<script type="module" src="/script/index.js"></script>
+

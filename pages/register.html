@@ -39,9 +39,9 @@
             </div>
             <div class="name-div">
                 <p>Full Name</p>
-                <input type="text" id="name" type="text" placeholder="Full Name" />
+                <input type="text" id="user-name" type="text" placeholder="Full Name" />
             </div>
-
+            <div class="Full-Name-field-cannot-be-empty">Full Name field cannot be empty</div>
             <div class="mobile-number-div">
                 <p>Mobile Number</p>
                 <div>
@@ -66,11 +66,12 @@
                     <input type="tel" id="mobile-number" type="tel" placeholder="Mobile Number" />
                 </div>
             </div>
+            <div class="Mobile-Number-field-cannot-be-empty">Mobile Number field cannot be empty</div>
             <div class="password-div">
                 <p>Create Password</p>
-                <input type="password" id="password" type="password" placeholder="Password" />
+                <input type="password" id="user-password" type="password" placeholder="Password" />
             </div>
-
+            <div class="Password-field-cannot-be-empty">Password field cannot be empty</div>
             <div class="agree-cheque-box">
                 <div class="chequebox-div">
                 <input type="checkbox" />
@@ -82,12 +83,15 @@
                 By signing up, I agree to
                 <a href="https://www.practo.com/company/terms">terms</a>
             </div>
-            <button class="send-otp-button">Send OTP</button>
+            <button class="send-otp-button" id="send-otp-button">Send OTP</button>
         </div>
     </div>
 
     <div id="footer_import"></div>
-</body>
 
+    <script type="text/javascript" src="../script/register.js"></script>
+    <script type="module" src="/script/index.js"></script>
+
+</body>
 </html>
-<script type="module" src="/script/index.js"></script>
+
