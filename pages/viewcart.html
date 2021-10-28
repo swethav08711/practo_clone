@@ -5,10 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/style/view_cart.css" />
   </head>
   <body>
-    <div id="data"></div>
+    <header>
+      <div class="wrapper">
+        <div class="practo_logo_new"></div>
+      </div>
+    </header>
+    <div class="bg-pale-grey-two">
+      <div
+        class="prev_page"
+        onclick="(location.href='../pages/filter_page.html')"
+      >
+        <p>Go to previous page</p>
+      </div>
+      <div class="cart_container">
+        <div class="cart_container1"><p>My cart: 5 items</p></div>
+        <div class="border_bottom_cart" id="data"></div>
+        <div class="Adding_more_cart">
+          <button>Add more medicines</button>
+        </div>
+        <div class="u-position--fixed">
+          <div class="box_carting">
+            <p>Payable Amount: ₹ NaN</p>
+            <button>Chechout</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 <script>
@@ -18,20 +43,24 @@
 
   data.forEach(({ image, tablet, price }) => {
     let div = document.createElement("div")
-
+    div.className = "boxing_cart_container"
     let img = document.createElement("img")
+    img.className = "img_cart"
     img.src = image
 
     let p = document.createElement("p")
     p.innerText = tablet
-
+    p.className = "cart_name_para"
+    let div1 = document.createElement("div")
+    div1.className = "div1_cart_cont"
     let pri = document.createElement("p")
-    pri.innerText = `${price}₹`
-
+    pri.innerText = `₹${price}`
+    pri.className = "price_cart_cont"
     let buttn1 = document.createElement("button")
     buttn1.textContent = "--"
-
-    div.append(img, p, pri, buttn1)
+    buttn1.className = "button_view_cont"
+    div1.append(pri, buttn1)
+    div.append(img, p, div1)
     parent.append(div)
   })
 </script>

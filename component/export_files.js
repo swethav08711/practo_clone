@@ -71,9 +71,9 @@ export function footer() {
 }
 
 export function header() {
-  return `<div id="header_part" onclick="(location.href='../pages/index.html')">
+  return `<div id="header_part" >
     <div class="header_container min_sreen">
-      <img src="/images/practo.8e3ca798.svg" alt="" />
+      <img src="/images/practo.8e3ca798.svg" alt="" onclick="(location.href='../pages/index.html')"/ >
     </div>
     <div class="header_container">
       <h1>Find Doctors</h1>
@@ -83,8 +83,8 @@ export function header() {
       <h1>Video Consult</h1>
       <p>Consult top Doctors</p>
     </div>
-    <div class="header_container"  onclick="(location.href='../pages/medicines.html')">
-      <h1>Medicines</h1>
+    <div class="header_container" >
+      <h1 onclick="(location.href='/pages/medicines.html')">Medicines</h1>
       <p>Practo pharmacy</p>
     </div>
     <div class="header_container">
@@ -190,7 +190,7 @@ export function homebody() {
       </div>
   </div>
   <div class="prop"  id="prop3">
-      <img src="/images/home_body/dweb_medicines.png" alt="">
+      <img src="/images/home_body/dweb_medicines.png" alt="" >
       <div>
           <h3>Medicines</h3>
       <p>Essentials at your doorstep</p>

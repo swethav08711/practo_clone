@@ -38,6 +38,9 @@ function appendMovies(movies) {
     let btn = document.createElement("button")
     btn.className = "btn_style"
     btn.textContent = "ADD"
+    btn.onclick = function () {
+      addFav({ image, tablet, price })
+    }
     div2.append(p, pri, dis)
     div.append(img, div2, btn)
     main_div.append(div)
@@ -51,6 +54,25 @@ async function main(e) {
   extra_div.innerHTML = null
   let medi = await fetchdata()
   appendMovies(medi)
+}
+function addFav(d) {
+  let addi = localStorage.getItem("cart") //is ther anything called cart obvious not at starting
+  if (addi == null) {
+    addi = []
+  } else {
+    addi = JSON.parse(addi) //JSON to object in the foem of array
+    // for (var i = 0; i < addi.length; i++) {
+    //   if (addi[i].id == d.id) {
+    //     alert("Already in Cart")
+    //     return
+    //   }
+    // }
+  }
+  addi.push(d)
+  console.log(addi) //array of Objects
+  localStorage.setItem("cart", JSON.stringify(addi))
+  alert("Added to cart") //back to JSON from Object
+  console.log(addi, d)
 }
 
 window.addEventListener("click", () => {

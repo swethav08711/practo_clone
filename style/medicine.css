@@ -53,6 +53,7 @@ body {
   background-color: rgb(20, 190, 240);
   font-size: 16px;
   font-weight: 400px;
+  border-radius: 5px;
 }
 #input_container input:focus {
   outline: 1px solid rgb(20, 190, 240);
@@ -70,7 +71,7 @@ body {
   width: 166px;
 }
 #filter_container > div > p > svg {
-  width: 24px;
+  width: 17px;
 }
 
 #main_catergory_container {
@@ -228,12 +229,13 @@ body {
   font-size: 21px;
 }
 .search_btn_icon2 {
-  margin-top: 10px;
-  margin-left: 11px;
+  margin-top: 7px;
+  margin-left: 5px;
 }
 .seconf_btn {
   display: flex;
 }
 .seconf_btn > P {
-  margin-left: 20px;
+  margin-left: 25px;
+  margin-top: 9px;
 }

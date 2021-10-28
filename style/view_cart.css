@@ -1,0 +1,194 @@
+/* body header {
+  background: #fff;
+  z-index: 2;
+  box-shadow: 0 2px 4px 0 rgb(180 180 190 / 37%);
+}
+header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+body {
+  font-family: Camphor, sans-serif;
+  line-height: 1.4;
+  text-size-adjust: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2d2d32;
+}
+body header .wrapper {
+  max-width: 1280 px;
+  padding: 0 50 px;
+}
+.u-p-r--50 {
+  padding-right: 50 px !important;
+}
+.u-p-l--50 {
+  padding-left: 50 px !important;
+}
+.u-p-b--25 {
+  padding-bottom: 25 px !important;
+}
+.u-p-t--25 {
+  padding-top: 25 px !important;
+}
+.u-m-t--1 {
+  margin-top: 1 px !important;
+}
+body header .practo_logo_new {
+  height: 22px;
+  background: url(//www.practostatic.com/ecommerce-assets/static/media/practo.8e3ca798.svg)
+    no-repeat;
+  margin: 20px;
+}
+.bg-pale-grey-two {
+  background-color: #f0f0f5;
+}
+.cart-page-wrapper {
+  max-width: 800 px;
+  min-height: calc(100 vh - 72 px);
+  margin: auto;
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-pale-grey-two {
+  background-color: #f0f0f5;
+}
+.u-p-b--15 {
+  padding-bottom: 15 px !important;
+}
+.u-p-t--15 {
+  padding-top: 15 px !important;
+}
+.u-d-flex {
+  display: flex;
+}
+.text-azure-two {
+  color: #14bef0;
+}
+.u-text--bold {
+  font-weight: 700;
+}
+.u-cur--ptr {
+  cursor: pointer;
+}
+.u-d-flex--vc {
+  align-items: center;
+}
+.kPNZWt {
+  display: inline-block;
+  width: 32 px;
+  height: 32 px;
+  margin: 0 px;
+  background-image: url(https://www.practostatic.com/dawai-assets/images/icons.f7b9bc1c464c.svg);
+  background-repeat: no-repeat;
+  background-position: -5 px -1881 px;
+} */
+body {
+  margin: 0%;
+  padding: 0px;
+}
+header {
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 2px 4px 0 rgb(180 180 190 / 37%);
+}
+.practo_logo_new {
+  height: 22px;
+  background: url(//www.practostatic.com/ecommerce-assets/static/media/practo.8e3ca798.svg)
+    no-repeat;
+  margin: 30px 60px;
+}
+.bg-pale-grey-two {
+  background-color: #f0f0f5;
+  width: 100%;
+
+  margin-top: -17px;
+}
+.prev_page {
+  margin-left: 440px;
+}
+.prev_page > p {
+  padding-top: 26px;
+  font-size: 19px;
+  color: #14bef0;
+  font-weight: 700;
+}
+.cart_container {
+  width: 50%;
+
+  margin: auto;
+  background-color: #fff;
+}
+.cart_container1 {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+
+  box-shadow: 0 2px 4px 0 rgb(180 180 190 / 37%);
+}
+.cart_container1 p {
+  padding: 20px;
+}
+.boxing_cart_container {
+  display: flex;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgb(180 180 190 / 37%);
+}
+.img_cart {
+  width: 100px;
+}
+.cart_name_para {
+  font-size: 19px;
+  margin: 20px;
+  font-weight: 700;
+}
+
+.div1_cart_cont {
+  margin-left: auto;
+}
+.price_cart_cont {
+  font-size: 24px;
+  font-weight: 700;
+}
+.button_view_cont {
+  width: 100px;
+  height: 40px;
+  border: 1px solid blueviolet;
+}
+.Adding_more_cart > button {
+  width: 260px;
+  border: 2px solid rgb(20, 190, 240);
+  cursor: pointer;
+  background-color: #fff;
+  color: rgb(20, 190, 240);
+  height: 45px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  margin-left: 28px;
+}
+.u-position--fixed {
+  box-shadow: 0 -2px 7px 0 hsl(0deg 0% 58% / 26%);
+}
+.box_carting > p {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(41, 40, 40);
+  padding: 20px 20px;
+}
+.box_carting > button {
+  width: 98%;
+  height: 45px;
+  background-color: rgb(20, 190, 240);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 8px;
+}

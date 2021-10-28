@@ -34,7 +34,10 @@
         type="text"
         placeholder="Search for medicines, health products and more"
       />
-      <button class="seconf_btn">
+      <button
+        class="seconf_btn"
+        onclick="(location.href='../pages/viewcart.html')"
+      >
         <div class="search_btn_icon2" style="width: 24px; height: 24px">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -51,6 +54,7 @@
             />
           </svg>
         </div>
+        <p id="tot"></p>
         <p>VIEW CART</p>
       </button>
     </div>
@@ -99,45 +103,50 @@
       </div>
       <div class="sliding_medicine_images">
         <span class="img_slide_01">
-          <img src="/images/cat-9.5029c27e.png" alt="" />
+          <img src="/images/cat-9.5029c27e.png" alt="" onclick="page1()" />
         </span>
         <span class="img_slide_01">
-          <img src="/images/cat-8.c4cbe33a.png" alt="" />
+          <img src="/images/cat-8.c4cbe33a.png" alt="" onclick="page2()" />
         </span>
         <span class="img_slide_01">
-          <img src="/images/cat-6.aa7d1cba.png" alt="" />
+          <img src="/images/cat-6.aa7d1cba.png" alt="" onclick="page3()" />
         </span>
         <span class="img_slide_01">
-          <img src="/images/cat-2.640dcfd5.png" alt="" />
+          <img src="/images/cat-2.640dcfd5.png" alt="" onclick="page4()" />
         </span>
         <span class="img_slide_01">
           <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-7.c81b7b95.png"
             alt=""
+            onclick="page2()"
           />
         </span>
         <span class="img_slide_01">
           <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-1.f17a3332.png"
             alt=""
+            onclick="page6()"
           />
         </span>
         <span class="img_slide_01">
           <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-3.faf3a8b9.png"
             alt=""
+            onclick="page3()"
           />
         </span>
         <span class="img_slide_01">
           <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-4.c31332e5.png"
             alt=""
+            onclick="page1()"
           />
         </span>
         <span class="img_slide_01">
           <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-5.7a1ab607.png"
             alt=""
+            onclick="page4()"
           />
         </span>
       </div>
