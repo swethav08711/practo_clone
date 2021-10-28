@@ -8,116 +8,16 @@
     <link rel="stylesheet" href="/style/head_foot.css" />
     <link rel="stylesheet" href="/style/medicine.css" />
     <link rel="stylesheet" href="/style/body.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
     <div id="header_import"></div>
 
-    <div id="input_container">
-      <div class="search_btn_icon" style="width: 24px; height: 24px">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-          />
-        </svg>
-      </div>
-
-      <input
-        id="input_search_value"
-        oninput="main()"
-        type="text"
-        placeholder="Search doctors,clinics,hospitals,etc."
-      />
-    </div>
-
     <div id="Search-bar_results"></div>
     <div id="body_import"></div>
     <div id="footer_import"></div>
-    <script>
-      var slideIndex = 0
-      showSlides()
-
-      function showSlides() {
-        var i
-        var slides = document.getElementsByClassName("mySlides")
-        var dots = document.getElementsByClassName("dot")
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none"
-        }
-        slideIndex++
-        if (slideIndex > slides.length) {
-          slideIndex = 1
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "")
-        }
-        slides[slideIndex - 1].style.display = "block"
-        dots[slideIndex - 1].className += " active"
-        setTimeout(showSlides, 2000) // Change image every 2 seconds
-      }
-    </script>
   </body>
 </html>
 
 <script type="module" src="/script/index.js"></script>
-<script>
-  var extra_div = document.getElementById("Search-bar_results")
-  async function fetchdata() {
-    const name = document.getElementById("input_search_value").value
-    let res = await fetch(`http://localhost:1212/medicine?q=${name}`)
-    let data = await res.json()
-    console.log(data)
-    return data
-  }
-
-  function appendMovies(movies) {
-    movies.forEach(({ tablet, image, price, discount }) => {
-      let main_div = document.createElement("div")
-      main_div.className = "main_div_style"
-      let div = document.createElement("div")
-      div.className = "small_div"
-      let img = document.createElement("img")
-      img.className = "search_img"
-      img.src = image
-      let div2 = document.createElement("div")
-      div2.className = "div2_style"
-      let p = document.createElement("p")
-      p.className = "text-charcoal-grey-two"
-      p.innerText = tablet
-      let pri = document.createElement("p")
-      pri.className = "price_style"
-      pri.innerText = `${price}₹`
-      let dis = document.createElement("p")
-      dis.className = "disco_style"
-      dis.innerText = `${discount}% off`
-      let btn = document.createElement("button")
-      btn.className = "btn_style"
-      btn.textContent = "ADD"
-      div2.append(p, pri, dis)
-      div.append(img, div2, btn)
-      main_div.append(div)
-      extra_div.append(main_div)
-    })
-  }
-
-  async function main() {
-    extra_div.innerHTML = null
-    let medi = await fetchdata()
-    appendMovies(medi)
-  }
-</script>
+<script src="/src/body.js"></script>
+<script src="/src/filter.js"></script>

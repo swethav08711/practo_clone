@@ -70,12 +70,14 @@ body {
   background-color: #fff;
   font-size: 14px;
   color: rgb(27, 26, 26);
+  width: 146px;
 }
 .header_container #Security {
   border: none;
   background-color: #fff;
   font-size: 14px;
   color: rgb(27, 26, 26);
+  width: 149px;
 }
 .header_container #login {
   padding: 7px;
@@ -88,4 +90,12 @@ body {
   margin-left: 78px;
   margin-top: 19px;
   position: relative;
+}
+.fle_btn_img {
+  display: flex;
+}
+.fle_btn_img svg {
+  width: 24px;
+  margin-left: -27px;
+  margin-top: -9px;
 }

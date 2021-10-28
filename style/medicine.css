@@ -98,6 +98,9 @@ body {
   display: flex;
   margin-left: 50px;
 }
+.container1 {
+  cursor: pointer;
+}
 #products_container_section > p {
   margin-top: 40px;
   font-size: 13px;
@@ -176,6 +179,7 @@ body {
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 9%);
   cursor: pointer;
   z-index: 1;
+  display: none;
 }
 
 .small_div {
@@ -222,4 +226,14 @@ body {
 }
 .price_style_filter {
   font-size: 21px;
+}
+.search_btn_icon2 {
+  margin-top: 10px;
+  margin-left: 11px;
+}
+.seconf_btn {
+  display: flex;
+}
+.seconf_btn > P {
+  margin-left: 20px;
 }

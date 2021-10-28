@@ -95,11 +95,39 @@ export function header() {
       <h1>Surgeries</h1>
       <p>Expert surgical care</p>
     </div>
-    <div class="header_container min_sreen">
-      <button id="provide">For Provides</button>
+    <div class="header_container min_sreen fle_btn_img">
+      <button id="provide">For Provides
+      </button>
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M 19 15 l -7 7 l -7 -7"
+      />
+    </svg>
     </div>
-    <div class="header_container min_sreen">
-      <button id="Security">Security & help</button>
+    <div class="header_container min_sreen fle_btn_img">
+      <button id="Security">Security & help</button><svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M 19 15 l -7 7 l -7 -7"
+      />
+    </svg>
     </div>
     <div class="header_container min_sreen"  onclick="(location.href='../pages/login.html')">
       <button id="login">Login / Signup</button>

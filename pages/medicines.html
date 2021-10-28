@@ -7,35 +7,11 @@
     <title>Medicines</title>
     <link rel="stylesheet" href="/style/head_foot.css" />
     <link rel="stylesheet" href="/style/medicine.css" />
-    
-  
   </head>
   <body>
     <div id="header_import"></div>
     <div id="input_container">
       <div class="search_btn_icon" style="width: 24px; height: 24px">
-        <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-      </div>
-      
-      </svg>
-      <input
-        id="input_search_value"
-        oninput="main()"
-        type="text"
-        placeholder="Search for medicines, health products and more"
-      />
-      <button>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
@@ -47,13 +23,38 @@
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
-            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-          /></svg> VIEW CART
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+          />
+        </svg>
+      </div>
+
+      <input
+        id="input_search_value"
+        oninput="main(event)"
+        type="text"
+        placeholder="Search for medicines, health products and more"
+      />
+      <button class="seconf_btn">
+        <div class="search_btn_icon2" style="width: 24px; height: 24px">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+            />
+          </svg>
+        </div>
+        <p>VIEW CART</p>
       </button>
     </div>
-    <div id="Search-bar_results">
-      
-    </div>
+    <div id="Search-bar_results"></div>
     <div id="medicine_container">
       <div class="medicine_header">
         <p>Brown medicine & health products</p>
@@ -62,110 +63,87 @@
         <p>Health condition</p>
       </div>
       <div class="sliding_medicine_images">
-        <span><img src="/images/h-c-7.476668e1.png" alt=""  onclick="(location.href='filter_page.html')"/>
+        <span
+          ><img src="/images/h-c-7.476668e1.png" alt="" onclick="page1()" />
         </span>
-        <span><img src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/h-c-3.eeed1ea0.png " alt=""  onclick="(location.href='filter_page.html')"/></span>
-        <span><img src="/images/h-c-5.a8ae14dd.png" alt=""  onclick="(location.href='filter_page.html')"/></span>
-        <span><img src="/images/h-c-4.5e130b77.png" alt=""  onclick="(location.href='filter_page.html')"/></span>
+        <span
+          ><img
+            src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/h-c-3.eeed1ea0.png "
+            alt=""
+            onclick="page2()"
+        /></span>
+        <span
+          ><img src="/images/h-c-5.a8ae14dd.png" alt="" onclick="page3()"
+        /></span>
+        <span
+          ><img src="/images/h-c-4.5e130b77.png" alt="" onclick="page4()"
+        /></span>
         <span
           ><img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/h-c-2.bcd2bdc9.png"
             alt=""
-            onclick="(location.href='filter_page.html')" /></span>
+            onclick="page5()"
+        /></span>
         <span
-          ><img
-            src="/images/h-c-6.51626a1a.png"
-            alt=""
-            onclick="(location.href='filter_page.html')"/></span>
+          ><img src="/images/h-c-6.51626a1a.png" alt="" onclick="page6()"
+        /></span>
         <span
           ><img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/h-c-1.6befede3.png"
             alt=""
-            onclick="(location.href='filter_page.html')" /></span>
+            onclick="page6()"
+        /></span>
       </div>
       <div class="Medicine_subheader">
         <p>Categories</p>
       </div>
       <div class="sliding_medicine_images">
-        <span id="s1"><img src="/images/cat-9.5029c27e.png" alt="" /></span>
-        <span><img src="/images/cat-8.c4cbe33a.png" alt="" /></span>
-        <span><img src="/images/cat-6.aa7d1cba.png" alt="" /></span>
-        <span><img src="/images/cat-2.640dcfd5.png" alt="" /></span>
-        <span
-          ><img
+        <span class="img_slide_01">
+          <img src="/images/cat-9.5029c27e.png" alt="" />
+        </span>
+        <span class="img_slide_01">
+          <img src="/images/cat-8.c4cbe33a.png" alt="" />
+        </span>
+        <span class="img_slide_01">
+          <img src="/images/cat-6.aa7d1cba.png" alt="" />
+        </span>
+        <span class="img_slide_01">
+          <img src="/images/cat-2.640dcfd5.png" alt="" />
+        </span>
+        <span class="img_slide_01">
+          <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-7.c81b7b95.png"
             alt=""
-        /></span>
-        <span
-          ><img
+          />
+        </span>
+        <span class="img_slide_01">
+          <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-1.f17a3332.png"
             alt=""
-        /></span>
-        <span
-          ><img
+          />
+        </span>
+        <span class="img_slide_01">
+          <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-3.faf3a8b9.png"
             alt=""
-        /></span>
-        <span
-          ><img
+          />
+        </span>
+        <span class="img_slide_01">
+          <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-4.c31332e5.png"
             alt=""
-        /></span>
-        <span
-          ><img
+          />
+        </span>
+        <span class="img_slide_01">
+          <img
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-5.7a1ab607.png"
             alt=""
-        /></span>
+          />
+        </span>
       </div>
     </div>
     <div id="footer_import"></div>
   </body>
 </html>
 <script type="module" src="/script/index.js"></script>
-<script src="/script/filter.js"></script>
-<script>
-  var extra_div = document.getElementById("Search-bar_results")
-  async function fetchdata() {
-    const name = document.getElementById("input_search_value").value
-    let res = await fetch(`http://localhost:1212/medicine?q=${name}`)
-    let data = await res.json()
-    console.log(data)
-    return data
-  }
-
-  function appendMovies(movies) {
-    movies.forEach(({ tablet ,image,price,discount}) => {
-      let main_div = document.createElement('div')
-      main_div.className = "main_div_style"
-      let div = document.createElement('div')
-      div.className = "small_div"
-      let img = document.createElement('img')
-      img.className = "search_img"
-      img.src = image
-      let div2 = document.createElement('div')
-      div2.className = "div2_style"
-      let p = document.createElement("p")
-      p.className = "text-charcoal-grey-two"
-      p.innerText = tablet
-      let pri = document.createElement('p')
-      pri.className = "price_style"
-      pri.innerText = `${price}₹`
-      let dis = document.createElement('p')
-      dis.className="disco_style"
-      dis.innerText = `${discount}% off`
-      let btn = document.createElement("button")
-      btn.className = "btn_style"
-      btn.textContent = "ADD"
-      div2.append(p,pri,dis)
-      div.append(img,div2,btn)
-      main_div.append(div)
-      extra_div.append(main_div)
-    })
-  }
-
-  async function main() {
-    extra_div.innerHTML = null
-    let medi = await fetchdata()
-    appendMovies(medi)
-  }
-</script>
+<script src="/src/filter.js"></script>

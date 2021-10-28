@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div id="data"></div>
+  </body>
+</html>
+<script>
+  let data = JSON.parse(localStorage.getItem("cart"))
+
+  let parent = document.getElementById("data")
+
+  data.forEach(({ image, tablet, price }) => {
+    let div = document.createElement("div")
+
+    let img = document.createElement("img")
+    img.src = image
+
+    let p = document.createElement("p")
+    p.innerText = tablet
+
+    let pri = document.createElement("p")
+    pri.innerText = `${price}₹`
+
+    let buttn1 = document.createElement("button")
+    buttn1.textContent = "--"
+
+    div.append(img, p, pri, buttn1)
+    parent.append(div)
+  })
+</script>
