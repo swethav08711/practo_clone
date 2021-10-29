@@ -3,6 +3,7 @@ var mobile_number = document.getElementById("mobile-number");
 var password = document.getElementById("user-password");
 var send_otp_button = document.getElementById("send-otp-button");
 
+
 var full_name_visibuility = document.getElementsByClassName("Full-Name-field-cannot-be-empty")[0];
 var mobile_number_visibuility = document.getElementsByClassName("Mobile-Number-field-cannot-be-empty")[0];
 var password_visibuility = document.getElementsByClassName("Password-field-cannot-be-empty")[0];
@@ -47,6 +48,7 @@ function handle_otp_part(){
         })
         .then(function(response){
             console.log(response)
+            window.location.assign("http://127.0.0.1:5500/pages/otp.html");
         })
         .catch(function(error){
             console.log(error)

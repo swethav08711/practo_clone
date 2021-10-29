@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP</title>
+    <link rel="stylesheet" href="/style/head_foot.css" />
+    <link rel="stylesheet" href="../style/otp.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header_import"></div>
+
+    <div class="login-register-top-div">
+        <a href="./login.html">Login</a>
+        <a href="./register.html">Register</a>
+    </div>
+    <hr class="line-below-login-register-navigator" />
+
+    <div class="main-div-of-form-with-beside-image">
+        <div class="form-left-side-image-div">
+            <img src="https://accounts.practo.com/static/images/illustration.png" class="image-left-on-register-form" />
+        </div>
+        <div class="register-form-main-div">
+            <div class="join-practo-top-of-register-form">
+                <div>Verify Mobile</div>
+            </div>
+            <div class="div-below-join-practo-doctor-div"></div>
+
+            <div class="doctor-div">We have sent you an OTP on</div>
+            <div id="dom-placed-mobile-number">Here mobile number appended by dom</div>
+
+            <div class="name-div">
+                <p>OTP</p>
+                <input type="text" id="user-otp" type="text" placeholder="Please enter the 6 digit OTP here to verify" />
+                <div class="otp-field-cannot-be-empty">OTP field cannot be empty</div>
+            </div>
+          
+            <div class="terms-div-below-the-form">
+                    Still not received OTP?
+                <a href="https://www.practo.com/company/terms">Get via call</a>
+                <a>Resend OTP</a>
+            </div>
+            <button class="send-otp-button" id="after-otp-login-button">Login</button>
+        </div>
+    </div>
+
+    <div id="footer_import"></div>
+
+    <script type="module" src="../script/otp.js"></script>
+    <script type="module" src="/script/index.js"></script>
+
+</body>
+</html>
+

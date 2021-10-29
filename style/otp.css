@@ -14,12 +14,6 @@
     text-decoration: underline;
     text-decoration-thickness: 5%;
 }
-.login-register-top-div > a:nth-child(2){
-    color: rgb(12, 169, 231);
-    text-decoration: underline; 
-    text-decoration-thickness: 18%;
-    text-underline-offset: 65%;
-}
 .line-below-login-register-navigator{
     width: 60%;
     margin-top: 10px;
@@ -39,6 +33,7 @@
 }
 .register-form-main-div{
     width: 50%;
+    height: 330px;
     margin-top: 4%;
     border-radius: 5px;
     padding: 2%;
@@ -48,20 +43,25 @@
     display: flex;
 }
 .join-practo-top-of-register-form > div:nth-child(1){
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
     color: grey;
     margin-left: 2%;
 }
 .doctor-div{
     color: grey;
     font-size: 13px;
-    margin-left: 20%;
+    margin-top: 20px;
 }
-.join-practo-top-of-register-form > div >a{
-    color: orange;
-    text-decoration: unset;
+#dom-placed-mobile-number{
+    color: rgb(122, 122, 122);
+    letter-spacing: 0.2px;
+    font-size: 17px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+    visibility: hidden;
 }
+
 .div-below-join-practo-doctor-div{
     padding: unset;
     margin: unset;
@@ -70,59 +70,29 @@
     width: 100%;
     margin-top: 3%;
 }
-.name-div >p , .mobile-number-div >p , .password-div > p{
+.name-div >p {
     font-size: 14px;
-    color: rgb(95, 95, 95);
+    color: rgba(95, 95, 95, 0.952);
 }
-.name-div > input , .password-div > input{
+.name-div > input{
     border: 1px solid lightgrey;
     padding: 2.5%;
     width: 100%;
     margin-top: -5px;
 }
-.mobile-number-div >p{
-    margin-bottom: 10px;
-}
-.mobile-number-div >p , .password-div > p{
-    margin-top: -2px;
-}
-select{
-    border: 1px solid lightgrey;
-    color: rgb(100, 100, 100);
-    padding: 2.5%;
-}
-.mobile-number-div > div > input{
-    border: 1px solid lightgrey;
-    color: rgb(100, 100, 100);
-    margin-left: 5%;
-    width: 63%;
-    padding: 2.5%;
-}
-.agree-cheque-box {
-    display: flex;
-    color: rgb(95, 95, 95);
-    font-size: 13px;
-    margin-top: 10px;
-}
-.chequebox-div > input{
-    width: 18px;
-    height: 18px;
-    color: rgb(95, 95, 95);
-    cursor: pointer;
-}
-.agree-cheque-box > label{
-    margin-left: 2%;
-    cursor: pointer;
-}
+
 .terms-div-below-the-form{
     display: flex;
     color: rgb(95, 95, 95);
     font-size: 13px;
     margin-top: 12px;
-    margin-left: 9%;
 }
-.terms-div-below-the-form > a{
-    margin-left: 0.2rem;
+.terms-div-below-the-form > a:nth-child(1){
+    margin-left: 0.8rem;
+    color: #13BEF0;
+}
+.terms-div-below-the-form > a:nth-child(2){
+    margin-left: 4.2rem;
     color: #13BEF0;
 }
 .send-otp-button{
@@ -135,21 +105,12 @@ select{
     height: 48px;
     cursor: pointer;
 }
-.Full-Name-field-cannot-be-empty{
+.otp-field-cannot-be-empty{
     font-size: 12px;
     color: rgba(255, 0, 0, 0.918);
     visibility: hidden;
 }
-.Mobile-Number-field-cannot-be-empty{
-    font-size: 12px;
-    color: rgba(255, 0, 0, 0.918);
-    visibility: hidden;
-}
-.Password-field-cannot-be-empty{
-    font-size: 12px;
-    color: rgba(255, 0, 0, 0.918);
-    visibility: hidden;
-}
+
 @media only screen and (max-width: 950px) {
     .form-left-side-image-div{
         visibility: hidden;
