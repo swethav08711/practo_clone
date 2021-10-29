@@ -1,3 +1,5 @@
+// search filed
+
 var box = false
 let results = document.getElementById("Search-bar_results")
 var extra_div = document.getElementById("Search-bar_results")
@@ -38,9 +40,7 @@ function appendMovies(movies) {
       div2.className = "div2_style"
       let p = document.createElement("p")
       p.className = "text-charcoal-grey-two"
-
       let t = tablet.split(" ")
-      // console.log(t[0])
       t = t.length > 1 ? `${t[0] + " " + t[1]}` : tablet
       p.innerText = t
       let pri = document.createElement("p")
@@ -52,22 +52,25 @@ function appendMovies(movies) {
       let btn = document.createElement("button")
       btn.className = "btn_style"
       btn.textContent = "ADD"
-      btn.onclick = function () {
-        addFav({
-          id,
-          tablet,
-          price,
-          discount,
-          highlights,
-          discription,
-          uses,
-          benifits,
-          direction,
-          brand,
-          image,
-          category,
-        })
-      }
+      btn.addEventListener("click", function (e) {
+        addtofav(
+          {
+            id,
+            tablet,
+            price,
+            discount,
+            highlights,
+            discription,
+            uses,
+            benifits,
+            direction,
+            brand,
+            image,
+            category,
+          },
+          e
+        )
+      })
       div2.append(p, pri, dis)
       div.append(img, div2, btn)
       main_div.append(div)
@@ -83,27 +86,25 @@ async function main(e) {
   let medi = await fetchdata()
   appendMovies(medi)
 }
-function addFav(d) {
-  console.log("called")
-  let addi = localStorage.getItem("cart") //is ther anything called cart obvious not at starting
+function addtofav(d) {
+  let addi = localStorage.getItem("cart")
   if (addi == null) {
     addi = []
   } else {
     addi = JSON.parse(addi)
   }
-  console.log("d", d)
   addi.push(d)
-
-  console.log(addi) //array of Objects
   localStorage.setItem("cart", JSON.stringify(addi))
-  alert("Added to cart") //back to JSON from Object
+  alert("Added to cart")
   console.log(addi, d)
+  let suma = document.getElementById("tot")
+  suma.innerText = addi.length
 }
 
 window.addEventListener("click", () => {
   box && (results.style.display = "none")
 })
-
+//categery
 async function page1() {
   let res = await fetch("http://localhost:1212/medicine?q=Fitness")
   let data = await res.json()

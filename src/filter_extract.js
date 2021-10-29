@@ -19,7 +19,22 @@ function appendchild(d) {
     }) => {
       let div = document.createElement("div")
       div.className = "filter_side_container1"
-      // div.addEventListener("click", showdetail)
+      div.addEventListener("click", function () {
+        showdetails({
+          id,
+          tablet,
+          price,
+          discount,
+          highlights,
+          discription,
+          uses,
+          benifits,
+          direction,
+          brand,
+          image,
+          category,
+        })
+      })
       let img = document.createElement("img")
       img.src = image
       let p = document.createElement("p")
@@ -42,7 +57,7 @@ function appendchild(d) {
 
       let b1 = document.createElement("button")
       b1.setAttribute("type", "button")
-      b1.addEventListener("click", () => decrement(id, price))
+      b1.addEventListener("click", e => decrement(id, price, e))
       b1.className = "btn minus-btn disabled"
       b1.textContent = "-"
       let in1 = document.createElement("input")
@@ -51,28 +66,32 @@ function appendchild(d) {
       in1.id = `${id}+quantity`
       let b2 = document.createElement("button")
       b2.setAttribute("type", "button")
-      b2.addEventListener("click", () => increment(id, price))
+      b2.addEventListener("click", e => increment(id, price, e))
+      b2.setAttribute("type", "button")
       b2.className = "btn plus-btn"
       b2.textContent = "+"
 
       let buttn2 = document.createElement("button")
       buttn2.textContent = "ADD"
-      buttn2.onclick = function () {
-        addFav({
-          id,
-          tablet,
-          price,
-          discount,
-          highlights,
-          discription,
-          uses,
-          benifits,
-          direction,
-          brand,
-          image,
-          category,
-        })
-      }
+      buttn2.addEventListener("click", function (e) {
+        addFav(
+          {
+            id,
+            tablet,
+            price,
+            discount,
+            highlights,
+            discription,
+            uses,
+            benifits,
+            direction,
+            brand,
+            image,
+            category,
+          },
+          e
+        )
+      })
       div2.append(b1, in1, b2)
       btn_div.append(div2, buttn2)
       div.append(img, p, pri, btn_div)
@@ -80,8 +99,8 @@ function appendchild(d) {
     }
   )
 }
-
-function increment(id, p) {
+function increment(id, p, e) {
+  e.stopPropagation()
   let inp = document.getElementById(`${id}+quantity`).value
   console.log(inp)
   let pri = document.getElementById(`${id}+price`).innerText
@@ -90,7 +109,8 @@ function increment(id, p) {
   document.getElementById(`${id}+quantity`).value = Number(inp) + 1
   sumprice()
 }
-function decrement(id, p) {
+function decrement(id, p, e) {
+  e.stopPropagation()
   let inp = document.getElementById(`${id}+quantity`).value
   if (inp > 1) {
     let pri = document.getElementById(`${id}+price`).innerText
@@ -100,10 +120,21 @@ function decrement(id, p) {
     sumprice()
   }
 }
-function addFav(d, id) {
-  let pri = document.getElementById(`${id}+price`)
-  console.log("pri", pri)
-  console.log("id", id)
+function sumprice() {
+  let suma = document.getElementById("sum_amou")
+  let totnum = document.getElementById("tot_num")
+  let data = JSON.parse(localStorage.getItem("cart"))
+  totnum.innerText = `My cart: ${data.length} items`
+  let sum = 0
+  for (let i = 0; i < data.length; i++) {
+    sum += Number(data[i].price) * Number(data[i].quantity)
+  }
+  suma.innerHTML = null
+  suma.append("Payable Aount: ₹", sum)
+}
+function addFav(d, e) {
+  e.stopPropagation()
+
   let addi = localStorage.getItem("cart") //is ther anything called cart obvious not at starting
   if (addi == null) {
     addi = []
@@ -112,56 +143,24 @@ function addFav(d, id) {
   }
   d.quantity = 1
   addi.push(d)
-
-  // console.log(addi) //array of Objects
   localStorage.setItem("cart", JSON.stringify(addi))
-  alert("Added to cart") //back to JSON from Object
+  alert("Added to cart")
   // console.log(addi, d)
-
   let suma = document.getElementById("tot")
-
   suma.innerText = addi.length
 }
+sumprice()
 function viewcart() {
   window.location.href = "/pages/viewcart.html"
 }
-// document.querySelector(".minus-btn").setAttribute("disabled", "disabled")
-
-// var valueCount
-
-// var price = document.getElementById("price").innerText
-
-// function priceTotal() {
-//   var total = valueCount * price
-//   console.log(typeof total)
-//   document.getElementById("price").innerText = total
-// }
-
-// document.querySelector(".plus-btn").addEventListener("click", function () {
-//   valueCount = document.getElementById("quantity").value
-
-//   valueCount++
-
-//   document.getElementById("quantity").value = valueCount
-
-//   if (valueCount > 1) {
-//     document.querySelector(".minus-btn").removeAttribute("disabled")
-//     document.querySelector(".minus-btn").classList.remove("disabled")
-//   }
-
-//   priceTotal()
-// })
-
-// document.querySelector(".minus-btn").addEventListener("click", function () {
-//   valueCount = document.getElementById("quantity").value
-
-//   valueCount--
-
-//   document.getElementById("quantity").value = valueCount
-
-//   if (valueCount == 1) {
-//     document.querySelector(".minus-btn").setAttribute("disabled", "disabled")
-//   }
-
-//   priceTotal()
-// })
+function showdetails(det) {
+  let detail = localStorage.getItem("detail")
+  if (detail == null) {
+    detail = []
+  } else {
+    detail = JSON.parse(detail)
+  }
+  detail.push(det)
+  localStorage.setItem("detail", JSON.stringify(detail))
+  window.location.href = "/pages/product_detail.html"
+}

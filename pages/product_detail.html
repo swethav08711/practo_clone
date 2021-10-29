@@ -54,14 +54,29 @@
             />
           </svg>
         </div>
-        <p>VIEW CART</p>
+        <p id="tot"></p>
+        <p onclick="(location.href='../pages/viewcart.html')">VIEW CART</p>
       </button>
     </div>
 
     <div id="Search-bar_results"></div>
+    <div id="cont"></div>
 
-    <container class="u-content-wrapper">
-      <div class="right-container">
+    <div id="footer_import"></div>
+  </body>
+</html>
+<script type="module" src="/script/index.js"></script>
+<script src="/src/filter.js"></script>
+<script src="/src/filter_extract.js"></script>
+<script>
+  let detail = JSON.parse(localStorage.getItem("detail"))
+  console.log(detail)
+  let cre = document.createElement("div")
+  detail.forEach(ele => {
+    document.getElementById(
+      "cont"
+    ).innerHTML = ` <container class="u-content-wrapper">
+      <div class="right-container" id="fir">
         <div class="image-carousel--wrapper">
           <div class="image-carousel--slide_wrapper"></div>
           <div class="image-carousel--product_wrapper">
@@ -76,16 +91,16 @@
             </div>
             <div class="image-carousel--product_divide"></div>
             <div>
-              <div class="u-d-flex u-margin--10 u-m-l--20">
+              <div class="u-d-flex u-margin--10 u-m-l--20" id="m1">
                 <span class="text-charcoal-grey heading-beta-bold">
                   <span>₹</span>
-                  <span>110.5</span>
+                  <span>${ele.price}</span>
                 </span>
               </div>
             </div>
             <div class=".u-p--15 u-disable-scroll--x">
               <button
-                class="button button__primary button__normal--fixed-height"
+                class="button button__primary button__normal--fixed-height" id="a1"
               >
                 ADD TO CART
               </button>
@@ -96,12 +111,12 @@
       <div class="u-columns u-seven">
         <div class="u-p-t--20">
           <div class="heading-alpha u-p-b--5 u-d-flex">
-            <h1 class="heading-alpha">Medicine Soap 75 g</h1>
+            <h1 class="heading-alpha">${ele.tablet}</h1>
           </div>
           <div class="u-m-t--5">
             <span class="text-cool-grey-three u-m-r--10">Manufacture</span>
             <span class="u-m-r--10 u-text--no-decoration"
-              >Med Manor Oranganic Pvt. Ltd</span
+              >${ele.brand}</span
             >
           </div>
           <div class="health-product__section">
@@ -110,10 +125,7 @@
               <h3 class="list__description heading-epsilon text-steel"></h3>
               <ul class="heading-epsilon text-charcoal-grey">
                 <li class="list__without-image-content">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Nostrum vero libero quo magni totam exercitationem voluptatem,
-                  harum explicabo doloremque reiciendis ducimus iste delectus
-                  commodi nam impedit at, fuga, voluptatum esse.
+                 ${ele.highlights}
                 </li>
               </ul>
             </div>
@@ -124,10 +136,7 @@
                 Description
               </div>
               <h2 class="heading-epsilon u-p-b--10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                impedit cumque eligendi labore iure modi fugiat provident
-                tempore. Quam quae ratione perferendis tempora iure? Ratione
-                laborum quas facilis similique vero.
+                ${ele.discription}
               </h2>
             </div>
             <div class="health-product__section">
@@ -135,10 +144,7 @@
                 Uses
               </div>
               <h2 class="heading-epsilon u-p-b--10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                impedit cumque eligendi labore iure modi fugiat provident
-                tempore. Quam quae ratione perferendis tempora iure? Ratione
-                laborum quas facilis similique vero.
+               ${ele.uses}
               </h2>
             </div>
             <div class="health-product__section">
@@ -146,19 +152,33 @@
                 How to use
               </div>
               <h2 class="heading-epsilon u-p-b--10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                impedit cumque eligendi labore iure modi fugiat provident
-                tempore. Quam quae ratione perferendis tempora iure? Ratione
-                laborum quas facilis similique vero.
+               ${ele.direction}
               </h2>
             </div>
           </div>
         </div>
       </div>
-    </container>
+    </container>`
+    document.getElementById("a1").onclick = function () {
+      addFav(ele)
+    }
+  })
 
-    <div id="footer_import"></div>
-  </body>
-</html>
-<script type="module" src="/script/index.js"></script>
-<script src="/src/filter.js"></script>
+  function addFav(d) {
+    console.log("helo")
+    let addi = localStorage.getItem("cart") //is ther anything called cart obvious not at starting
+    if (addi == null) {
+      addi = []
+    } else {
+      addi = JSON.parse(addi)
+    }
+    d.quantity = 1
+    addi.push(d)
+    localStorage.setItem("cart", JSON.stringify(addi))
+    alert("Added to cart")
+    // console.log(addi, d)
+    let suma = document.getElementById("tot")
+    console.log(suma)
+    suma.innerText = addi.length
+  }
+</script>
