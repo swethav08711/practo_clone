@@ -1,6 +1,7 @@
 .login-register-top-div{
     text-align: center;
     word-spacing: 40px;
+    margin-top: 25px;
 }
 .login-register-top-div > a{
     font-size: 17px;
@@ -118,9 +119,13 @@
 @media only screen and (max-width: 950px) {
     .form-left-side-image-div{
         visibility: hidden;
+        width: 0%;
+    }
+    .main-div-of-form-with-beside-image{
+        width: 50%;
     }
     .register-form-main-div{
-        width: 500%;
+        width: 100%;
     }
 }
 
