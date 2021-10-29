@@ -54,6 +54,7 @@ body {
 .header_container {
   padding: 0px 18px;
   margin: 19px 0px;
+  cursor: pointer;
 }
 .header_container > h1 {
   font-size: 14px;

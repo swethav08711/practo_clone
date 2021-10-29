@@ -43,12 +43,13 @@ body {
   margin: auto;
 }
 #banner {
-  margin-top: 30px;
+  margin-top: 90px;
   display: flex;
   background: linear-gradient(105.21deg, #3743ab 2.85%, #141b56 99.41%);
   height: 310px;
   padding: 20px;
   border-radius: 40px;
+  margin-bottom: 50px;
 }
 #banner-left {
   width: 50%;
@@ -71,7 +72,7 @@ body {
   font-size: 40px;
 }
 #banner-right > img {
-  width: 450px;
+  width: 545px;
   height: 350px;
   margin-top: -110px;
 }
@@ -106,7 +107,7 @@ body {
   text-align: center;
   border-radius: 20px;
   border: 1px solid rgb(148, 142, 142);
-  height: 300px;
+  height: 286px;
 }
 .prop > img {
   width: 130px;
@@ -117,7 +118,7 @@ body {
 .prop > div {
   background-color: white;
   text-align: left;
-  padding: 20px;
+  padding: 11px;
   border-bottom: 1px solid rgb(167, 164, 164);
   border-radius: 20px;
 }
@@ -152,6 +153,7 @@ body {
   display: flex;
   width: 90%;
   margin: auto;
+  margin-bottom: 50px;
 }
 #consult-heading > div:nth-child(1) {
   width: 80%;
@@ -209,7 +211,7 @@ body {
 }
 #line-clear {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 #article {
   width: 70%;
@@ -348,10 +350,12 @@ body {
     display: grid;
     gap: 10px;
     grid-template-areas: "prop1 prop2 prop3 prop4 prop5";
+    margin-bottom: 50px;
   }
 
   #consult {
     grid-template-areas: "c1 c2 c3 c4 c5 c6";
+    margin-bottom: 60px;
   }
   #article {
     grid-template-areas: "act1 act2 act3";

@@ -32,7 +32,7 @@
         <div class="u-position--fixed">
           <div class="box_carting">
             <p id="sum_amou"></p>
-            <button>Chechout</button>
+            <button>Checkout</button>
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@
 
   let parent = document.getElementById("data")
 
-  data.forEach(({ image, tablet, price }) => {
+  data.forEach(({ image, tablet, price }, id) => {
     let div = document.createElement("div")
     div.className = "boxing_cart_container"
     let img = document.createElement("img")
@@ -58,7 +58,7 @@
     div1.className = "div1_cart_cont"
     let pri = document.createElement("p")
     pri.innerText = price
-    pri.id = "price"
+    pri.id = `${id}+price`
     pri.className = "price_cart_cont"
 
     let div2 = document.createElement("div")
@@ -66,76 +66,47 @@
 
     let b1 = document.createElement("button")
     b1.setAttribute("type", "button")
+    b1.addEventListener("click", () => decrement(id, price))
     b1.className = "btn minus-btn disabled"
     b1.textContent = "-"
+
     let in1 = document.createElement("input")
     in1.setAttribute("value", "1")
     in1.setAttribute("type", "text")
-    in1.id = "quantity"
+    in1.id = `${id}+quantity`
+
     let b2 = document.createElement("button")
+    b2.addEventListener("click", () => increment(id, price))
     b2.setAttribute("type", "button")
     b2.className = "btn plus-btn"
     b2.textContent = "+"
+
     div2.append(b1, in1, b2)
     div1.append(pri, div2)
     div.append(img, p, div1)
     parent.append(div)
   })
 
-  //setting default attribute to disabled of minus button
-  document.querySelector(".minus-btn").setAttribute("disabled", "disabled")
-
-  //taking value to increment decrement input value
-  var valueCount
-
-  //taking price value in variable
-  var price = document.getElementById("price").innerText
-
-  //   //price calculation function
-  function priceTotal() {
-    var total = valueCount * price
-    console.log(typeof total)
-    document.getElementById("price").innerText = total
+  function increment(id, p) {
+    let inp = document.getElementById(`${id}+quantity`).value
+    console.log(inp)
+    let pri = document.getElementById(`${id}+price`).innerText
+    let n1 = Number(pri) + p
+    document.getElementById(`${id}+price`).innerText = n1
+    document.getElementById(`${id}+quantity`).value = Number(inp) + 1
+    sumprice()
+  }
+  function decrement(id, p) {
+    let inp = document.getElementById(`${id}+quantity`).value
+    if (inp > 1) {
+      let pri = document.getElementById(`${id}+price`).innerText
+      let n1 = Number(pri) - p
+      document.getElementById(`${id}+price`).innerText = n1
+      document.getElementById(`${id}+quantity`).value = Number(inp) - 1
+      sumprice()
+    }
   }
 
-  //plus button
-  document.querySelector(".plus-btn").addEventListener("click", function () {
-    //getting value of input
-    valueCount = document.getElementById("quantity").value
-
-    //input value increment by 1
-    valueCount++
-
-    //setting increment input value
-    document.getElementById("quantity").value = valueCount
-
-    if (valueCount > 1) {
-      document.querySelector(".minus-btn").removeAttribute("disabled")
-      document.querySelector(".minus-btn").classList.remove("disabled")
-    }
-
-    //calling price function
-    priceTotal()
-  })
-
-  //plus button
-  document.querySelector(".minus-btn").addEventListener("click", function () {
-    //getting value of input
-    valueCount = document.getElementById("quantity").value
-
-    //input value increment by 1
-    valueCount--
-
-    //setting increment input value
-    document.getElementById("quantity").value = valueCount
-
-    if (valueCount == 1) {
-      document.querySelector(".minus-btn").setAttribute("disabled", "disabled")
-    }
-
-    //calling price function
-    priceTotal()
-  })
   function sumprice() {
     let suma = document.getElementById("sum_amou")
     let totnum = document.getElementById("tot_num")
@@ -143,10 +114,9 @@
     totnum.innerText = `My cart: ${data.length} items`
     let sum = 0
     for (let i = 0; i < data.length; i++) {
-      sum += Number(data[i].price)
+      sum += Number(data[i].price) * Number(data[i].quantity)
     }
     suma.innerHTML = null
     suma.append("Payable Aount: ₹", sum)
   }
-  sumprice()
 </script>
