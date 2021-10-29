@@ -1,113 +1,142 @@
-.login-register-top-div {
-  text-align: center;
-  word-spacing: 40px;
-  margin-top: 25px;
+.login-register-top-div{
+    text-align: center;
+    word-spacing: 40px;
 }
-.login-register-top-div > a {
-  font-size: 17px;
-  color: #191925;
-  text-decoration: unset;
+.login-register-top-div > a{
+    font-size: 17px;
+    color: #191925;
+    text-decoration: unset;
 }
 .login-register-top-div > a:hover {
-  cursor: pointer;
-  text-decoration: underline;
-  text-decoration-thickness: 5%;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 5%;
 }
-.login-register-top-div > a:nth-child(1) {
-  color: rgb(12, 169, 231);
-  text-decoration: underline;
-  text-decoration-thickness: 18%;
-  text-underline-offset: 88%;
+.login-register-top-div > a:nth-child(1){
+    color: rgb(12, 169, 231);
+    text-decoration: underline; 
+    text-decoration-thickness: 18%;
+    text-underline-offset: 65%;
 }
-.line-below-login-register-navigator {
-  width: 60%;
-  margin-top: 13px;
+.line-below-login-register-navigator{
+    width: 60%;
+    margin-top: 10px;
 }
-.main-div-of-form-with-beside-image {
-  display: flex;
-  width: 60%;
-  margin: auto;
-  margin-top: 50px;
+.main-div-of-form-with-beside-image{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
 }
-.image-left-on-register-form {
-  width: 95%;
-  height: 97%;
+.image-left-on-register-form{
+    width: 95%;
+    height: 97%;
 }
-.form-left-side-image-div {
-  padding: 5%;
+.form-left-side-image-div{
+    padding: 5%;
 }
-.register-form-main-div {
-  width: 50%;
-  margin-top: 4%;
-  border-radius: 5px;
-  padding: 2%;
-  border: 1px solid lightgrey;
+.register-form-main-div{
+    width: 50%;
+    margin-top: 4%;
+    border-radius: 5px;
+    padding: 2%;
+    border: 1px solid lightgrey;
 }
-.mobile-number-div > p,
-.password-div > p {
-  font-size: 14px;
-  color: grey;
+.mobile-number-div >p , .password-div > p{
+    font-size: 14px;
+    color: grey;
 }
-.mobile-number-div > input,
-.password-div > input {
-  border: 1px solid lightgrey;
-  padding: 2.5%;
-  width: 100%;
+.mobile-number-div > input , .password-div > input{
+    border: 1px solid lightgrey;
+    padding: 2.5%;
+    width: 100%;
+    margin-top: -2px;
 }
 .agree-cheque-box {
-  margin-top: 20px;
+    margin-top: 20px;
 }
-.agree-cheque-box > input {
-  width: 15px;
-  height: 15px;
-  color: lightgrey;
+.agree-cheque-box > input{
+    width: 15px;
+    height: 15px;
+    color: lightgrey;
 }
-.agree-cheque-box > label {
-  margin-left: 2%;
-  font-size: 12px;
-  color: grey;
+.agree-cheque-box > label{
+    margin-left: 2%;
+    font-size: 12px;
+    color: grey;
 }
-.agree-cheque-box > a {
-  margin-left: 20%;
-  font-size: 12px;
-  color: #13bef0;
+.agree-cheque-box > a{
+    margin-left: 20%;
+    font-size: 12px;
+    color: #13BEF0;
 }
-.login-button {
-  border: unset;
-  background-color: #13bef0;
-  color: white;
-  border-radius: 5px;
-  margin-top: 20px;
-  width: 100%;
-  height: 48px;
+.login-button{
+    border: unset;
+    background-color: #13BEF0;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    height: 48px;
 }
-.or-div {
-  margin-top: 20px;
-  display: flex;
-  color: lightgrey;
+.or-div{
+    margin-top: 20px;
+    display: flex;
+    color: lightgrey;
 }
-.or-div > hr {
-  width: 44%;
-  color: lightgrey;
+.or-div > hr{
+    width: 44%;
+    color: lightgrey;
 }
-.connect-with-facebook-div {
-  display: flex;
-  border: unset;
-  background-color: #3b5a97;
-  color: white;
-  border-radius: 5px;
-  margin-top: 20px;
-  width: 100%;
-  height: 48px;
+.connect-with-facebook-div{
+    display: flex;
+    border: unset;
+    background-color: #3B5A97;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    height: 48px;
 }
-.connect-with-facebook-div > img {
-  padding: 3%;
+.connect-with-facebook-div > img{
+    padding: 3%;
 }
-.connect-with-facebook-div > p {
-  font-size: 14px;
-  margin-left: 10%;
+.connect-with-facebook-div > p{
+    font-size: 14px;
+    margin-left: 10%;
+}
+.Mobile-Number-field-cannot-be-empty{
+    font-size: 12px;
+    color: rgba(255, 0, 0, 0.918);
+    visibility: hidden;
+}
+.Password-field-cannot-be-empty{
+    font-size: 12px;
+    color: rgba(255, 0, 0, 0.918);
+     visibility: hidden; 
+}
+@media only screen and (max-width: 950px) {
+    .form-left-side-image-div{
+        visibility: hidden;
+    }
+    .register-form-main-div{
+        width: 500%;
+    }
 }
 
-#footer_import {
-  margin-top: 170px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer_import{
+    margin-top: 170px;
 }
