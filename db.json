@@ -5,6 +5,18 @@
       "mobile_number": "8808702180",
       "password": "David@12345",
       "id": 1
+    },
+    {
+      "user_name": "sqw",
+      "mobile_number": "987654321",
+      "password": "qw12",
+      "id": 2
+    },
+    {
+      "user_name": "swetha",
+      "mobile_number": "123456789",
+      "password": "asqw12",
+      "id": 3
     }
   ],
   "medicine": [
