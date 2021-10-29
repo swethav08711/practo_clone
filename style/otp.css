@@ -105,6 +105,11 @@
     height: 48px;
     cursor: pointer;
 }
+.otp-field-cannot-be-empty{
+    font-size: 12px;
+    color: rgba(255, 0, 0, 0.918);
+    visibility: hidden;
+}
 
 @media only screen and (max-width: 950px) {
     .form-left-side-image-div{
