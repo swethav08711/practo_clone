@@ -10,9 +10,6 @@ login_button.addEventListener("click" , handle_login);
 
 function handle_login(){
 
-    var mobile_flag = 0;
-    var password_flag = 0;
-    var both_not_found = 0;
     
     mobile_number_visibuility.style.visibility = "hidden";
     password_visibuility.style.visibility = "hidden";
@@ -27,6 +24,10 @@ function handle_login(){
         }
     }
     else{
+
+        var mobile_flag = 0;
+        var password_flag = 0;
+        var both_not_found = 0;
 
     
         fetch("http://localhost:1212/register")
@@ -73,6 +74,7 @@ function handle_login(){
                     else if(password_flag>0){
                         password_visibuility.textContent = "Incorrect password";
                         password_visibuility.style.visibility = "visible";
+
                     }
                 }
               

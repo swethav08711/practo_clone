@@ -5,18 +5,6 @@
       "mobile_number": "8808702180",
       "password": "David@12345",
       "id": 1
-    },
-    {
-      "user_name": "Kartik Yadav",
-      "mobile_number": "9451360246",
-      "password": "Kartik@12345",
-      "id": 2
-    },
-    {
-      "user_name": "Shikha Singh",
-      "mobile_number": "7394945613",
-      "password": "Shikha@12345",
-      "id": 3
     }
   ],
   "medicine": [
