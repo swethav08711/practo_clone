@@ -171,7 +171,7 @@ export function homebody() {
       </div>
   </div>
 </div>
-<hr>
+
 <!-- Properties -->
 
 <div id="property">
@@ -211,7 +211,7 @@ export function homebody() {
       </div>
   </div>
 </div>
-<hr>
+
 
 <!-- consult -->
 <div id="consult-heading">
@@ -260,7 +260,6 @@ export function homebody() {
  </div></a> 
 </div>
 
-<hr>
 <div class="Medicine_subheader">
   <h2>Book an appointment for an in-clinic consultation</h2>
   <p>Find experienced doctors across all specialties</p>
@@ -332,7 +331,7 @@ export function homebody() {
 </div>
 </div>
 <div id="line-clear">
-  <hr>
+  
 </div>
 <!--  -->
 <div class="article">
@@ -365,7 +364,7 @@ export function homebody() {
   </div>
 </div>
 <div id="line-clear">
-  <hr>
+ 
 </div>
 
 <div id="slider-auto">
