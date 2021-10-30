@@ -1,0 +1,142 @@
+#container{
+    width: 90%;
+    margin: auto;
+}
+#line-height{
+    height: 50px;
+}
+#head{
+    display: flex;
+    
+}
+#input{
+    float: left;
+    width: 65%;
+    margin: 2.5%;
+}
+#input>p{
+    border: 1px solid black;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+}
+#test-profile{
+    border: 0;
+    width: 450px;
+    font-size: 20px;
+    margin: 2px;
+}
+#test-profile:focus{
+    outline: none;
+    
+}
+#cart{
+    display: flex;
+    float: right;
+    width: 5%;
+    margin: 2.5%;
+    padding: 2px;
+    font-size: 25px;
+}
+#tot{
+    margin-left: 5px;
+}
+#banner{
+    background-image: url("/images/lab/943cdeb5-c010-4ca4-948d-60313e5f648b.jpg");
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+#banner>div{
+    width: 45%;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#banner>div>p{
+    color: green;
+}
+#banner>div>button{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background: rgb(110, 184, 233);
+    border: 0;
+    padding: 10px;
+}
+
+#help{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    color: white;
+    background: #28328c;
+    border-radius: 10px;
+}
+#help-left{
+    display: flex;
+    gap: 20px;
+    width: 75%;
+    margin: 2.5%;
+}
+#help-left>div>h3,#help-left>div>p{
+    margin: 0;
+    padding: 2px;
+}
+#help-right{
+    width: 15%;
+    margin: 2.5%;
+    padding: 7px;
+    
+}
+#help-right>a{
+    
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+    border: 3px dotted rgb(177, 165, 165);
+}
+
+
+.Medicine_subheader {
+    width: 90%;
+    margin: auto;
+  }
+  .sliding_medicine_images {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 250px;
+    overflow-x: scroll;
+  }
+  
+
+  .sliding-data > div {
+    padding: 20px;
+    width: 250px;
+  }
+  .sliding-data > div > h4 {
+    margin-bottom: 0;
+  }
+  .sliding_medicine_images-health {
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+    height: 260px;
+    overflow-x: scroll;
+    text-align: center;
+  }
+  .sliding-data-health>img{
+      width:180px;
+  }
+  #filter_side{
+      width: 80%;
+      margin: auto;
+      display: flex;
+      gap: 30px;
+      overflow-x: scroll;
+  }
+  #filter_side>div{
+      width: 50%;
+  }

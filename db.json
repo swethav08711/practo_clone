@@ -19,6 +19,62 @@
       "id": 3
     }
   ],
+  "tests":[
+    {
+      "id":1,
+      "pname":"COVID RT-PCR",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test",
+      "price":800
+    },
+    {
+      "id":2,
+      "pname":"Fasting Blood SUgar",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test1",
+      "price":150
+    },
+    {
+      "id":3,
+      "pname":"Beta HCG",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test2",
+      "price":294
+    },
+    {
+      "id":4,
+      "pname":"Vitamin B12",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test3",
+      "price":490
+    },
+    {
+      "id":5,
+      "pname":"HbA1c",
+      "description":"Known as COvid-19 Qualitative PCR Throat Tes4t",
+      "price":270
+    },
+    {
+      "id":6,
+      "pname":"Liver Function Test",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test5",
+      "price":560
+    },
+    {
+      "id":7,
+      "pname":"Lipid Profile",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test6",
+      "price":434
+    },
+    {
+      "id":8,
+      "pname":"Completa Blood Count",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test7",
+      "price":300
+    },
+    {
+      "id":9,
+      "pname":"Thyroid Profile",
+      "description":"Known as COvid-19 Qualitative PCR Throat Tes8",
+      "price":400
+    }
+  ],
   "medicine": [
     {
       "id": 1,
