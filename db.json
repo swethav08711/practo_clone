@@ -75,6 +75,64 @@
       "price":400
     }
   ],
+  "consultance":[
+    {
+      "id":1,
+      "image":"https://images1-fabric.practo.com:443/dx/labs/PRL-HWP/logo.png/360x240",
+      "tname":"Basics Women Health Checkup",
+      "ntests":"85 tests includes",
+      "offerprice":1699,
+      "originalprice":2199
+    },
+    {
+      "id":2,
+      "image":"https://images1-fabric.practo.com:443/dx/labs/PRL-VDHC/logo.png/360x240",
+      "tname":"Vitamin Deficiency Health Checkup",
+      "ntests":"5 tests includes",
+      "offerprice":990,
+      "originalprice":1299
+    },
+    {
+      "id":3,
+      "image":"https://images1-fabric.practo.com:443/dx/labs/PRL-WWHC/logo.jpeg/360x240",
+      "tname":"Working women health checkup",
+      "ntests":"95 tests includes",
+      "offerprice":2999,
+      "originalprice":3899
+    },
+    {
+      "id":4,
+      "image":"https://images1-fabric.practo.com:443/dx/labs/PRL-YIHC/logo.jpeg/360x240",
+      "tname":"Young Indian Health Checkup",
+      "ntests":"85 tests includes",
+      "offerprice":999,
+      "originalprice":1299
+    },
+    {
+      "id":5,
+      "image":"https://images1-fabric.practo.com:443/dx/labs/PRL-AYIHC/logo.jpeg/360x240",
+      "tname":"Young Indian Health Checkup-Advance",
+      "ntests":"101 tests includes",
+      "offerprice":3399,
+      "originalprice":4500
+    },
+    {
+      "id":6,
+      "image":"https://images1-fabric.practo.com:443/dx/labs/PRL-BWHC/logo_Cwxh1r3.png/360x240",
+      "tname":"Women Health Checkup- Advance",
+      "ntests":"95 tests includes",
+      "offerprice":2999,
+      "originalprice":3899
+    },
+    {
+      "id":7,
+      "image":"",
+      "tname":"Basics Health Package",
+      "ntests":"77 tests includes",
+      "offerprice":799,
+      "originalprice":999
+    }
+  ],
   "medicine": [
     {
       "id": 1,
