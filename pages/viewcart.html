@@ -32,7 +32,9 @@
         <div class="u-position--fixed">
           <div class="box_carting">
             <p id="sum_amou"></p>
-            <button>Checkout</button>
+            <button onclick="(location.href='../pages/payment.html')">
+              Checkout
+            </button>
           </div>
         </div>
       </div>
@@ -44,7 +46,7 @@
 
   let parent = document.getElementById("data")
 
-  data.forEach(({ image, tablet, price }, id) => {
+  data.forEach(({ image, tablet, price, quantity, id }) => {
     let div = document.createElement("div")
     div.className = "boxing_cart_container"
     let img = document.createElement("img")
@@ -57,7 +59,7 @@
     let div1 = document.createElement("div")
     div1.className = "div1_cart_cont"
     let pri = document.createElement("p")
-    pri.innerText = price
+    pri.innerText = price * quantity
     pri.id = `${id}+price`
     pri.className = "price_cart_cont"
 
@@ -71,7 +73,7 @@
     b1.textContent = "-"
 
     let in1 = document.createElement("input")
-    in1.setAttribute("value", "1")
+    in1.setAttribute("value", quantity)
     in1.setAttribute("type", "text")
     in1.id = `${id}+quantity`
 

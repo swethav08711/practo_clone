@@ -88,6 +88,7 @@ function appendchild(d) {
             brand,
             image,
             category,
+            quantity: Number(in1.value),
           },
           e
         )
@@ -141,7 +142,7 @@ function addFav(d, e) {
   } else {
     addi = JSON.parse(addi)
   }
-  d.quantity = 1
+  // d.quantity = 1
   addi.push(d)
   localStorage.setItem("cart", JSON.stringify(addi))
   alert("Added to cart")

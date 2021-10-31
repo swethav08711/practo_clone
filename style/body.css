@@ -134,7 +134,7 @@ body {
   width: 90%;
   margin: auto;
   height: 360px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 .sliding_medicine_images > div > img {
