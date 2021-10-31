@@ -5,6 +5,12 @@
       "mobile_number": "8808702180",
       "password": "David@12345",
       "id": 1
+    },
+    {
+      "user_name": "Kartik Yadav",
+      "mobile_number": "9451360246",
+      "password": "Kartik@12345",
+      "id": 2
     }
   ],
   "medicine": [
