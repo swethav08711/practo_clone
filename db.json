@@ -7,22 +7,72 @@
       "id": 1
     },
     {
-      "user_name": "Kartik Yadav",
-      "mobile_number": "9451360246",
-      "password": "Kartik@12345",
+      "user_name": "sqw",
+      "mobile_number": "987654321",
+      "password": "qw12",
       "id": 2
     },
     {
-      "user_name": "shikha ",
-      "mobile_number": "7394945613",
-      "password": "Ketan@12345",
+      "user_name": "swetha",
+      "mobile_number": "123456789",
+      "password": "asqw12",
       "id": 3
+    }
+  ],
+  "tests":[
+    {
+      "id":1,
+      "pname":"COVID RT-PCR",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test",
+      "price":800
     },
     {
-      "user_name": "kartik",
-      "mobile_number": "222",
-      "password": "fff",
-      "id": 4
+      "id":2,
+      "pname":"Fasting Blood SUgar",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test1",
+      "price":150
+    },
+    {
+      "id":3,
+      "pname":"Beta HCG",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test2",
+      "price":294
+    },
+    {
+      "id":4,
+      "pname":"Vitamin B12",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test3",
+      "price":490
+    },
+    {
+      "id":5,
+      "pname":"HbA1c",
+      "description":"Known as COvid-19 Qualitative PCR Throat Tes4t",
+      "price":270
+    },
+    {
+      "id":6,
+      "pname":"Liver Function Test",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test5",
+      "price":560
+    },
+    {
+      "id":7,
+      "pname":"Lipid Profile",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test6",
+      "price":434
+    },
+    {
+      "id":8,
+      "pname":"Completa Blood Count",
+      "description":"Known as COvid-19 Qualitative PCR Throat Test7",
+      "price":300
+    },
+    {
+      "id":9,
+      "pname":"Thyroid Profile",
+      "description":"Known as COvid-19 Qualitative PCR Throat Tes8",
+      "price":400
     }
   ],
   "consultance":[
