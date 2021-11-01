@@ -54,7 +54,7 @@ function addFav(d) {
 
   let suma = document.getElementById("tot")
 
-  suma.innerText = addi.length
+  suma.innerText = `${addi.length} items`
 }
 
 async function fetchdata2(){

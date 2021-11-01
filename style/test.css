@@ -37,7 +37,7 @@
 #cart{
     display: flex;
     float: right;
-    width: 5%;
+    width: 15%;
     margin: 2.5%;
     padding: 2px;
     font-size: 25px;
