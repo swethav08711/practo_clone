@@ -804,3 +804,11 @@ header {
   font-size: 15px;
   padding-top: 12px;
 }
+.delete_button {
+  height: 21px;
+  background-color: white;
+  border: none;
+  font-size: 21px;
+  margin-top: -8px;
+  color: rgb(20, 190, 240);
+}

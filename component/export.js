@@ -88,7 +88,7 @@ export function header() {
           <p>Practo pharmacy</p>
         </div>
         <div class="header_container">
-          <h1>Lab Tests</h1>
+          <h1 onclick="(location.href='../pages/test.html')">Lab Tests</h1>
           <p>Book tests & checkup</p>
         </div>
         <div class="header_container">
