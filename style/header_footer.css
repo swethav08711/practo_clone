@@ -305,6 +305,9 @@ body {
   display: flex;
   width: 94%;
   margin: auto;
+  cursor: pointer;
+  box-shadow: 06px 5px rgb(0 0 0 / 4%);
+  border-bottom: 1px solid #e5e5f1;
 }
 #filter_container > div {
   display: flex;
@@ -810,4 +813,35 @@ header {
   font-size: 21px;
   margin-top: -8px;
   color: rgb(20, 190, 240);
+}
+/* drop down */
+.showcase {
+  position: absolute;
+  top: 190px;
+}
+#show_hover8,
+#show_hover7,
+#show_hover6,
+#show_hover5,
+#show_hover4,
+#show_hover3,
+#show_hover2,
+#show_hover1 {
+  display: none;
+  padding: 4px 15px 15px;
+  min-width: 200px;
+  border-radius: 0 0 3px 3px;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%);
+}
+
+#hover1:hover #show_hover1,
+#hover2:hover #show_hover2,
+#hover3:hover #show_hover3,
+#hover4:hover #show_hover4,
+#hover5:hover #show_hover5,
+#hover6:hover #show_hover6,
+#hover7:hover #show_hover7,
+#hover8:hover #show_hover8 {
+  display: block;
 }

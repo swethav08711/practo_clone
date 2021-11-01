@@ -1,11 +1,14 @@
-let data = JSON.parse(localStorage.getItem("cart"))
-
 let parent = document.getElementById("data")
-appdata(data)
-function appdata(data) {
+window.onload = () => {
+  appdata()
+}
+function appdata() {
+  let data = JSON.parse(localStorage.getItem("cart"))
+  console.log(data)
   data.forEach(ele => {
     let div = document.createElement("div")
     div.className = "boxing_cart_container"
+    div.id = ele.id
     let img = document.createElement("img")
     img.className = "img_cart"
     img.src = ele.image
@@ -107,9 +110,22 @@ function decrement(ele) {
   }
 }
 
+function delet(e) {
+  console.log(e)
+  let iddiv = document.getElementById(e)
+  console.log(iddiv)
+  let items = JSON.parse(localStorage.getItem("cart"))
+  items = items.filter(b => {
+    return e !== b.id
+  })
+  iddiv.parentNode.removeChild(iddiv)
+  console.log(items)
+  localStorage.setItem("cart", JSON.stringify(items))
+  sumprice()
+}
+
 function sumprice() {
   let suma = document.getElementById("sum_amou")
-
   let totnum = document.getElementById("tot_num")
   let data = JSON.parse(localStorage.getItem("cart"))
   totnum.innerText = `My cart: ${data.length} items`
@@ -119,7 +135,7 @@ function sumprice() {
     sum += Number(data[i].price)
   }
   suma.innerHTML = null
-  suma.append("Payable Aount: ₹", sum)
+  suma.append("Payable Amount: ₹", sum)
   let addi = localStorage.getItem("sum")
   if (addi == null) {
     addi = []
@@ -130,13 +146,3 @@ function sumprice() {
   localStorage.setItem("sum", JSON.stringify(addi))
 }
 sumprice()
-
-function delet(e) {
-  let items = JSON.parse(localStorage.getItem("cart"))
-  items.forEach(function (item, index) {
-    if (e === item.id) {
-      items.splice(index, 1)
-    }
-  })
-  localStorage.setItem("cart", JSON.stringify(items))
-}

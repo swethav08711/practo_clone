@@ -136,7 +136,6 @@ function addFav(d, e) {
   addi.push(d)
   localStorage.setItem("cart", JSON.stringify(addi))
   alert("Added to cart")
-
   document.getElementById("tot").innerText = addi.length
 }
 
