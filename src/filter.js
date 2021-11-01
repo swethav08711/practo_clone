@@ -133,6 +133,7 @@ function addFav(d, e) {
       }
     }
   }
+  d.quantity = Number(document.getElementById(`${d.id}`).value)
   addi.push(d)
   localStorage.setItem("cart", JSON.stringify(addi))
   alert("Added to cart")
