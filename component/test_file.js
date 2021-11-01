@@ -15,24 +15,25 @@ async function fetchdata1(){
     var filter = document.getElementById("filter_side")
 
     data2.forEach(({pname, description, price})=> {
+      var arrange = document.createElement("div")
       var div =   document.createElement("div")
-        
       div.style.display="flex"
       div.style.flexDirection="column"
-      var p1 = document.createElement("p")
+      var p1 = document.createElement("h5")
       p1.textContent = `${pname}`
       var p2 = document.createElement("p")
       p2.textContent = `${description}`
       var p3 = document.createElement("p")
-      p3.textContent = `${price}`
+      p3.textContent = `₹${price}`
       let buttn2 = document.createElement("button")
         buttn2.textContent = "ADD"
         buttn2.addEventListener("click",()=>{
             addFav({ pname, description, price })
         }) 
-
+    
      div.append(p1,p2,p3,buttn2) 
-     filter.append(div)
+     arrange.append(div)
+     filter.append(arrange)
     });
     
 }
@@ -111,7 +112,7 @@ function bookSection(d){
   addElement.push(d)
   console.log(addElement) //array of Objects
   localStorage.setItem("consultancy", JSON.stringify(addElement))
-  alert("COnttinue to next page") //back to JSON from Object
+  alert("Conttinue to next page") //back to JSON from Object
 }
 
 

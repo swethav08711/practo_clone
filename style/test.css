@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    font-family: Camphor, Helvetica, Arial, sans-serif !important;
+  }
 #container{
     width: 90%;
     margin: auto;
@@ -142,11 +146,24 @@
       display: flex;
       gap: 30px;
       overflow-x: scroll;
+      padding: 20px;
   }
-  #filter_side>div{
-      width: 50%;
+  #filter_side>div>div{
+    width: 300px;
+    padding: 20px;
   }
-
+  #filter_side>div>div>p:nth-child(2){
+      margin: 0%;
+      font-size: 15px;
+  }
+  #filter_side>div>div>button{
+      background-color: rgb(30, 186, 221);
+      border: 0;
+      font-size: 15px;
+      padding: 10px;
+      width: 80px;
+      border-radius: 10px;
+  }
   #checkups{
       display: flex;
       width: 80%;
