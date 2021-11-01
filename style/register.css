@@ -76,6 +76,7 @@
 }
 .name-div > input , .password-div > input{
     border: 1px solid lightgrey;
+    color: rgb(95, 95, 95);
     padding: 2.5%;
     width: 100%;
     margin-top: -5px;

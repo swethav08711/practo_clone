@@ -3,7 +3,7 @@ import { homebody } from "../component/export_files.js"
 const body_import = document.getElementById("body_import")
 body_import.innerHTML = homebody()
 
-slideshow
+//slideshow
 var slideIndex = 0
 showSlides()
 
