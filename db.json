@@ -17,6 +17,18 @@
       "mobile_number": "123456789",
       "password": "asqw12",
       "id": 3
+    },
+    {
+      "user_name": "swetha",
+      "mobile_number": "9876543210",
+      "password": "1223",
+      "id": 4
+    },
+    {
+      "user_name": "swetha v",
+      "mobile_number": "1234567890",
+      "password": "asqw",
+      "id": 5
     }
   ],
   "medicine": [
@@ -32,7 +44,7 @@
       "direction": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
       "brand": "A-S Medication Solutions LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 2,
@@ -102,7 +114,7 @@
       "direction": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
       "brand": "Ventura Corporation LTD.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 7,
@@ -424,7 +436,7 @@
       "direction": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
       "brand": "Ranir LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 30,
@@ -564,7 +576,7 @@
       "direction": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
       "brand": "Respa Pharmaceuticals, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 40,
@@ -662,7 +674,7 @@
       "direction": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
       "brand": "REMEDYREPACK INC.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 47,
@@ -760,7 +772,7 @@
       "direction": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
       "brand": "Ventura Corporation (San Juan, P.R)",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 54,
@@ -816,7 +828,7 @@
       "direction": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
       "brand": "Walgreen Company",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 58,
@@ -984,7 +996,7 @@
       "direction": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
       "brand": "HyVee Inc",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 70,
@@ -1026,7 +1038,7 @@
       "direction": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
       "brand": "SJ Creations, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 73,
@@ -1292,7 +1304,7 @@
       "direction": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
       "brand": "Lake Erie Medical DBA Quality Care Products LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 92,
@@ -1404,7 +1416,7 @@
       "direction": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
       "brand": "Greenstone LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 100,
@@ -1418,7 +1430,7 @@
       "direction": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
       "brand": "Merck Sharp & Dohme Corp.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 101,
@@ -1446,7 +1458,7 @@
       "direction": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
       "brand": "GlaxoSmithKline LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 103,
@@ -1488,7 +1500,7 @@
       "direction": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
       "brand": "Lake Erie Medical DBA Quality Care Products LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 106,
@@ -1572,7 +1584,7 @@
       "direction": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
       "brand": "Elizabeth Arden, Inc",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 112,
@@ -1782,7 +1794,7 @@
       "direction": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
       "brand": "Novartis Consumer Health, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 127,
@@ -2342,7 +2354,7 @@
       "direction": "Fusce consequat. Nulla nisl. Nunc nisl.",
       "brand": "Preferred Pharmaceuticals, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 167,
@@ -2468,7 +2480,7 @@
       "direction": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
       "brand": "Deb USA, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 176,
@@ -2538,7 +2550,7 @@
       "direction": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
       "brand": "Hy-Vee, Inc",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 181,
@@ -2692,7 +2704,7 @@
       "direction": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
       "brand": "Physicians Total Care, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 192,
@@ -2846,7 +2858,7 @@
       "direction": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
       "brand": "Richmond Division of Wyeth",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 203,
@@ -2888,7 +2900,7 @@
       "direction": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
       "brand": "Nelco Laboratories, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 206,
@@ -2902,7 +2914,7 @@
       "direction": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
       "brand": "Jazz Pharmaceuticals, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 207,
@@ -2944,7 +2956,7 @@
       "direction": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
       "brand": "Boots Retail USA Inc",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 210,
@@ -2986,7 +2998,7 @@
       "direction": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
       "brand": "Specialty Gases of America",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 213,
@@ -3042,7 +3054,7 @@
       "direction": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
       "brand": "Physicians Total Care, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 217,
@@ -3392,7 +3404,7 @@
       "direction": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
       "brand": "Golden State Medical Supply, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 242,
@@ -3476,7 +3488,7 @@
       "direction": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
       "brand": "Hospira, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 248,
@@ -3728,7 +3740,7 @@
       "direction": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
       "brand": "Caraco Pharmaceutical Laboratories, Ltd.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 266,
@@ -3784,7 +3796,7 @@
       "direction": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
       "brand": "Eon Labs, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 270,
@@ -3840,7 +3852,7 @@
       "direction": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
       "brand": "AmerisourceBergen (Good Neighbor Pharmacy)",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 274,
@@ -4204,7 +4216,7 @@
       "direction": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
       "brand": "DAVA Pharmaceuticals Inc",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 300,
@@ -4218,7 +4230,7 @@
       "direction": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
       "brand": "Medline Industries, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 301,
@@ -4274,7 +4286,7 @@
       "direction": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
       "brand": "Physicians Total Care, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 305,
@@ -4372,7 +4384,7 @@
       "direction": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
       "brand": "Procter & Gamble Manufactura, S. de R.L. de C.V.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 312,
@@ -4428,7 +4440,7 @@
       "direction": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
       "brand": "Gilead Sciences, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 316,
@@ -4792,7 +4804,7 @@
       "direction": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
       "brand": "Apotex Corp.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 342,
@@ -4834,7 +4846,7 @@
       "direction": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
       "brand": "ARMY AND AIR FORCE EXCHANGE SERVICE",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 345,
@@ -4876,7 +4888,7 @@
       "direction": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
       "brand": "Chartwell RX LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 348,
@@ -5380,7 +5392,7 @@
       "direction": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
       "brand": "Micro Labs Limited",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 384,
@@ -5506,7 +5518,7 @@
       "direction": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
       "brand": "Glenmark Generics Inc., USA",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 393,
@@ -5674,7 +5686,7 @@
       "direction": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
       "brand": "Zydus Pharmaceuticals (USA) Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 405,
@@ -5744,7 +5756,7 @@
       "direction": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
       "brand": "Stephen L. LaFrance Pharmacy, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 410,
@@ -5856,7 +5868,7 @@
       "direction": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
       "brand": "PD-Rx Pharmaceuticals, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 418,
@@ -5870,7 +5882,7 @@
       "direction": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
       "brand": "Kremers Urban Pharmaceuticals Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 419,
@@ -5996,7 +6008,7 @@
       "direction": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
       "brand": "Teva Women's Health, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 428,
@@ -6094,7 +6106,7 @@
       "direction": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
       "brand": "Par Pharmaceutical, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 435,
@@ -6318,7 +6330,7 @@
       "direction": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
       "brand": "philosophy",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 451,
@@ -6430,7 +6442,7 @@
       "direction": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
       "brand": "State of Florida DOH Central Pharmacy",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 459,
@@ -6500,7 +6512,7 @@
       "direction": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
       "brand": "Unit Dose Services",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 464,
@@ -6556,7 +6568,7 @@
       "direction": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
       "brand": "Cardinal Health",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 468,
@@ -7074,7 +7086,7 @@
       "direction": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
       "brand": "Heritage Pharmaceuticals Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 505,
@@ -7130,7 +7142,7 @@
       "direction": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
       "brand": "Cardinal Health",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 509,
@@ -7200,7 +7212,7 @@
       "direction": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
       "brand": "White Manufacturing Incorporated DBA Micro-West",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 514,
@@ -7214,7 +7226,7 @@
       "direction": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
       "brand": "Cadila Healthcare Limited",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 515,
@@ -7326,7 +7338,7 @@
       "direction": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
       "brand": "Dispensing Solutions, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 523,
@@ -7788,7 +7800,7 @@
       "direction": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
       "brand": "Watson Laboratories, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 556,
@@ -7928,7 +7940,7 @@
       "direction": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
       "brand": "Cipla Limited",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 566,
@@ -7942,7 +7954,7 @@
       "direction": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
       "brand": "Physicians Total Care, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 567,
@@ -7970,7 +7982,7 @@
       "direction": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
       "brand": "Two Hip Consulting, LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 569,
@@ -8040,7 +8052,7 @@
       "direction": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
       "brand": "Golden State Medical Supply, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 574,
@@ -8082,7 +8094,7 @@
       "direction": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
       "brand": "Lancaster S.A.M.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 577,
@@ -8306,7 +8318,7 @@
       "direction": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
       "brand": "Ricola Ag",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 593,
@@ -8404,7 +8416,7 @@
       "direction": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
       "brand": "Clinical Solutions Wholesale",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 600,
@@ -8502,7 +8514,7 @@
       "direction": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
       "brand": "NCS HealthCare of KY, Inc dba Vangard Labs",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 607,
@@ -8614,7 +8626,7 @@
       "direction": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
       "brand": "AstraZeneca LP",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 615,
@@ -8642,7 +8654,7 @@
       "direction": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
       "brand": "Swiss American Products, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 617,
@@ -8754,7 +8766,7 @@
       "direction": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
       "brand": "West-Ward Pharmaceutical Corp",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 625,
@@ -8824,7 +8836,7 @@
       "direction": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
       "brand": "Frabel S.A de C.V.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 630,
@@ -9020,7 +9032,7 @@
       "direction": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.\n\nCurabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
       "brand": "Dr. Reddy's Laboratories Limited",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 644,
@@ -9104,7 +9116,7 @@
       "direction": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
       "brand": "Dr. Dennis Gross Skincare, LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 650,
@@ -9118,7 +9130,7 @@
       "direction": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
       "brand": "Gordon Laboratories, Inc",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 651,
@@ -9300,7 +9312,7 @@
       "direction": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
       "brand": "Fluoritab Corporation",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 664,
@@ -9356,7 +9368,7 @@
       "direction": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
       "brand": "Nelco Laboratories, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 668,
@@ -9384,7 +9396,7 @@
       "direction": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.\n\nIn quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
       "brand": "Formulated Solutions",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 670,
@@ -9426,7 +9438,7 @@
       "direction": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
       "brand": "NATURE REPUBLIC CO., LTD.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 673,
@@ -9440,7 +9452,7 @@
       "direction": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.\n\nNullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
       "brand": "KINKANDO CO., LTD.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 674,
@@ -9496,7 +9508,7 @@
       "direction": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
       "brand": "Shionogi Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 678,
@@ -9748,7 +9760,7 @@
       "direction": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
       "brand": "Eco Skin Care",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 696,
@@ -9888,7 +9900,7 @@
       "direction": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
       "brand": "PD-Rx Pharmaceuticals, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 706,
@@ -10266,7 +10278,7 @@
       "direction": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
       "brand": "Personal Care Products",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 733,
@@ -10504,7 +10516,7 @@
       "direction": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
       "brand": "Guna spa",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 750,
@@ -10546,7 +10558,7 @@
       "direction": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
       "brand": "Antigen Laboratories, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 753,
@@ -10616,7 +10628,7 @@
       "direction": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
       "brand": "Good Neighbor Pharmacy",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 758,
@@ -10812,7 +10824,7 @@
       "direction": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
       "brand": "Mylan Institutional LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 772,
@@ -10854,7 +10866,7 @@
       "direction": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
       "brand": "KJI Industrial Co Ltd",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 775,
@@ -11106,7 +11118,7 @@
       "direction": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
       "brand": "Allergy Laboratories, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 793,
@@ -11274,7 +11286,7 @@
       "direction": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
       "brand": "American Health Packaging",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 805,
@@ -11428,7 +11440,7 @@
       "direction": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
       "brand": "Pioneer Associates",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 816,
@@ -11554,7 +11566,7 @@
       "direction": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
       "brand": "Mission Pharmacal Company",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 825,
@@ -11722,7 +11734,7 @@
       "direction": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
       "brand": "Insight Pharmaceuticals",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 837,
@@ -11750,7 +11762,7 @@
       "direction": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
       "brand": "CVS PHARMACY",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 839,
@@ -11904,7 +11916,7 @@
       "direction": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
       "brand": "McKesson Packaging Services a business unit of McKesson Corporation",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 850,
@@ -12296,7 +12308,7 @@
       "direction": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
       "brand": "Rugby Laboratories, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 878,
@@ -12338,7 +12350,7 @@
       "direction": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
       "brand": "Clinical Solutions Wholesale",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 881,
@@ -12394,7 +12406,7 @@
       "direction": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
       "brand": "Procter & Gamble Manufacturing Co.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 885,
@@ -12548,7 +12560,7 @@
       "direction": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
       "brand": "Vansen Pharma Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 896,
@@ -12562,7 +12574,7 @@
       "direction": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.\n\nMauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
       "brand": "Bath & Body Works, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 897,
@@ -12856,7 +12868,7 @@
       "direction": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
       "brand": "McKesson Contract Packaging",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 918,
@@ -12912,7 +12924,7 @@
       "direction": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
       "brand": "Fresenius Kabi USA, LLC",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 922,
@@ -12940,7 +12952,7 @@
       "direction": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
       "brand": "Meijer Distribution Inc",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 924,
@@ -13010,7 +13022,7 @@
       "direction": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
       "brand": "Care One (American Sales Company)",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 929,
@@ -13220,7 +13232,7 @@
       "direction": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.\n\nIn congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
       "brand": "Prime Packaging, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 944,
@@ -13304,7 +13316,7 @@
       "direction": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
       "brand": "Legacy Pharmaceutical Packaging",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 950,
@@ -13402,7 +13414,7 @@
       "direction": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
       "brand": "REMEDYREPACK INC.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 957,
@@ -13486,7 +13498,7 @@
       "direction": "Sed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
       "brand": "AvKARE, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 963,
@@ -13654,7 +13666,7 @@
       "direction": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
       "brand": "Rebel Distributors Corp",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 975,
@@ -13724,7 +13736,7 @@
       "direction": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
       "brand": "Heel Inc",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 980,
@@ -13836,7 +13848,7 @@
       "direction": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
       "brand": "Blacksmith Brands, Inc.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 988,
@@ -13878,7 +13890,7 @@
       "direction": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
       "brand": "Topco Associates LLC (Top Care)",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Protein Supplements"
+      "category": "Fitness Wellness + Protein Supplements"
     },
     {
       "id": 991,
@@ -13892,7 +13904,7 @@
       "direction": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.\n\nCurabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
       "brand": "United Exchange Corp.",
       "image": "https://i.ibb.co/4WZ3thp/pract.png",
-      "category": "Fitness & Wellness + Mass Gainers"
+      "category": "Fitness Wellness + Mass Gainers"
     },
     {
       "id": 992,

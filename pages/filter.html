@@ -5,56 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medicines</title>
-    <link rel="stylesheet" href="/style/head_foot.css" />
-    <link rel="stylesheet" href="/style/medicine.css" />
-    <link rel="stylesheet" href="/style/view_cart.css" />
+    <link rel="stylesheet" href="../style/header_footer.css" />
   </head>
   <body>
     <div id="header_import"></div>
-    <div id="input_container">
-      <div class="search_btn_icon" style="width: 24px; height: 24px">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-          />
-        </svg>
-      </div>
-      <input
-        id="input_search_value"
-        oninput="main(event)"
-        type="text"
-        placeholder="Search for medicines, health products and more"
-      />
-      <button class="seconf_btn" onclick="viewcart()">
-        <div class="search_btn_icon2" style="width: 24px; height: 24px">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-            />
-          </svg>
-        </div>
-        <p id="tot"></p>
-        <p>VIEW CART</p>
-      </button>
-    </div>
+    <div id="searchfield_import"></div>
     <div id="Search-bar_results"></div>
     <div class="dashline"></div>
     <div id="filter_container">
@@ -219,13 +174,8 @@
         <div class="container1" onclick="page8()"><p>Baby care</p></div>
       </div>
       <div>
-        <!-- <div id="products_container_section">
-          <h1 id="name_cate">Pain relief</h1>
-          <p>70 products</p>
-        </div> -->
         <div id="best_seller">
-          <h2>Best Sellers</h2>
-
+          <h2 id="he_title"></h2>
           <div id="filter_side_container"></div>
         </div>
       </div>
@@ -234,7 +184,6 @@
     <div id="footer_import"></div>
   </body>
 </html>
-<script type="module" src="/script/index.js"></script>
-
-<script src="/src/filter.js"></script>
-<script src="/src/filter_extract.js"></script>
+<script type="module" src="../script/import.js"></script>
+<script src="../src/searchfield.js"></script>
+<script src="../src/filter.js"></script>
