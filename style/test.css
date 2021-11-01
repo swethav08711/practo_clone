@@ -38,6 +38,12 @@
     padding: 2px;
     font-size: 25px;
 }
+#cart>a:nth-child(1){
+    text-decoration: none;
+    border: 0.5px solid rgb(216, 196, 196);
+    padding: 10px;
+    color: black;
+}
 #tot{
     margin-left: 5px;
 }
@@ -159,3 +165,92 @@
       height: 40px;
       margin: 10px 0 0 60px;
   }
+  #partners{
+      width: 80%;
+      margin: auto;
+      text-align: left;
+  }
+  #partners>p{
+      margin: 0%
+  }
+  /* #partner-image{
+      margin-top: 10px;
+      display: flex;
+  }
+  #partners>div>img{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 30px;
+  } */
+  #booked{
+      width: 80%;
+      margin: auto;
+  }
+  #book-content{
+      display: flex;
+      gap: 30px;
+      
+  }
+  #book-data{
+    border: 0.5px solid rgb(211, 205, 205);
+    padding: 10px;
+  }
+  #data-head{
+      display: flex;
+      gap: 20px;
+  }
+  #data-head>img{
+      width: 50px;
+      border-radius: 50%;
+  }
+  #btn{
+      width: 200px;
+      color: white;
+      background-color: rgb(13, 217, 240);
+      border: 0;
+      font-size: 25px;
+      padding: 10px;
+      border-radius: 10px;
+  }
+#why{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+
+}
+  #why-data-1{
+      display: flex;
+      gap: 30px;
+      grid-area: d1;
+  }
+  #why-data-2{
+    display: flex;
+    gap: 30px;
+      grid-area: d2;
+  }
+  
+  #why-data-3{
+    display: flex;
+    gap: 30px;
+    grid-area: d3;
+  }
+  #why-data{
+    display: grid;
+    grid-template-areas: "d1 d2"
+                          "d3 d4";
+}
+#works{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#work-data{
+    display: flex;
+    gap: 30px;
+
+}
+#content{
+    width: 80%;
+    margin: auto;
+}
