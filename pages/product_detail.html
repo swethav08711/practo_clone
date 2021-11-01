@@ -5,180 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/style/head_foot.css" />
-    <link rel="stylesheet" href="/style/medicine.css" />
-    <link rel="stylesheet" href="/style/body.css" />
-    <link rel="stylesheet" href="/style/detail_area.css" />
+    <link rel="stylesheet" href="../style/header_footer.css" />
   </head>
   <body>
     <div id="header_import"></div>
-
-    <div id="input_container">
-      <div class="search_btn_icon" style="width: 24px; height: 24px">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-          />
-        </svg>
-      </div>
-
-      <input
-        id="input_search_value"
-        oninput="main(e)"
-        type="text"
-        placeholder="Search doctors,clinics,hospitals,etc."
-      />
-      <button class="seconf_btn">
-        <div class="search_btn_icon2" style="width: 24px; height: 24px">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-            />
-          </svg>
-        </div>
-        <p id="tot"></p>
-        <p onclick="(location.href='../pages/viewcart.html')">VIEW CART</p>
-      </button>
-    </div>
-
+    <div id="searchfield_import"></div>
     <div id="Search-bar_results"></div>
+
     <div id="cont"></div>
 
     <div id="footer_import"></div>
   </body>
 </html>
-<script type="module" src="/script/index.js"></script>
-<script src="/src/filter.js"></script>
-<script src="/src/filter_extract.js"></script>
-<script>
-  let detail = JSON.parse(localStorage.getItem("detail"))
-  console.log(detail)
-  let cre = document.createElement("div")
-  detail.forEach(ele => {
-    document.getElementById(
-      "cont"
-    ).innerHTML = ` <container class="u-content-wrapper">
-      <div class="right-container" id="fir">
-        <div class="image-carousel--wrapper">
-          <div class="image-carousel--slide_wrapper"></div>
-          <div class="image-carousel--product_wrapper">
-            <div class="image-carousel--image_wrapper">
-              <div>
-                <img
-                  src="//www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png"
-                  alt=""
-                  class="image-carousel--default-image"
-                />
-              </div>
-            </div>
-            <div class="image-carousel--product_divide"></div>
-            <div>
-              <div class="u-d-flex u-margin--10 u-m-l--20" id="m1">
-                <span class="text-charcoal-grey heading-beta-bold">
-                  <span>₹</span>
-                  <span>${ele.price}</span>
-                </span>
-              </div>
-            </div>
-            <div class=".u-p--15 u-disable-scroll--x">
-              <button
-                class="button button__primary button__normal--fixed-height" id="a1"
-              >
-                ADD TO CART
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="u-columns u-seven">
-        <div class="u-p-t--20">
-          <div class="heading-alpha u-p-b--5 u-d-flex">
-            <h1 class="heading-alpha">${ele.tablet}</h1>
-          </div>
-          <div class="u-m-t--5">
-            <span class="text-cool-grey-three u-m-r--10">Manufacture</span>
-            <span class="u-m-r--10 u-text--no-decoration"
-              >${ele.brand}</span
-            >
-          </div>
-          <div class="health-product__section">
-            <div class="list_wrapper">
-              <h2 class="heading-gamma-bold text-charcoal-grey">Highlights</h2>
-              <h3 class="list__description heading-epsilon text-steel"></h3>
-              <ul class="heading-epsilon text-charcoal-grey">
-                <li class="list__without-image-content">
-                 ${ele.highlights}
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <div class="health-product__section">
-              <div class="text-charcoal-grey u-p-b--10 heading-gamma-bold">
-                Description
-              </div>
-              <h2 class="heading-epsilon u-p-b--10">
-                ${ele.discription}
-              </h2>
-            </div>
-            <div class="health-product__section">
-              <div class="text-charcoal-grey u-p-b--10 heading-gamma-bold">
-                Uses
-              </div>
-              <h2 class="heading-epsilon u-p-b--10">
-               ${ele.uses}
-              </h2>
-            </div>
-            <div class="health-product__section">
-              <div class="text-charcoal-grey u-p-b--10 heading-gamma-bold">
-                How to use
-              </div>
-              <h2 class="heading-epsilon u-p-b--10">
-               ${ele.direction}
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </container>`
-    document.getElementById("a1").onclick = function () {
-      addFav(ele)
-    }
-  })
-
-  function addFav(d) {
-    console.log("helo")
-    let addi = localStorage.getItem("cart") //is ther anything called cart obvious not at starting
-    if (addi == null) {
-      addi = []
-    } else {
-      addi = JSON.parse(addi)
-    }
-    d.quantity = 1
-    addi.push(d)
-    localStorage.setItem("cart", JSON.stringify(addi))
-    alert("Added to cart")
-    // console.log(addi, d)
-    let suma = document.getElementById("tot")
-    console.log(suma)
-    suma.innerText = addi.length
-  }
-</script>
+<script type="module" src="../script/import.js"></script>
+<script src="../src/filter.js"></script>
+<script src="../src/product.js"></script>

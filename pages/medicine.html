@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Medicines</title>
-    <link rel="stylesheet" href="/style/head_foot.css" />
-
-    <link rel="stylesheet" href="/style/body.css" />
-    <link rel="stylesheet" href="/style/medicine.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/header_footer.css" />
+    <link rel="stylesheet" href="../style/body.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
@@ -26,55 +24,34 @@
   </head>
   <body>
     <div id="header_import"></div>
-    <div id="input_container">
-      <div class="search_btn_icon" style="width: 24px; height: 24px">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-          />
-        </svg>
-      </div>
-
-      <input
-        id="input_search_value"
-        oninput="main(event)"
-        type="text"
-        placeholder="Search for medicines, health products and more"
-      />
-      <button
-        class="seconf_btn"
-        onclick="(location.href='../pages/viewcart.html')"
-      >
-        <div class="search_btn_icon2" style="width: 24px; height: 24px">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-            />
-          </svg>
-        </div>
-        <p id="tot"></p>
-        <p>VIEW CART</p>
-      </button>
-    </div>
+    <div id="searchfield_import"></div>
     <div id="Search-bar_results"></div>
+
+    <!-- body of medicine -->
+    <div class="slide_img">
+      <div class="img_slider single-item-rtl">
+        <img
+          class="img_flex"
+          src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/full-width-1.48172107.png"
+          alt=""
+        />
+        <img
+          class="img_flex"
+          src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/full-width-4.2a2a16cc.png"
+          alt=""
+        />
+        <img
+          class="img_flex"
+          src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/full-width-3.8c8ab982.png"
+          alt=""
+        />
+        <img
+          class="img_flex"
+          src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/full-width-3.8c8ab982.png"
+          alt=""
+        />
+      </div>
+    </div>
     <div id="medicine_container">
       <div class="medicine_header">
         <p>Brown medicine & health products</p>
@@ -86,7 +63,7 @@
         <span
           ><img
             class="im12"
-            src="/images/h-c-7.476668e1.png"
+            src="../images/h-c-7.476668e1.png"
             alt=""
             onclick="page1()"
           />
@@ -101,14 +78,14 @@
         <span
           ><img
             class="im12"
-            src="/images/h-c-5.a8ae14dd.png"
+            src="../images/h-c-5.a8ae14dd.png"
             alt=""
             onclick="page3()"
         /></span>
         <span
           ><img
             class="im12"
-            src="/images/h-c-4.5e130b77.png"
+            src="../images/h-c-4.5e130b77.png"
             alt=""
             onclick="page4()"
         /></span>
@@ -122,7 +99,7 @@
         <span
           ><img
             class="im12"
-            src="/images/h-c-6.51626a1a.png"
+            src="../images/h-c-6.51626a1a.png"
             alt=""
             onclick="page6()"
         /></span>
@@ -141,7 +118,7 @@
         <span class="img_slide_01">
           <img
             class="im12"
-            src="/images/cat-9.5029c27e.png"
+            src="../images/cat-9.5029c27e.png"
             alt=""
             onclick="page1()"
           />
@@ -149,7 +126,7 @@
         <span class="img_slide_01">
           <img
             class="im12"
-            src="/images/cat-8.c4cbe33a.png"
+            src="../images/cat-8.c4cbe33a.png"
             alt=""
             onclick="page2()"
           />
@@ -157,17 +134,17 @@
         <span class="img_slide_01">
           <img
             class="im12"
-            src="/images/cat-6.aa7d1cba.png"
+            src="../images/cat-6.aa7d1cba.png"
             alt=""
-            onclick="page3()"
+            onclick="page2()"
           />
         </span>
         <span class="img_slide_01">
           <img
             class="im12"
-            src="/images/cat-2.640dcfd5.png"
+            src="../images/cat-2.640dcfd5.png"
             alt=""
-            onclick="page4()"
+            onclick="page8()"
           />
         </span>
         <span class="img_slide_01">
@@ -175,7 +152,7 @@
             class="im12"
             src="https://www.practostatic.com/ecommerce-assets/static/media/home/desktop/cat-7.c81b7b95.png"
             alt=""
-            onclick="page2()"
+            onclick="page7()"
           />
         </span>
         <span class="img_slide_01">
@@ -292,7 +269,9 @@
         </div>
       </div>
     </div>
+    <!-- body ends -->
     <div id="footer_import"></div>
+    <!-- carosoal -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
@@ -302,77 +281,6 @@
     ></script>
   </body>
 </html>
-<script type="module" src="/script/index.js"></script>
-<script src="/src/filter.js"></script>
-<script>
-  $(".responsive").slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ],
-  })
-  $(".responsive1").slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ],
-  })
-</script>
+<script type="module" src="../script/import.js"></script>
+<script src="../src/carosal.js"></script>
+<script src="../src/searchfield.js"></script>

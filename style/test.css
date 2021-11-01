@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    font-family: Camphor, Helvetica, Arial, sans-serif !important;
+  }
 #container{
     width: 90%;
     margin: auto;
@@ -33,10 +37,16 @@
 #cart{
     display: flex;
     float: right;
-    width: 5%;
+    width: 15%;
     margin: 2.5%;
     padding: 2px;
     font-size: 25px;
+}
+#cart>a:nth-child(1){
+    text-decoration: none;
+    border: 0.5px solid rgb(216, 196, 196);
+    padding: 10px;
+    color: black;
 }
 #tot{
     margin-left: 5px;
@@ -136,8 +146,128 @@
       display: flex;
       gap: 30px;
       overflow-x: scroll;
+      padding: 20px;
   }
-  #filter_side>div{
-      width: 50%;
+  #filter_side>div>div{
+    width: 300px;
+    padding: 20px;
   }
+  #filter_side>div>div>p:nth-child(2){
+      margin: 0%;
+      font-size: 15px;
+  }
+  #filter_side>div>div>button{
+      background-color: rgb(30, 186, 221);
+      border: 0;
+      font-size: 15px;
+      padding: 10px;
+      width: 80px;
+      border-radius: 10px;
+  }
+  #checkups{
+      display: flex;
+      width: 80%;
+      margin: auto;
+      overflow-x: scroll;
+  }
+  #checkups>div{
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+  }
+  #checkups>div>div>button{
+      background-color: rgb(68, 226, 218);
+      border: 0;
+      font-size: 18px;
+      height: 40px;
+      margin: 10px 0 0 60px;
+  }
+  #partners{
+      width: 80%;
+      margin: auto;
+      text-align: left;
+  }
+  #partners>p{
+      margin: 0%
+  }
+  /* #partner-image{
+      margin-top: 10px;
+      display: flex;
+  }
+  #partners>div>img{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 30px;
+  } */
+  #booked{
+      width: 80%;
+      margin: auto;
+  }
+  #book-content{
+      display: flex;
+      gap: 30px;
+      
+  }
+  #book-data{
+    border: 0.5px solid rgb(211, 205, 205);
+    padding: 10px;
+  }
+  #data-head{
+      display: flex;
+      gap: 20px;
+  }
+  #data-head>img{
+      width: 50px;
+      border-radius: 50%;
+  }
+  #btn{
+      width: 200px;
+      color: white;
+      background-color: rgb(13, 217, 240);
+      border: 0;
+      font-size: 25px;
+      padding: 10px;
+      border-radius: 10px;
+  }
+#why{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
 
+}
+  #why-data-1{
+      display: flex;
+      gap: 30px;
+      grid-area: d1;
+  }
+  #why-data-2{
+    display: flex;
+    gap: 30px;
+      grid-area: d2;
+  }
+  
+  #why-data-3{
+    display: flex;
+    gap: 30px;
+    grid-area: d3;
+  }
+  #why-data{
+    display: grid;
+    grid-template-areas: "d1 d2"
+                          "d3 d4";
+}
+#works{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#work-data{
+    display: flex;
+    gap: 30px;
+
+}
+#content{
+    width: 80%;
+    margin: auto;
+}
