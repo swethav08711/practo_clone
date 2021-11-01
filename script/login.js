@@ -39,7 +39,7 @@ function handle_login(){
                     if(response[index].mobile_number == login_mobile_number.value || response[index].password == login_password.value){
                         both_not_found++
                         if(response[index].mobile_number == login_mobile_number.value && response[index].password == login_password.value){
-                            window.location.assign("https://www.practo.com/");
+                            window.location.assign("http://127.0.0.1:5500/pages/index.html");
                         }
                         else{
                             if(response[index].mobile_number !== login_mobile_number.value){
