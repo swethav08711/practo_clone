@@ -63,7 +63,7 @@ document.getElementById("8").addEventListener("click", () => {
   btn.className = "btn_class"
   btn.textContent = "Pay"
   btn.addEventListener("click", () => {
-    window.location.href = "../pages/sucess.html"
+    location_su()
   })
   parent.innerHTML = null
   parent.append(h3, inp, p, btn)
@@ -80,3 +80,9 @@ let data1 = JSON.parse(localStorage.getItem("sum"))
 let swe = document.getElementById("sum_amount")
 swe.innerHTML = null
 swe.innerText = data1[data1.length - 1]
+
+function location_su() {
+  JSON.parse(localStorage.getItem("cart"))
+  localStorage.removeItem("cart")
+  window.location.href = "./sucess.html"
+}
