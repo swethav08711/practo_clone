@@ -8,7 +8,7 @@ data.forEach(ele => {
   div.id = ele.id
   let img = document.createElement("img")
   img.className = "img_cart"
-  img.src = ele.image
+  img.src = ele.ima
   //
   let maindiv = document.createElement("div")
   maindiv.className = "main_div_filter"
