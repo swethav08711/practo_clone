@@ -20,7 +20,11 @@ var email = document.getElementById("email").value
    }
    else{
     localStorage.setItem("patientData", JSON.stringify(pData))
-    window.location="/addressBook.html"
+    window.location="/addressBook.html" 
+    pname=""
+    dob=""
+    mobile=""
+    email=""
    }
    
 })
