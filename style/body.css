@@ -368,80 +368,68 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ketan css part */
 
-.profile-main-div{
+.profile-main-div {
   position: absolute;
-  visibility: hidden;
-  margin-top: -10px;
+  /* visibility: hidden; */
+  margin-top: -70px;
   margin-left: 79%;
   width: 15%;
   padding: 1%;
   box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 10%);
-  background-color:white;
+  background-color: white;
 }
-.upper-section-name-image-div{
+.upper-section-name-image-div {
   display: flex;
 }
-.upper-section-name-image-div > div:nth-child(1){
+.upper-section-name-image-div > div:nth-child(1) {
   width: 35%;
 }
-.upper-section-name-image-div > div > img{
+.upper-section-name-image-div > div > img {
   width: 80%;
   border-radius: 100%;
 }
-.upper-section-name-image-div > div > p{
+.upper-section-name-image-div > div > p {
   margin-top: 0%;
   margin-right: 2%;
 }
-.upper-section-name-image-div > div > p:nth-child(1){
+.upper-section-name-image-div > div > p:nth-child(1) {
   font-size: 15px;
   font-weight: 600;
 }
-.upper-section-name-image-div > div > p:nth-child(2){
+.upper-section-name-image-div > div > p:nth-child(2) {
   color: grey;
   font-size: 14px;
 }
-.content-below-name-mobile-number{
+.content-below-name-mobile-number {
   font-size: 15px;
   color: rgba(73, 73, 73, 0.986);
 }
-.content-below-name-mobile-number > p{
+.content-below-name-mobile-number > p {
   padding: 5%;
   cursor: pointer;
 }
-.content-below-name-mobile-number > .margin{
+.content-below-name-mobile-number > .margin {
   margin-top: -12px;
 }
-.content-below-name-mobile-number > p:hover{
+.content-below-name-mobile-number > p:hover {
   background-color: lightgrey;
 }
 
-
-.bottom-most-main-div:hover{
+.bottom-most-main-div:hover {
   cursor: pointer;
-  color:rgba(255, 68, 0, 0.952);
+  color: rgba(255, 68, 0, 0.952);
   background-color: lightgrey;
 }
-.bottom-most-main-div{
+.bottom-most-main-div {
   padding: 5%;
   margin-top: -10px;
   font-size: 13px;
   font-weight: 600;
   color: rgb(59, 59, 59);
 }
-.bottom-most-main-div > div{
+.bottom-most-main-div > div {
   font-weight: unset;
   font-size: unset;
   color: unset;

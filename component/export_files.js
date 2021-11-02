@@ -272,3 +272,67 @@ export function homebody() {
 
 </div>`
 }
+export function header() {
+  return `<div id="header_part" >
+          <div class="header_container min_sreen">
+            <img src="/images/practo.8e3ca798.svg" alt="" onclick="(location.href='../pages/index.html')"/ >
+          </div>
+          <div class="header_container">
+            <h1>Find Doctors</h1>
+            <p>Book an appointment</p>
+          </div>
+          <div class="header_container">
+            <h1>Video Consult</h1>
+            <p>Consult top Doctors</p>
+          </div>
+          <div class="header_container" >
+            <h1 onclick="(location.href='../pages/medicine.html')">Medicines</h1>
+            <p>Practo pharmacy</p>
+          </div>
+          <div class="header_container">
+            <h1 onclick="(location.href='../pages/test.html')">Lab Tests</h1>
+            <p>Book tests & checkup</p>
+          </div>
+          <div class="header_container">
+            <h1>Surgeries</h1>
+            <p>Expert surgical care</p>
+          </div>
+          <div class="header_container min_sreen fle_btn_img">
+            <button id="provide">For Provides
+            </button>
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+          </div>
+          <div class="header_container min_sreen fle_btn_img">
+            <button id="Security">Security & help</button><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M 19 15 l -7 7 l -7 -7"
+            />
+          </svg>
+          </div>
+          <div class="header_container min_sreen" >
+            <button id="login">Login / Signup</button>
+          </div>
+        </div>`
+}

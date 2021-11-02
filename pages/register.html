@@ -1,97 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
-    <link rel="stylesheet" href="/style/head_foot.css" />
+    <link rel="stylesheet" href="../style/header_footer.css" />
     <link rel="stylesheet" href="/style/register.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <div id="header_import"></div>
 
     <div class="login-register-top-div">
-        <a href="./login.html">Login</a>
-        <a href="./register.html">Register</a>
+      <a href="./login.html">Login</a>
+      <a href="./register.html">Register</a>
     </div>
     <hr class="line-below-login-register-navigator" />
 
     <div class="main-div-of-form-with-beside-image">
-        <div class="form-left-side-image-div">
-            <img src="https://accounts.practo.com/static/images/illustration.png" class="image-left-on-register-form" />
+      <div class="form-left-side-image-div">
+        <img
+          src="https://accounts.practo.com/static/images/illustration.png"
+          class="image-left-on-register-form"
+        />
+      </div>
+      <div class="register-form-main-div">
+        <div class="join-practo-top-of-register-form">
+          <div>Join Practo</div>
+          <div class="doctor-div">
+            Are you a doctor?
+            <a
+              href="https://accounts.practo.com/doctor_signup?intent=diagnostics"
+              >Register Here</a
+            >
+          </div>
         </div>
-        <div class="register-form-main-div">
-            <div class="join-practo-top-of-register-form">
-                <div>Join Practo</div>
-                <div class="doctor-div">
-                    Are you a doctor?
-                    <a href="https://accounts.practo.com/doctor_signup?intent=diagnostics">Register Here</a>
-                </div>
-            </div>
-            <div class="div-below-join-practo-doctor-div">
-            </div>
-            <div class="name-div">
-                <p>Full Name</p>
-                <input type="text" id="user-name" type="text" placeholder="Full Name" />
-            </div>
-            <div class="Full-Name-field-cannot-be-empty">Full Name field cannot be empty</div>
-            <div class="mobile-number-div">
-                <p>Mobile Number</p>
-                <div>
-                    <select class="countryCode" id="country" name="country">
-                        <option selected="" value="IN">+91(IND)</option>
-                        <option value="SG">+65(SGP)</option>
-                        <option value="PH">+63(PHL)</option>
-                        <option value="MY">+60(MYS)</option>
-                        <option value="ID">+62(IDN)</option>
-                        <option value="BR">+55(BRA)</option>
-                        <option value="MX">+52(MEX)</option>
-                        <option value="AR">+54(ARG)</option>
-                        <option value="CL">+56(CHL)</option>
-                        <option value="VN">+84(VNM)</option>
-                        <option value="AE">+971(UAE)</option>
-                        <option value="KW">+965(KW)</option>
-                        <option value="TZ">+255(TZA)</option>
-                        <option value="BH">+973(BH)</option>
-                        <option value="SA">+966(SA)</option>
-                        <option value="US">+1(USA)</option>
-                    </select>
-                    <input type="tel" id="mobile-number" type="tel" placeholder="Mobile Number" />
-                </div>
-            </div>
-            <div class="Mobile-Number-field-cannot-be-empty">Mobile Number field cannot be empty</div>
-            <div class="password-div">
-                <p>Create Password</p>
-                <input type="password" id="user-password" type="password" placeholder="Password" />
-            </div>
-            <div class="Password-field-cannot-be-empty">Password field cannot be empty</div>
-            <div class="agree-cheque-box">
-                <div class="chequebox-div">
-                <input type="checkbox" />
-               </div>
-                <label>Receive relevant offers and promotional communication from
-                    Practo</label>
-            </div>
-            <div class="terms-div-below-the-form">
-                By signing up, I agree to
-                <a href="https://www.practo.com/company/terms">terms</a>
-            </div>
-            <button class="send-otp-button" id="send-otp-button">Send OTP</button>
+        <div class="div-below-join-practo-doctor-div"></div>
+        <div class="name-div">
+          <p>Full Name</p>
+          <input
+            type="text"
+            id="user-name"
+            type="text"
+            placeholder="Full Name"
+          />
         </div>
+        <div class="Full-Name-field-cannot-be-empty">
+          Full Name field cannot be empty
+        </div>
+        <div class="mobile-number-div">
+          <p>Mobile Number</p>
+          <div>
+            <select class="countryCode" id="country" name="country">
+              <option selected="" value="IN">+91(IND)</option>
+              <option value="SG">+65(SGP)</option>
+              <option value="PH">+63(PHL)</option>
+              <option value="MY">+60(MYS)</option>
+              <option value="ID">+62(IDN)</option>
+              <option value="BR">+55(BRA)</option>
+              <option value="MX">+52(MEX)</option>
+              <option value="AR">+54(ARG)</option>
+              <option value="CL">+56(CHL)</option>
+              <option value="VN">+84(VNM)</option>
+              <option value="AE">+971(UAE)</option>
+              <option value="KW">+965(KW)</option>
+              <option value="TZ">+255(TZA)</option>
+              <option value="BH">+973(BH)</option>
+              <option value="SA">+966(SA)</option>
+              <option value="US">+1(USA)</option>
+            </select>
+            <input
+              type="tel"
+              id="mobile-number"
+              type="tel"
+              placeholder="Mobile Number"
+            />
+          </div>
+        </div>
+        <div class="Mobile-Number-field-cannot-be-empty">
+          Mobile Number field cannot be empty
+        </div>
+        <div class="password-div">
+          <p>Create Password</p>
+          <input
+            type="password"
+            id="user-password"
+            type="password"
+            placeholder="Password"
+          />
+        </div>
+        <div class="Password-field-cannot-be-empty">
+          Password field cannot be empty
+        </div>
+        <div class="agree-cheque-box">
+          <div class="chequebox-div">
+            <input type="checkbox" />
+          </div>
+          <label
+            >Receive relevant offers and promotional communication from
+            Practo</label
+          >
+        </div>
+        <div class="terms-div-below-the-form">
+          By signing up, I agree to
+          <a href="https://www.practo.com/company/terms">terms</a>
+        </div>
+        <button class="send-otp-button" id="send-otp-button">Send OTP</button>
+      </div>
     </div>
 
     <div id="footer_import"></div>
 
     <script type="module" src="../script/register.js"></script>
+    <script type="module" src="../script/import.js"></script>
     <script type="module" src="/script/index.js"></script>
-
-</body>
+  </body>
 </html>
-
