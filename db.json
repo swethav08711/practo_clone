@@ -13,6 +13,12 @@
       "mobile_number": "8808702180",
       "password": "David@12345",
       "id": 1
+    },
+    {
+      "user_name": "swe",
+      "mobile_number": "0987654321",
+      "password": "1qaz",
+      "id": 2
     }
   ],
   "medicine": [

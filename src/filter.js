@@ -36,10 +36,10 @@ function appendchild(d) {
     origin.className = "symbol_style_filter strike_thriugh"
     origin.textContent = "₹"
     //
-    let pri = document.createElement("p")
 
     let btn_div = document.createElement("div")
     btn_div.className = "button_contaner"
+    let pri = document.createElement("p")
     pri.innerText = `₹${ele.price}`
     pri.id = `${ele.id}+${ele.price}`
     pri.className = "price_cart_cont1"
