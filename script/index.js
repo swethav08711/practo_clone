@@ -1,7 +1,7 @@
 import { homebody } from "../component/export_files.js"
-import { header } from "../component/export.js"
-const header_import = document.getElementById("header_import")
-header_import.innerHTML = header()
+// import { header } from "../component/export.js"
+// const header_import = document.getElementById("header_import")
+// header_import.innerHTML = header()
 
 const body_import = document.getElementById("body_import")
 body_import.innerHTML = homebody()
@@ -36,18 +36,11 @@ var mobile_para = document.getElementById("mobile-number-para");
 let profile_hide_visible = 1;
 var profile_section = document.getElementById("profile-main-div");
 
-
 var logout_button = document.getElementById("logout");
 var login_signup_button = document.getElementById("login");
 
-login_signup_button.addEventListener("click" ,()=>{
-  hanlde_login()
-});
-logout_button.addEventListener("click" ,()=>{
-  handle_logout()
-});
-
-
+logout_button.addEventListener("click" , handle_logout);
+login_signup_button.addEventListener("click" , handle_login);
 
 fetch("http://localhost:1212/loginData")
 .then(function(response){
@@ -60,10 +53,7 @@ fetch("http://localhost:1212/loginData")
 })
 
 
-
-
-function hanlde_login(){
-  console.log("a")
+function handle_login(){
 
   fetch("http://localhost:1212/loginData")
   .then(function(response){
@@ -74,7 +64,6 @@ function hanlde_login(){
         window.location.assign("http://127.0.0.1:5500/pages/login.html");
       }
       else if(profile_hide_visible % 2 !== 0){
-        //  login_signup_button.innerHTML = response[0].user_name;
           name_para.innerHTML = response[0].user_name;
           mobile_para = response[0].mobile_number
           profile_section.style.visibility = "visible";
@@ -84,7 +73,6 @@ function hanlde_login(){
           profile_section.style.visibility = "hidden";
           profile_hide_visible++
         }
-      
     })
   .catch(function(error){
       console.log(error)
@@ -93,11 +81,12 @@ function hanlde_login(){
 
 
 function handle_logout(){
-  console.log("hello");
+  console.log("enter");
   fetch("http://localhost:1212/loginData",{
     method: "DELETE",
     headers: {
         'Content-Type': 'application/json'
     },
     });
+    console.log("exit");
 }
