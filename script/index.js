@@ -5,7 +5,8 @@ import { homebody } from "../component/export_files.js"
 
 const body_import = document.getElementById("body_import")
 body_import.innerHTML = homebody()
-
+const header_import = document.getElementById("header_import")
+header_import.innerHTML = header()
 //slideshow
 var slideIndex = 0
 showSlides()
@@ -43,50 +44,49 @@ logout_button.addEventListener("click" , handle_logout);
 login_signup_button.addEventListener("click" , handle_login);
 
 fetch("http://localhost:1212/loginData")
-.then(function(response){
+  .then(function (response) {
     return response.json()
-})
-  .then(function(response){
-    if(response.length !== 0){
-      login_signup_button.innerHTML = response[0].user_name;
+  })
+  .then(function (response) {
+    if (response.length !== 0) {
+      login_signup_button.innerHTML = response[0].user_name
     }
 })
 
 
-function handle_login(){
-
+function handle_login() {
+  console.log("hello")
   fetch("http://localhost:1212/loginData")
-  .then(function(response){
+    .then(function (response) {
       return response.json()
-  })
-    .then(function(response){
-      if(response.length == 0){
-        window.location.assign("http://127.0.0.1:5500/pages/login.html");
-      }
-      else if(profile_hide_visible % 2 !== 0){
-          name_para.innerHTML = response[0].user_name;
-          mobile_para = response[0].mobile_number
-          profile_section.style.visibility = "visible";
-          profile_hide_visible++
-        }
-        else{
-          profile_section.style.visibility = "hidden";
-          profile_hide_visible++
-        }
     })
-  .catch(function(error){
+    .then(function (response) {
+      if (response.length == 0) {
+        window.location.assign("http://127.0.0.1:5500/pages/login.html")
+      } 
+      else if (profile_hide_visible % 2 !== 0) {
+        login_signup_button.innerHTML = response[0].user_name
+        name_para.innerHTML = response[0].user_name
+        mobile_para = response[0].mobile_number
+        profile_section.style.visibility = "visible"
+        profile_hide_visible++
+      }
+      else {
+        profile_section.style.visibility = "hidden"
+        profile_hide_visible++
+      }
+    })
+    .catch(function (error) {
       console.log(error)
-  })
+    })
 }
 
 
 function handle_logout(){
-  console.log("enter");
   fetch("http://localhost:1212/loginData",{
     method: "DELETE",
     headers: {
-        'Content-Type': 'application/json'
+      "Content-Type": "application/json",
     },
     });
-    console.log("exit");
 }

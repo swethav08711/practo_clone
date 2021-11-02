@@ -1,3 +1,25 @@
+var imgarr = [
+  "https://www.practostatic.com/practopedia-v2-images/res-150/3546844420aad2f7c8c30d6031e2f8860c0b2b1a1.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/82a76f0c1541a288d5589e6f929e52a8230888f31.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/dade7c4be55ca640cee635636a9d320fabb5cf281.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/a833e0e88a5b07008f26299313dbbf28951222091.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/f894c491e3081c24f4ebda8734dc937d3c5c78021.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/33bf2e821a6c0a9d5dc52fc2a825f2cd5002b8da1.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/fb7895145c8d9162013b2815fcaad7a98528bef21.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/81e239043d17b14bfd4c4d0c899e2b855b1e44af1.JPG",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/dade7c4be55ca640cee635636a9d320fabb5cf281.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/a833e0e88a5b07008f26299313dbbf28951222091.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/f894c491e3081c24f4ebda8734dc937d3c5c78021.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/33bf2e821a6c0a9d5dc52fc2a825f2cd5002b8da1.JPG",
+]
 var filter = document.getElementById("filter_side_container")
 var h2tit = document.getElementById("he_title")
 appendchild(JSON.parse(localStorage.getItem("category")))
@@ -12,7 +34,7 @@ function appendchild(d) {
     h = h.length > 1 ? `${h[0] + " " + h[1]}` : ele.category
     document.getElementById("he_title").innerText = h
     let img = document.createElement("img")
-    img.src = ele.image
+    img.src = imgarr[Math.floor(Math.random() * imgarr.length)]
     //discount
     let dis = document.createElement("p")
     dis.className = "dis_style_filter1"
@@ -133,6 +155,7 @@ function addFav(d, e) {
       }
     }
   }
+
   d.quantity = Number(document.getElementById(`${d.id}`).value)
   addi.push(d)
   localStorage.setItem("cart", JSON.stringify(addi))

@@ -1,0 +1,77 @@
+/* *{
+    background-color: rgb(238, 230, 230);
+} */
+#container{
+    width: 70%;
+    margin: auto;
+}
+#input-form{
+    display: flex;
+    gap: 30px;
+}
+input{
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid rgb(196, 193, 193);
+}
+#dob{
+    width: 50%;
+}
+#form-data{
+    padding: 40px;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid rgb(218, 215, 215);
+    box-shadow: 5px 2px rgb(218, 215, 215);
+    border-radius: 2px;
+}
+
+#form-data>div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#gender{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+#gender>input{
+    height: 15px;
+
+}
+
+
+#submit{
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    background-color: rgb(109, 164, 228);
+    color: white;
+    font-weight: 600;
+}
+#cart-display{
+    width: 40%;
+    border: 1px solid rgb(218, 215, 215);
+    box-shadow: 5px 2px rgb(218, 215, 215);
+    border-radius: 2px; 
+    height: 500px;
+    padding: 30px;
+}
+.input-cart{
+    width: 100%;
+    border-radius: 10px;
+}
+.btn-check{
+    height: 40px;
+    background-color: rgb(211, 211, 219);
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+}
