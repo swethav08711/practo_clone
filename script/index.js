@@ -1,4 +1,7 @@
 import { homebody } from "../component/export_files.js"
+import { header } from "../component/export.js"
+const header_import = document.getElementById("header_import")
+header_import.innerHTML = header()
 
 const body_import = document.getElementById("body_import")
 body_import.innerHTML = homebody()
@@ -37,8 +40,12 @@ var profile_section = document.getElementById("profile-main-div");
 var logout_button = document.getElementById("logout");
 var login_signup_button = document.getElementById("login");
 
-logout_button.addEventListener("click" , handle_logout);
-login_signup_button.addEventListener("click" , hanlde_login);
+login_signup_button.addEventListener("click" ,()=>{
+  hanlde_login()
+});
+logout_button.addEventListener("click" ,()=>{
+  handle_logout()
+});
 
 
 
@@ -56,6 +63,7 @@ fetch("http://localhost:1212/loginData")
 
 
 function hanlde_login(){
+  console.log("a")
 
   fetch("http://localhost:1212/loginData")
   .then(function(response){
@@ -66,7 +74,7 @@ function hanlde_login(){
         window.location.assign("http://127.0.0.1:5500/pages/login.html");
       }
       else if(profile_hide_visible % 2 !== 0){
-         login_signup_button.innerHTML = response[0].user_name;
+        //  login_signup_button.innerHTML = response[0].user_name;
           name_para.innerHTML = response[0].user_name;
           mobile_para = response[0].mobile_number
           profile_section.style.visibility = "visible";
@@ -85,6 +93,7 @@ function hanlde_login(){
 
 
 function handle_logout(){
+  console.log("hello");
   fetch("http://localhost:1212/loginData",{
     method: "DELETE",
     headers: {
