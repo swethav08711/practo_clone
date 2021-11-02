@@ -1,0 +1,46 @@
+#container{
+    width: 80%;
+    margin: auto;
+}
+#input-form{
+    display: flex;
+    gap: 30px;
+}
+input{
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid rgb(196, 193, 193);
+}
+#dob{
+    width: 50%;
+}
+#form-data{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#form-data>div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#gender{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+#gender>input{
+    height: 15px;
+
+}
+#cart-display{
+
+    background-color: red;
+    height: 500px;
+}
+

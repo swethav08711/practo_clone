@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/payment.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="practo_logo_new"></div>
+      </div>
+    </header>
+    <div class="payment_container">
+      <div class="con1">
+        <h2>Payment Options</h2>
+        <div>
+          <p class="pay1" id="1">Debit / Credit card</p>
+          <p class="pay1" id="2">Paytm Wallet</p>
+          <p class="pay1" id="3">UPI</p>
+          <p class="pay1" id="4">Google Pay</p>
+          <p class="pay1" id="5">Amazon Pay</p>
+          <p class="pay1" id="6">PhonePe / BHIM UPI</p>
+          <p class="pay1" id="7">Net Banking</p>
+          <p class="pay1" id="8">Pay Later</p>
+          <p class="pay1" id="9">Others</p>
+        </div>
+      </div>
+      <div class="con2">
+        <div class="con_pay2">
+          <h2 class="h2_con_pay">Amount to Pay: ₹</h2>
+          <h2 id="amount">0</h2>
+        </div>
+        <div class="img_div"></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+    var data = JSON.parse(localStorage.getItem("tsum"))
+    console.log(data)
+    var amount = document.getElementById('amount')
+    amount.innerText = data
+  document.getElementById("1").addEventListener("click", () => {
+    let parent = document.querySelector(".img_div")
+    let img = document.createElement("img")
+    img.src = "/images/pro1.PNG"
+    parent.innerHTML = null
+    parent.append(img)
+  })
+  document.getElementById("2").addEventListener("click", () => {
+    let parent = document.querySelector(".img_div")
+    let img = document.createElement("img")
+    img.src = "/images/pro2.PNG"
+    parent.innerHTML = null
+    parent.append(img)
+  })
+  document.getElementById("3").addEventListener("click", () => {
+    let parent = document.querySelector(".img_div")
+    let img = document.createElement("img")
+    img.src = "/images/pro3.PNG"
+    parent.innerHTML = null
+    parent.append(img)
+  })
+  document.getElementById("4").addEventListener("click", () => {
+    let parent = document.querySelector(".img_div")
+    let img = document.createElement("img")
+    img.src = "/images/pro4.PNG"
+    parent.innerHTML = null
+    parent.append(img)
+  })
+  document.getElementById("5").addEventListener("click", () => {
+    let parent = document.querySelector(".img_div")
+    let img = document.createElement("img")
+    img.src = "/images/pro5.PNG"
+    parent.innerHTML = null
+    parent.append(img)
+  })
+  document.getElementById("6").addEventListener("click", () => {
+    let parent = document.querySelector(".img_div")
+    let img = document.createElement("img")
+    img.src = "/images/pro6.PNG"
+    parent.innerHTML = null
+    parent.append(img)
+  })
+  document.getElementById("7").addEventListener("click", () => {
+    let parent = document.querySelector(".img_div")
+    let img = document.createElement("img")
+    img.src = "/images/pro7.PNG"
+    parent.innerHTML = null
+    parent.append(img)
+  })
+  document.getElementById("8").addEventListener("click", () => {
+    let parent = document.querySelector(".img_div")
+    let h3 = document.createElement("h3")
+    h3.textContent = "Pay On Delivery"
+    h3.className = "h3_class"
+    let inp = document.createElement("input")
+    inp.setAttribute("type", "radio")
+    inp.className = "inp_class"
+    let p = document.createElement("p")
+    p.textContent =
+      "Pay digitally with SMS Pay Link. Cash may not be accepted in COVID restricted areas."
+    p.className = "p_class"
+    let btn = document.createElement("button")
+    btn.className = "btn_class"
+    btn.textContent = "Pay"
+    btn.addEventListener("click", () => {
+      window.location.href = "/pages/sucess.html"
+    })
+    parent.innerHTML = null
+    parent.append(h3, inp, p, btn)
+  })
+  document.getElementById("9").addEventListener("click", () => {
+    let parent = document.querySelector(".img_div")
+    let img = document.createElement("img")
+    img.src = "/images/pro8.PNG"
+    parent.innerHTML = null
+    parent.append(img)
+  })
+</script>

@@ -129,7 +129,7 @@ export function header() {
           />
         </svg>
         </div>
-        <div class="header_container min_sreen"  onclick="(location.href='../pages/login.html')">
+        <div class="header_container min_sreen">
           <button id="login">Login / Signup</button>
         </div>
       </div>`

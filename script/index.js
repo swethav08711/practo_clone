@@ -34,7 +34,12 @@ var mobile_para = document.getElementById("mobile-number-para")
 let profile_hide_visible = 1
 var profile_section = document.getElementById("profile-main-div")
 
-var logout_button = document.getElementById("logoutme")
+login_signup_button.addEventListener("click", () => {
+  hanlde_login()
+})
+logout_button.addEventListener("click", () => {
+  handle_logout()
+})
 
 var login_signup_button = document.getElementById("login")
 
@@ -77,6 +82,17 @@ function login_button() {
         profile_section.style.visibility = "hidden"
         profile_hide_visible++
       }
+      // else if(profile_hide_visible % 2 !== 0){
+      //   //  login_signup_button.innerHTML = response[0].user_name;
+      //     name_para.innerHTML = response[0].user_name;
+      //     mobile_para = response[0].mobile_number
+      //     profile_section.style.visibility = "visible";
+      //     profile_hide_visible++
+      //   }
+      //   else{
+      //     profile_section.style.visibility = "hidden";
+      //     profile_hide_visible++
+      //   }
     })
     .catch(function (error) {
       console.log(error)
