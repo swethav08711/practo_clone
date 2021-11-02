@@ -6,7 +6,6 @@ import { homebody } from "../component/export_files.js"
 const body_import = document.getElementById("body_import")
 body_import.innerHTML = homebody()
 const header_import = document.getElementById("header_import")
-header_import.innerHTML = header()
 //slideshow
 var slideIndex = 0
 showSlides()
