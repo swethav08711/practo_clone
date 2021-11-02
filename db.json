@@ -1,6 +1,11 @@
 {
   "loginData": [
-
+    {
+      "user_name": "Ketan Yadav",
+      "mobile_number": "8808702180",
+      "password": "David@12345",
+      "id": 1
+    }
   ],
   "register": [
     {

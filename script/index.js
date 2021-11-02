@@ -65,7 +65,7 @@ function handle_login() {
       else if (profile_hide_visible % 2 !== 0) {
         login_signup_button.innerHTML = response[0].user_name
         name_para.innerHTML = response[0].user_name
-        mobile_para = response[0].mobile_number
+        mobile_para.innerHTML = `+91${response[0].mobile_number}`
         profile_section.style.visibility = "visible"
         profile_hide_visible++
       }
@@ -81,10 +81,10 @@ function handle_login() {
 
 
 function handle_logout(){
-  fetch("http://localhost:1212/loginData",{
-    method: "DELETE",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    });
+  // fetch("http://localhost:1212/loginData",{
+  //   method: "DELETE",
+  //   headers: {
+  //     "Content-Type": "application/json",
+  //   },
+  //   });
 }
