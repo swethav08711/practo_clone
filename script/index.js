@@ -54,7 +54,6 @@ fetch("http://localhost:1212/loginData")
 
 
 function handle_login() {
-  console.log("hello")
   fetch("http://localhost:1212/loginData")
     .then(function (response) {
       return response.json()
