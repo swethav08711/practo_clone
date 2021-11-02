@@ -47,6 +47,12 @@
       "mobile_number": "1",
       "password": "1",
       "id": 8
+    },
+    {
+      "user_name": "we",
+      "mobile_number": "12",
+      "password": "12",
+      "id": 9
     }
   ],
   "register": [
@@ -103,6 +109,12 @@
       "mobile_number": "12",
       "password": "12",
       "id": 9
+    },
+    {
+      "user_name": "we",
+      "mobile_number": "12",
+      "password": "12",
+      "id": 10
     }
   ],
   "medicine": [

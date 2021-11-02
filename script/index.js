@@ -36,7 +36,7 @@ var profile_section = document.getElementById("profile-main-div")
 
 var logout_button = document.getElementById("logoutme")
 
-var login_signup_button = document.getElementById("login-button")
+var login_signup_button = document.getElementById("login")
 
 logout_button.addEventListener("click", () => {
   handle_logout()
@@ -51,9 +51,9 @@ fetch("http://localhost:1212/loginData")
   })
   .then(function (response) {
     if (response.length !== 0) {
-      var login_signup_button = document.getElementById(
-        "after-otp-login-button"
-      )
+      // var login_signup_button = document.getElementById(
+      //   "after-otp-login-button"
+      // )
       login_signup_button.innerHTML = response[0].user_name
     }
   })
