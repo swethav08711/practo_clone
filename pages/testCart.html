@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" cont
+     x 56ent="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/view_cart.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="practo_logo_new"></div>
+      </div>
+    </header>
+    <div class="bg-pale-grey-two">
+      <div
+        class="prev_page"
+        onclick="(location.href='../pages/filter_page.html')"
+      >
+        <p>Go to previous page</p>
+      </div>
+      <div class="cart_container">
+        <div class="cart_container1"><p id="tot_num"></p></div>
+        <div class="border_bottom_cart" id="data"></div>
+        <div
+          class="Adding_more_cart"
+          onclick="(location.href='../pages/filter_page.html')"
+        >
+          <button>Add more medicines</button>
+        </div>
+        <div class="u-position--fixed">
+          <div class="box_carting">
+            <p id="sum_amou"></p>
+            <button onclick="(location.href='../pages/test-payment.html')">
+              Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  let data = JSON.parse(localStorage.getItem("tcart"))
+    console.log(data)
+  let parent = document.getElementById("data")
+
+  data.forEach(({ pname, description, price }) => {
+    let div = document.createElement("div")
+    div.className = "boxing_cart_container"
+
+    let p = document.createElement("p")
+    p.innerText = pname
+    p.className = "cart_name_para"
+    let div1 = document.createElement("div")
+    div1.className = "div1_cart_cont"
+    let pri = document.createElement("p")
+    pri.innerText = price
+    // pri.id = `${id}+price`
+    pri.className = "price_cart_cont"
+
+    let div2 = document.createElement("div")
+    div2.className = "quantity button_view_cont"
+
+    // let b1 = document.createElement("button")
+    // b1.setAttribute("type", "button")
+    // b1.addEventListener("click", () => decrement(id, price))
+    // b1.className = "btn minus-btn disabled"
+    // b1.textContent = "-"
+
+    // // let in1 = document.createElement("input")
+    // // in1.setAttribute("value", quantity)
+    // // in1.setAttribute("type", "text")
+    // // // in1.id = `${id}+quantity`
+
+    // let b2 = document.createElement("button")
+    // b2.addEventListener("click", () => increment(id, price))
+    // b2.setAttribute("type", "button")
+    // b2.className = "btn plus-btn"
+    // b2.textContent = "+"
+
+    // div2.append(b1, b2)
+    div1.append(pri)
+    div.append( p, div1)
+    parent.append(div)
+    sumprice()
+  })
+
+  function sumprice() {
+    let suma = document.getElementById("sum_amou")
+    let totnum = document.getElementById("tot_num")
+    let data = JSON.parse(localStorage.getItem("tcart"))
+    totnum.innerText = `My cart: ${data.length} items`
+    let sum = 0
+    for (let i = 0; i < data.length; i++) {
+      sum += Number(data[i].price) 
+    }
+    var tsum = localStorage.setItem("tsum", JSON.stringify(sum))
+    suma.innerHTML = null
+    suma.append("Payable Aount: ₹", sum)
+
+  }
+</script>

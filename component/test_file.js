@@ -40,7 +40,7 @@ async function fetchdata1(){
 
 
 function addFav(d) {
-  let addi = localStorage.getItem("cart") //is ther anything called cart obvious not at starting
+  let addi = localStorage.getItem("tcart") //is ther anything called cart obvious not at starting
   if (addi == null) {
     addi = []
   } else {
@@ -48,7 +48,7 @@ function addFav(d) {
   }
   addi.push(d)
   console.log(addi) //array of Objects
-  localStorage.setItem("cart", JSON.stringify(addi))
+  localStorage.setItem("tcart", JSON.stringify(addi))
   alert("Added to cart") //back to JSON from Object
   console.log(addi, d)
 
