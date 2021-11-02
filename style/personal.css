@@ -1,5 +1,8 @@
+/* *{
+    background-color: rgb(238, 230, 230);
+} */
 #container{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 #input-form{
@@ -15,11 +18,16 @@ input{
     width: 50%;
 }
 #form-data{
-    width: 80%;
+    padding: 40px;
+    background-color: white;
+    width: 60%;
     margin: auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    border: 1px solid rgb(218, 215, 215);
+    box-shadow: 5px 2px rgb(218, 215, 215);
+    border-radius: 2px;
 }
 
 #form-data>div{
@@ -38,9 +46,32 @@ input{
     height: 15px;
 
 }
-#cart-display{
 
-    background-color: red;
-    height: 500px;
+
+#submit{
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    background-color: rgb(109, 164, 228);
+    color: white;
+    font-weight: 600;
 }
-
+#cart-display{
+    width: 40%;
+    border: 1px solid rgb(218, 215, 215);
+    box-shadow: 5px 2px rgb(218, 215, 215);
+    border-radius: 2px; 
+    height: 500px;
+    padding: 30px;
+}
+.input-cart{
+    width: 100%;
+    border-radius: 10px;
+}
+.btn-check{
+    height: 40px;
+    background-color: rgb(211, 211, 219);
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+}

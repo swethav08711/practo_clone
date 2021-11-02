@@ -24,21 +24,21 @@
                 <div>
                     <label for="">Gender<b style="color: red;">*</b></label>
                     <div id="gender">
-                            <input type="radio" name="gender" value="male"> Male
-                            <input type="radio" name="gender" value="female"> Female
-                            <input type="radio" name="gender" value="other"> Other
+                            <input id="genderData" type="radio" name="gender" value="male"> Male
+                            <input id="genderData" type="radio" name="gender" value="female"> Female
+                            <input id="genderData" type="radio" name="gender" value="other"> Other
                     </div>
                 </div>
                 <div>
                     <label for="">Mobile Number<b style="color: red;">*</b></label>
-                    <input type="tel" id="mobile" maxlength="10">
+                    <input type="tel" id="mobile" maxlength="10" placeholder="10 digit number">
                 </div>
                 <div>
                     <label for="">Email<b style="color: red;">*</b></label>
                     <input type="email" id="email" placeholder="abcd@gmail.com">
                 </div>
                 <div>
-                    <input type="submit" id="submit">
+                    <button id="submit">Continue</button>
                 </div>
             </div>
             <div id="cart-display">
@@ -49,5 +49,6 @@
         </div>
         
     </div>
+    <script src="/component/personalData.js"></script>
 </body>
 </html>
