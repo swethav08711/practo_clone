@@ -4,8 +4,6 @@ var user_otp = document.getElementById("user-otp");
 var otp_red_text = document.getElementsByClassName("otp-field-cannot-be-empty")[0];
 
 
-console.log(data_send_flag,allow_home_page_flag)
-
 let otp = Math.floor(100000 + Math.random() * 900000);
 setTimeout(function() { 
     alert(`Your OTP is ${otp}`); 

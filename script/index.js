@@ -31,11 +31,13 @@ var name_para = document.getElementById("name-para");
 var mobile_para = document.getElementById("mobile-number-para");
 
 let profile_hide_visible = 1;
-
-var login_signup_button = document.getElementById("login");
 var profile_section = document.getElementById("profile-main-div");
 
 
+var logout_button = document.getElementById("logout");
+var login_signup_button = document.getElementById("login");
+
+logout_button.addEventListener("click" , handle_logout);
 login_signup_button.addEventListener("click" , hanlde_login);
 
 
@@ -79,4 +81,14 @@ function hanlde_login(){
   .catch(function(error){
       console.log(error)
   })
+}
+
+
+function handle_logout(){
+  fetch("http://localhost:1212/loginData",{
+    method: "DELETE",
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    });
 }
