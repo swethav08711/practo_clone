@@ -5,25 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/style/test.css">
+
+  
     <link rel="stylesheet" href="../style/header_footer.css" />
-    
+    <link rel="stylesheet" href="../style/body.css" />
+    <link rel="stylesheet" href="/style/test.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 </head>
 <body>
     <div id="header_import"></div>
     <div id="container">
         <!-- search fie -->
-        <div id="head">
-            <div id="input">
-                <p> <input type="text" id="test-profile" placeholder="search here"><i  id="search-btn" ></i></p>
+        <div id="main_floating">
+            <div class="style_inp">
+              <div class="search_btn_icon1" style="width: 20px; height: 20px">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
             </div>
-            <div id="cart">
-                <a id="tot" href="testCart.html" >Cart <a ></a></a>
-                <div id="cartDisp"></div>
+              <input type="text" placeholder="Bangalore">
             </div>
-            
+            <div class="style_inp1">
+              <div class="search_btn_icon1" style="width: 20px;color: grey; height: 20px">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </div>
+              <input type="text" placeholder="Search doctors,clinics,hospitals,etc.">
+            </div>
+            <button class="seconf_btnq"
+        onclick="(location.href='../pages/viewcart.html')"
+      >
+        <div class="search_btn_icon2" style="width: 24px; height: 24px">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+            />
+          </svg>
         </div>
+        <p id="tot">0</p>
+        <p id="view_cart">CART</p>
+      </button>
+            </div>
+        
         <!--class="fa fa-shopping-cart"  -->
         <!-- banner -->
         <div id="banner">
@@ -44,15 +102,19 @@
                 </div>
             </div>
             <div id="help-right">
-                <a href=""><i class="fa fa-phone"> +91 8045684087</i></a>
+                <a href="">
+                    <div class="search_btn_icon1" id="box_icon" style="width: 20px; height: 20px">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z" />
+                  </svg> 
+                  </div>
+                  +91 8045684087</i></a>
             </div>
         </div>
         <!--  -->
         <div id="line-height"></div>
         <div class="Medicine_subheader">
             <div id="filter_side"></div>
-
-
           </div>
           
           <div id="line-height"></div>
@@ -60,7 +122,7 @@
             <h1>Health Checkups and screeening For</h1>
    
           </div>
-          <div class="sliding_medicine_images-health">
+          <div class="sliding_medicine_images-health responsivet">
             <div class="sliding-data-health">
                 <img src="https://www.practo.com/tests/public/images/landingpage_icons/fever.svg?v=1569493559" alt="">
                 <h3>Fever</h3>
@@ -103,10 +165,10 @@
               <h3>Our Partners Labs</h3>
               <p>Your tests will be conducted in one of our partner labs to</p>
               <p>ensure highest accuracy of your reports.</p>
-              <div style="margin-top: 20px;">
-                  <img style="width: 130px; height: 130px; padding: 10px; border: 1px solid black;" src="https://prod-dx.s3.amazonaws.com:443/dx/labs/Practo_Labs.png" alt="">
-                  <img style="width: 130px; height: 130px; padding: 10px; border: 1px solid black;"src="https://prod-dx.s3.amazonaws.com:443/dx/labs/Humain_Health.png" alt="">
-                  <img style="width: 130px; height: 130px; padding: 10px; border: 1px solid black;"src="https://prod-dx.s3.amazonaws.com:443/dx/labs/Dr._Remedies_Labs.png" alt="">
+              <div style="margin-top: 16px;">
+                  <img style="width: 169px; height: 99px; padding: 10px; border: 1px solid grey;border-radius: 5px; margin-right: 30px;" src="https://prod-dx.s3.amazonaws.com:443/dx/labs/Practo_Labs.png" alt="">
+                  <img style="width: 169px; height: 99px; padding: 10px; border: 1px solid grey;border-radius: 5px; margin-right: 30px;" src="https://prod-dx.s3.amazonaws.com:443/dx/labs/Humain_Health.png" alt="">
+                  <img style="width: 169px; height: 99px; padding: 10px; border: 1px solid grey;border-radius: 5px; margin-right: 30px;" src="https://prod-dx.s3.amazonaws.com:443/dx/labs/Dr._Remedies_Labs.png" alt="">
               </div>
           </div>
 
@@ -279,10 +341,19 @@
             </div>
     </div>
     <div id="footer_import"></div>
-    <script type="module" src="/script/index.js"></script>
-    <script src="/component/test_file.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- <script src="/component/checkups.js"></script> -->
 </body>
 
 </html>
 <script type="module" src="../script/import.js"></script>
+<script type="module" src="/script/index.js"></script>
+<script src="/component/test_file.js"></script>
+
+<script src="../src/carosal.js"></script>
