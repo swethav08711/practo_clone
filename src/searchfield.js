@@ -1,3 +1,25 @@
+var imgarr = [
+  "https://www.practostatic.com/practopedia-v2-images/res-150/3546844420aad2f7c8c30d6031e2f8860c0b2b1a1.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/82a76f0c1541a288d5589e6f929e52a8230888f31.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/dade7c4be55ca640cee635636a9d320fabb5cf281.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/a833e0e88a5b07008f26299313dbbf28951222091.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/f894c491e3081c24f4ebda8734dc937d3c5c78021.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/33bf2e821a6c0a9d5dc52fc2a825f2cd5002b8da1.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/fb7895145c8d9162013b2815fcaad7a98528bef21.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/81e239043d17b14bfd4c4d0c899e2b855b1e44af1.JPG",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/dade7c4be55ca640cee635636a9d320fabb5cf281.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/a833e0e88a5b07008f26299313dbbf28951222091.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/f894c491e3081c24f4ebda8734dc937d3c5c78021.JPG",
+  "https://www.practostatic.com/practopedia-v2-images/res-150/33bf2e821a6c0a9d5dc52fc2a825f2cd5002b8da1.JPG",
+]
 async function Searchdata() {
   const name = document.getElementById("input_search_value").value
   let res = await fetch(`http://localhost:1212/medicine?q=${name}`)
@@ -12,7 +34,7 @@ function appendMovies(searchdata) {
     m.className = "search_container"
     let img = document.createElement("img")
     img.className = "search_img"
-    img.src = ele.image
+    img.src = imgarr[Math.floor(Math.random() * imgarr.length)]
     let p1 = document.createElement("p")
     p1.className = "text-charcoal-grey-two"
     let t = ele.tablet.split(" ")
