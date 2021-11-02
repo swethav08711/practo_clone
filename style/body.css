@@ -10,6 +10,36 @@ body {
   width: 80%;
   margin: auto;
 }
+#main_floating {
+  display: flex;
+  width: 88%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+.style_inp > input {
+  width: 230px;
+  height: 40px;
+  padding-left: 35px;
+}
+.style_inp1 {
+  display: flex;
+}
+.search_btn_icon1 {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 9px;
+}
+.style_inp1 > input {
+  width: 435px;
+  height: 40px;
+  padding-left: 39px;
+}
+.banner_ori > img {
+  width: 193px;
+  height: 52px;
+  margin-left: 450px;
+}
 #location {
   /* width: 100%; */
   display: flex;
@@ -80,6 +110,7 @@ body {
   font-size: 20px;
   padding: 10px;
   border-radius: 10px;
+  border: none;
 }
 #prop1 {
   grid-area: prop1;
@@ -143,11 +174,17 @@ body {
   margin-right: 15px;
   border-radius: 5px;
 }
+.sliding-data {
+  width: 400px;
+}
 .sliding-data > div {
   padding: 10px;
 }
 .sliding-data > div > h4 {
   margin-bottom: 0;
+}
+.slide_imag {
+  width: 300px;
 }
 #consult-heading {
   display: flex;
@@ -252,16 +289,20 @@ body {
   margin: auto;
 }
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
+  width: 80%;
   margin: auto;
+  display: flex;
+}
+.mySlides {
+  width: 100%;
 }
 .mySlides > div {
-  width: 70%;
+  width: 100%;
   margin: auto;
 }
 .mySlides > div > p {
   font-size: 25px;
+  width: 600px;
   color: grey;
 }
 #downlaord {
@@ -293,6 +334,7 @@ body {
   border-top: 0.5px solid rgb(141, 134, 134);
   border-bottom: 0.5px solid rgb(141, 134, 134);
   padding: 14px;
+  margin-top: 18px;
 }
 #phone > div > input {
   margin-top: 18px;
