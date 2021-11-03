@@ -1,18 +1,5 @@
 {
-  "loginData": [
-    {
-      "user_name": "Ketan Yadav",
-      "mobile_number": "8808702180",
-      "password": "Ketan@12345",
-      "id": 1
-    },
-    {
-      "user_name": "udfiywbef",
-      "mobile_number": "2",
-      "password": "12",
-      "id": 2
-    }
-  ],
+  "loginData": [],
   "register": [
     {
       "user_name": "Ketan Yadav",
