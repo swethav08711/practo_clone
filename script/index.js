@@ -81,10 +81,13 @@ function handle_login() {
 
 
 function handle_logout(){
-  // fetch("http://localhost:1212/loginData",{
-  //   method: "DELETE",
-  //   headers: {
-  //     "Content-Type": "application/json",
-  //   },
-  //   });
+
+fetch('http://localhost:1212/loginData/' + 1, {
+  method: 'DELETE',
+})
+.then(res => res.text()) // or res.json()
+.then(res => console.log(res))
+
+  
 }
+
