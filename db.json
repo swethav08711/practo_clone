@@ -1,15 +1,9 @@
 {
   "loginData": [
     {
-<<<<<<< HEAD
       "user_name": "swe",
       "mobile_number": "912",
       "password": "1212",
-=======
-      "user_name": "Kartik yadav",
-      "mobile_number": "9451360246",
-      "password": "Kar",
->>>>>>> ab49a0256db2d0e0b167d001fa325f2c60921c47
       "id": 1
     }
   ],
@@ -25,7 +19,6 @@
       "mobile_number": "9451360246",
       "password": "Kar",
       "id": 2
-<<<<<<< HEAD
     },
     {
       "user_name": "udfiywbef",
@@ -86,8 +79,6 @@
       "mobile_number": "912",
       "password": "1212",
       "id": 12
-=======
->>>>>>> ab49a0256db2d0e0b167d001fa325f2c60921c47
     }
   ],
   "medicine": [
