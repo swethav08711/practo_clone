@@ -59,32 +59,6 @@
     let pri = document.createElement("p")
     pri.className="p2-disp"
     pri.innerText = `₹${price}`
-
-    // pri.id = `${id}+price`
-    //pri.className = "price_cart_cont"
-
-    // let div2 = document.createElement("div")
-    // div2.className = "quantity button_view_cont"
-
-    // let b1 = document.createElement("button")
-    // b1.setAttribute("type", "button")
-    // b1.addEventListener("click", () => decrement(id, price))
-    // b1.className = "btn minus-btn disabled"
-    // b1.textContent = "-"
-
-    // // let in1 = document.createElement("input")
-    // // in1.setAttribute("value", quantity)
-    // // in1.setAttribute("type", "text")
-    // // // in1.id = `${id}+quantity`
-
-    // let b2 = document.createElement("button")
-    // b2.addEventListener("click", () => increment(id, price))
-    // b2.setAttribute("type", "button")
-    // b2.className = "btn plus-btn"
-    // b2.textContent = "+"
-
-    // div2.append(b1, b2)
-    // div1.append(pri)
     div.append( p, pri)
     parent.append(div)
     sumprice()

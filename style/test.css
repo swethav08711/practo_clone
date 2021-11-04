@@ -157,7 +157,7 @@
   margin: auto;
   display: flex;
   gap: 30px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   padding: 20px;
 }
 #filter_side > div > div {
