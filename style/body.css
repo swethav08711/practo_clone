@@ -415,7 +415,7 @@ body {
 .profile-main-div {
   position: absolute;
   visibility: hidden;
-  margin-top: -75px;
+  margin-top: -15px;
   margin-left: 77%;
   width: 15%;
   padding: 1%;
@@ -480,3 +480,5 @@ body {
   color: rgba(73, 73, 73, 0.774);
   margin-top: 12px;
 }
+
+/* ketan css part end*/

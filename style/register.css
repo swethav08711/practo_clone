@@ -81,6 +81,10 @@
     width: 100%;
     margin-top: -5px;
 }
+
+.name-div > input:focus , .password-div > input:focus , .mobile-number-div > div > input:focus{
+    outline: 1px solid rgb(20, 190, 240);
+}
 .mobile-number-div >p{
     margin-bottom: 10px;
 }
