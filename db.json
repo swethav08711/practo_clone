@@ -5,6 +5,12 @@
       "mobile_number": "8808702180",
       "password": "Ketan@12345",
       "id": 1
+    },
+    {
+      "user_name": "Ketan",
+      "mobile_number": "880",
+      "password": "880",
+      "id": 2
     }
   ],
   "register": [
@@ -13,6 +19,12 @@
       "mobile_number": "8808702180",
       "password": "Ketan@12345",
       "id": 1
+    },
+    {
+      "user_name": "Ketan",
+      "mobile_number": "880",
+      "password": "880",
+      "id": 2
     }
   ],
   "medicine": [
