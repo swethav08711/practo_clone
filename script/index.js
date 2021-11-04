@@ -29,6 +29,9 @@ const header_import = document.getElementById("header_import")
 //   setTimeout(showSlides, 2000) // Change image every 2 seconds
 // }
 
+
+
+
 // ketan
 var name_para = document.getElementById("name-para")
 var mobile_para = document.getElementById("mobile-number-para")
@@ -83,3 +86,5 @@ function handle_logout() {
     .then(res => res.text()) // or res.json()
     .then(res => console.log(res))
 }
+
+//ketan
