@@ -8,6 +8,7 @@ console.log(data1)
 console.log(data)
 let pDetails = document.getElementById("p-details")
 data.forEach(elem => {
+    pDetails.innerHTML=null
     var div = document.createElement("div")
     // console.log(elem.name)
     var p1  = document.createElement("p")
@@ -15,19 +16,12 @@ data.forEach(elem => {
     var p2  = document.createElement("p")
     p2.textContent = `Phone: ${elem.phone}`
     var p3  = document.createElement("p")
-    p3.textContent = `Age:${elem.date}`
+    p3.textContent = `DOB: ${elem.date}`
     div.append(p1,p2,p3)
     pDetails.append(div)
 
 });
-data1.forEach(elem2 =>{
-    var div1 = document.createElement("div")
-    
-    var p4 = document.createElement("p")
-    p4.textContent = `Test: ${elem2.tname}`
-    div1.append(p4)
-    pDetails.append(div1)
-})
+
 }
 
 var addTime = []
@@ -99,6 +93,7 @@ btn4.addEventListener("click",()=>{
 var cart = document.getElementById("display-item")
 let cdata = JSON.parse(localStorage.getItem("consultancy"))
 cdata.forEach(ele => {
+    cart.innerHTML=null
 console.log(ele.tname)
 var div= document.createElement("div")
 

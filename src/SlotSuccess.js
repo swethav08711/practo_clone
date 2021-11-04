@@ -13,6 +13,7 @@ var stiming = document.getElementById("timeing")
 var testName = document.getElementById("testName")
 
 data1.forEach(ele => {
+    sname.innerHTML=null
     var h2 = document.createElement("h2")
     h2.textContent = `${ele.name}`
     sname.append(h2)
@@ -22,6 +23,7 @@ h1.textContent=`Timing: ${data4}`
 stiming.append(h1)
 
 data3.forEach(elem =>{
+    testName.innerHTML=null
     var h3 = document.createElement("h3")
     h3.textContent = `${elem.tname}`
     var p = document.createElement("p")
@@ -29,6 +31,7 @@ data3.forEach(elem =>{
     testName.append(h3,p)
 })
 data2.forEach(element=>{
+    saddress.innerHTML=null
     var p1 = document.createElement("p")
     p1.textContent=`${element.add1}`
     var p2 = document.createElement("p")
