@@ -1,5 +1,12 @@
 {
-  "loginData": [],
+  "loginData": [
+    {
+      "user_name": "swe",
+      "mobile_number": "912",
+      "password": "1212",
+      "id": 1
+    }
+  ],
   "register": [
     {
       "user_name": "Ketan Yadav",
@@ -48,6 +55,30 @@
       "mobile_number": "124124",
       "password": "124142",
       "id": 8
+    },
+    {
+      "user_name": "Swetha",
+      "mobile_number": "7892839931",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "user_name": "a",
+      "mobile_number": "1",
+      "password": "1",
+      "id": 10
+    },
+    {
+      "user_name": "swetha",
+      "mobile_number": "7892839931",
+      "password": "1234",
+      "id": 11
+    },
+    {
+      "user_name": "swe",
+      "mobile_number": "912",
+      "password": "1212",
+      "id": 12
     }
   ],
   "medicine": [
