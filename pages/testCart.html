@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" cont
-     x 56ent="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="viewport"
+      cont
+      x
+      56ent="width=device-width, initial-scale=1.0"
+    />
+    <link rel="icon" href="https://payments.practo.com/favicon-consumer.ico" />
+    <title>cart</title>
     <!-- <link rel="stylesheet" href="/style/view_cart.css" /> -->
     <link rel="stylesheet" href="../style/header_footer.css" />
-
   </head>
   <body>
     <header>
@@ -46,20 +50,20 @@
 </html>
 <script>
   let data = JSON.parse(localStorage.getItem("tcart"))
-    console.log(data)
+  console.log(data)
   let parent = document.getElementById("data")
 
   data.forEach(({ pname, description, price }) => {
     let div = document.createElement("div")
-     div.className = "displayItem_list"
+    div.className = "displayItem_list"
 
     let p = document.createElement("p")
-    p.className="p1-disp"
+    p.className = "p1-disp"
     p.innerText = pname
     let pri = document.createElement("p")
-    pri.className="p2-disp"
+    pri.className = "p2-disp"
     pri.innerText = `₹${price}`
-    div.append( p, pri)
+    div.append(p, pri)
     parent.append(div)
     sumprice()
   })
@@ -71,11 +75,10 @@
     totnum.innerText = `My cart: ${data.length} items`
     let sum = 0
     for (let i = 0; i < data.length; i++) {
-      sum += Number(data[i].price) 
+      sum += Number(data[i].price)
     }
     var tsum = localStorage.setItem("tsum", JSON.stringify(sum))
     suma.innerHTML = null
     suma.append("Payable Amount: ₹", sum)
-
   }
 </script>

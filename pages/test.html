@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="https://payments.practo.com/favicon-consumer.ico">
+    <title>Lab testt</title>
 
   
     <link rel="stylesheet" href="../style/header_footer.css" />
@@ -152,7 +153,7 @@
         <!--  -->
         <div id="line-height"></div>
         <div class="Medicine_subheader">
-            <div class="responsive22" id="filter_side"></div>  
+            <div  id="filter_side"></div>  
           </div>
           
           <div id="line-height"></div>
@@ -197,7 +198,8 @@
           </div>
           </div>
           <div id="line-height"></div>
-          <div id="checkups"></div>
+   <div id="checkups"></div>
+         
           <div id="line-height"></div>
           <div id="partners">
               <h3>Our Partners Labs</h3>
@@ -394,3 +396,40 @@
 <script type="module" src="/script/index.js"></script>
 <script src="/component/test_file.js"></script>
 <script src="../src/carosal.js"></script>
+<script>
+    $('.responsivey').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>

@@ -1,59 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style/personal.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://payments.practo.com/favicon-consumer.ico" />
+    <title>Person details</title>
+    <link rel="stylesheet" href="/style/personal.css" />
+  </head>
+  <body>
     <header>
-        <div class="wrapper">
-          <div class="practo_logo_new"></div>
-        </div>
-      </header>
+      <div class="wrapper">
+        <div class="practo_logo_new"></div>
+      </div>
+    </header>
     <div id="container">
-        <div id="input-form">
-
-            <div id="form-data">
-                <h3>Add Patient Details</h3>
-                <div>
-                    <label for="">Patient Name<b style="color: red;">*</b></label>
-                    <input type="text" placeholder="Full Name" id="p-name"> 
-                </div>
-                <div>
-                    <label for="">Date of Birth<b style="color: red;">*</b></label>
-                    <input type="date" id="dob">
-                </div>
-                <div>
-                    <label for="">Gender<b style="color: red;">*</b></label>
-                    <div id="gender">
-                            <input type="radio" name="gender" value="male"> Male
-                            <input type="radio" name="gender" value="female"> Female
-                            <input type="radio" name="gender" value="other"> Other
-                    </div>
-                </div>
-                <div>
-                    <label for="">Mobile Number<b style="color: red;">*</b></label>
-                    <input type="tel" id="mobile" maxlength="10" placeholder="10 digit number">
-                </div>
-                <div>
-                    <label for="">Email<b style="color: red;">*</b></label>
-                    <input type="email" id="email" placeholder="abcd@gmail.com">
-                </div>
-                <div>
-                    <button id="submit">Continue</button>
-                </div>
+      <div id="input-form">
+        <div id="form-data">
+          <h3>Add Patient Details</h3>
+          <div>
+            <label for="">Patient Name<b style="color: red">*</b></label>
+            <input type="text" placeholder="Full Name" id="p-name" />
+          </div>
+          <div>
+            <label for="">Date of Birth<b style="color: red">*</b></label>
+            <input type="date" id="dob" />
+          </div>
+          <div>
+            <label for="">Gender<b style="color: red">*</b></label>
+            <div id="gender">
+              <input type="radio" name="gender" value="male" /> Male
+              <input type="radio" name="gender" value="female" /> Female
+              <input type="radio" name="gender" value="other" /> Other
             </div>
-            <div id="cart-display">
-                <h3>Your Cart</h3>
-    
-                <div id="display-item"></div>
-            </div>
+          </div>
+          <div>
+            <label for="">Mobile Number<b style="color: red">*</b></label>
+            <input
+              type="tel"
+              id="mobile"
+              maxlength="10"
+              placeholder="10 digit number"
+            />
+          </div>
+          <div>
+            <label for="">Email<b style="color: red">*</b></label>
+            <input type="email" id="email" placeholder="abcd@gmail.com" />
+          </div>
+          <div>
+            <button id="submit">Continue</button>
+          </div>
         </div>
-        
+        <div id="cart-display">
+          <h3>Your Cart</h3>
+
+          <div id="display-item"></div>
+        </div>
+      </div>
     </div>
     <script src="/component/personalData.js"></script>
-</body>
+  </body>
 </html>
