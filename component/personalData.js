@@ -20,7 +20,7 @@ var email = document.getElementById("email").value
    }
    else{
     localStorage.setItem("patientData", JSON.stringify(pData))
-    window.location="/addressBook.html" 
+    window.location.href="/pages/address.html" 
     pname=""
     dob=""
     mobile=""
