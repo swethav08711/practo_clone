@@ -1,3 +1,15 @@
+header {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px 0 rgb(180 180 190 / 37%);
+  }
+  .practo_logo_new {
+    height: 22px;
+    background: url(//www.practostatic.com/ecommerce-assets/static/media/practo.8e3ca798.svg)
+      no-repeat;
+    margin: 30px 60px;
+  }
 #container{
     width: 80%;
     margin: auto;
@@ -8,16 +20,17 @@
     gap: 20px;
 }
 #data-1{
-    background-color: rgb(221, 209, 209);
+    background-color: rgb(221, 221, 221);
     border: 1px solid rgb(219, 219, 219);
     width: 65%;
     padding: 30px;
 }
 #data-2{
     width: 35%;
-    background-color: rgb(221, 209, 209);
-    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(247, 247, 247);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 20px;
+    height: 430px;
 }
 #address{
     display: flex;
