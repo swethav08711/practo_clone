@@ -6,7 +6,9 @@
     <meta name="viewport" cont
      x 56ent="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/style/view_cart.css" />
+    <!-- <link rel="stylesheet" href="/style/view_cart.css" /> -->
+    <link rel="stylesheet" href="../style/header_footer.css" />
+
   </head>
   <body>
     <header>
@@ -49,20 +51,20 @@
 
   data.forEach(({ pname, description, price }) => {
     let div = document.createElement("div")
-    div.className = "boxing_cart_container"
+     div.className = "displayItem_list"
 
     let p = document.createElement("p")
+    p.className="p1-disp"
     p.innerText = pname
-    p.className = "cart_name_para"
-    let div1 = document.createElement("div")
-    div1.className = "div1_cart_cont"
     let pri = document.createElement("p")
-    pri.innerText = price
-    // pri.id = `${id}+price`
-    pri.className = "price_cart_cont"
+    pri.className="p2-disp"
+    pri.innerText = `₹${price}`
 
-    let div2 = document.createElement("div")
-    div2.className = "quantity button_view_cont"
+    // pri.id = `${id}+price`
+    //pri.className = "price_cart_cont"
+
+    // let div2 = document.createElement("div")
+    // div2.className = "quantity button_view_cont"
 
     // let b1 = document.createElement("button")
     // b1.setAttribute("type", "button")
@@ -82,8 +84,8 @@
     // b2.textContent = "+"
 
     // div2.append(b1, b2)
-    div1.append(pri)
-    div.append( p, div1)
+    // div1.append(pri)
+    div.append( p, pri)
     parent.append(div)
     sumprice()
   })
@@ -99,7 +101,7 @@
     }
     var tsum = localStorage.setItem("tsum", JSON.stringify(sum))
     suma.innerHTML = null
-    suma.append("Payable Aount: ₹", sum)
+    suma.append("Payable Amount: ₹", sum)
 
   }
 </script>

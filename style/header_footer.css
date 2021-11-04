@@ -477,7 +477,7 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-container {
+#container {
   display: flex;
 }
 .u-content-wrapper {
@@ -852,4 +852,21 @@ header {
 #hover7:hover #show_hover7,
 #hover8:hover #show_hover8 {
   display: block;
+}
+
+.displayItem_list{
+  padding: 10px;
+  display: flex;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(231, 225, 225);
+}
+.p1-disp{
+  width: 65%;
+  margin: 2.5%;
+  font-weight: 500;
+}
+.p2-disp{
+  width: 25%;
+  margin: 2.5%;
+  font-weight: 600;
 }

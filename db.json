@@ -1,5 +1,12 @@
 {
-  "loginData": [],
+  "loginData": [
+    {
+      "user_name": "Kartik yadav",
+      "mobile_number": "9451360246",
+      "password": "Kar",
+      "id": 1
+    }
+  ],
   "register": [
     {
       "user_name": "David Yadav",
