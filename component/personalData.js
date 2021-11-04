@@ -30,8 +30,10 @@ var email = document.getElementById("email").value
 })
 
 var cart = document.getElementById("display-item")
+
 let cdata = JSON.parse(localStorage.getItem("consultancy"))
 cdata.forEach(ele => {
+    cart.innerHTML = null
      console.log(ele.tname)
     var div= document.createElement("div")
 
