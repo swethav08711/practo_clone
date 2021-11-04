@@ -1,18 +1,5 @@
 {
-  "loginData": [
-    {
-<<<<<<< HEAD
-      "user_name": "swe",
-      "mobile_number": "912",
-      "password": "1212",
-=======
-      "user_name": "Kartik yadav",
-      "mobile_number": "9451360246",
-      "password": "Kar",
->>>>>>> ab49a0256db2d0e0b167d001fa325f2c60921c47
-      "id": 1
-    }
-  ],
+  "loginData": [],
   "register": [
     {
       "user_name": "David Yadav",
@@ -25,69 +12,12 @@
       "mobile_number": "9451360246",
       "password": "Kar",
       "id": 2
-<<<<<<< HEAD
     },
     {
-      "user_name": "udfiywbef",
-      "mobile_number": "2",
-      "password": "12",
+      "user_name": "ketan",
+      "mobile_number": "9876543210",
+      "password": "1234",
       "id": 3
-    },
-    {
-      "user_name": "swetha",
-      "mobile_number": "7892839931",
-      "password": "s!@",
-      "id": 4
-    },
-    {
-      "user_name": "abc",
-      "mobile_number": "0987654321",
-      "password": "abc",
-      "id": 5
-    },
-    {
-      "user_name": "1",
-      "mobile_number": "1",
-      "password": "1",
-      "id": 6
-    },
-    {
-      "user_name": "swetha",
-      "mobile_number": "123456789",
-      "password": "12",
-      "id": 7
-    },
-    {
-      "user_name": "23124",
-      "mobile_number": "124124",
-      "password": "124142",
-      "id": 8
-    },
-    {
-      "user_name": "Swetha",
-      "mobile_number": "7892839931",
-      "password": "1234",
-      "id": 9
-    },
-    {
-      "user_name": "a",
-      "mobile_number": "1",
-      "password": "1",
-      "id": 10
-    },
-    {
-      "user_name": "swetha",
-      "mobile_number": "7892839931",
-      "password": "1234",
-      "id": 11
-    },
-    {
-      "user_name": "swe",
-      "mobile_number": "912",
-      "password": "1212",
-      "id": 12
-=======
->>>>>>> ab49a0256db2d0e0b167d001fa325f2c60921c47
     }
   ],
   "medicine": [
