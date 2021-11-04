@@ -33,7 +33,7 @@ header {
   padding-left: 47px;
 }
 .pay1 {
-  width: 68%;
+  width: 65%;
   border-top: 0.5px solid rgb(240, 240, 245);
 
   height: 6px;
@@ -58,7 +58,7 @@ header {
   margin-top: 70px;
 }
 .img_div input {
-  margin-left: 170px;
+  margin-left: -2px;
 }
 .p_class {
   margin-left: 195px;
@@ -69,6 +69,19 @@ header {
   height: 45px;
   margin-left: 103px;
   margin-top: 261px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(20, 190, 240);
+  font-size: 22px;
+  border: none;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.btn_classa {
+  width: 70%;
+  height: 45px;
+  margin-left: 32px;
+  margin-top: 101px;
   color: white;
   border-radius: 5px;
   background-color: rgb(20, 190, 240);

@@ -153,11 +153,12 @@
   width: 180px;
 }
 #filter_side {
-  width: 80%;
-  margin: auto;
+  width: 100%;
   display: flex;
-  gap: 30px;
-  /* overflow-x: scroll; */
+  margin: auto;
+
+  /* gap: 30px; */
+  overflow-x: scroll;
   padding: 20px;
 }
 #filter_side > div > div {
