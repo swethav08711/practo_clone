@@ -5,7 +5,7 @@ var otp_red_text = document.getElementsByClassName(
   "otp-field-cannot-be-empty"
 )[0]
 
-let otp = Math.floor(1000 + Math.random() * 9000)
+let otp = Math.floor(1000 + Math.random() * 9000);
 setTimeout(function () {
   alert(`Your OTP is ${otp}`)
 }, 2000)

@@ -1,0 +1,58 @@
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+#data{
+    display: flex;
+    gap: 20px;
+}
+#data-1{
+    background-color: rgb(221, 209, 209);
+    border: 1px solid rgb(219, 219, 219);
+    width: 65%;
+    padding: 30px;
+}
+#data-2{
+    width: 35%;
+    background-color: rgb(221, 209, 209);
+    border: 1px solid rgb(219, 219, 219);
+    padding: 20px;
+}
+#address{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#address>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#address>div>input{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.input-cart{
+    width: 100%;
+    border-radius: 10px;
+}
+.btn-check{
+    height: 40px;
+    background-color: rgb(211, 211, 219);
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+}
+#submit{
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    background-color: rgb(109, 164, 228);
+    color: white;
+    font-weight: 600;
+}

@@ -1,24 +1,31 @@
 {
   "loginData": [
     {
+<<<<<<< HEAD
       "user_name": "swe",
       "mobile_number": "912",
       "password": "1212",
+=======
+      "user_name": "Kartik yadav",
+      "mobile_number": "9451360246",
+      "password": "Kar",
+>>>>>>> ab49a0256db2d0e0b167d001fa325f2c60921c47
       "id": 1
     }
   ],
   "register": [
     {
-      "user_name": "Ketan Yadav",
-      "mobile_number": "8808702180",
-      "password": "Ketan@12345",
+      "user_name": "David Yadav",
+      "mobile_number": "880702180",
+      "password": "8807",
       "id": 1
     },
     {
-      "user_name": "akshu",
-      "mobile_number": "7892839931",
-      "password": "akshu",
+      "user_name": "Kartik yadav",
+      "mobile_number": "9451360246",
+      "password": "Kar",
       "id": 2
+<<<<<<< HEAD
     },
     {
       "user_name": "udfiywbef",
@@ -79,6 +86,8 @@
       "mobile_number": "912",
       "password": "1212",
       "id": 12
+=======
+>>>>>>> ab49a0256db2d0e0b167d001fa325f2c60921c47
     }
   ],
   "medicine": [

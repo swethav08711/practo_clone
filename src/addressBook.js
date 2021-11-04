@@ -1,34 +1,47 @@
-
-
+// window.addEventListener("load",()=>{
+//     check()
+// })
+// function check(){
+//     var data = JSON.parse(localStorage.getItem("addressBook"))
+//     console.log(data)
+//     var addr = document.getElementById("address")
+//     var addr2 = document.getElementById("addressDisplay")
+//     if(data===null){
+//         addr2.style.display = "none"
+//         addr.style.display = "block"
+//     }
+//     else{
+//         yourAddress()
+//         addr.style.display="none"
+//     }
+// }
 var submit  = document.getElementById("submit")
-var pData = []
+var addressBook=[]
 submit.addEventListener("click",()=>{
-var pname = document.getElementById("p-name").value
-var dob = document.getElementById("dob").value
-var mobile = document.getElementById("mobile").value
-var email = document.getElementById("email").value
-   var data = {
-       name : pname,
-       date : dob,
-       phone : mobile,
-       email : email
-   }
-   pData.push(data)
-   console.log(pData)
-   if(pname ==="" || dob==="" || mobile==="" || email===""){
-        alert("fill all data")
-   }
-   else{
-    localStorage.setItem("patientData", JSON.stringify(pData))
-    window.location.href="/pages/address.html" 
-    pname=""
-    dob=""
-    mobile=""
-    email=""
-   }
-   
-})
+    var add1 = document.getElementById("addl1").value
+    var add2 = document.getElementById("addl2").value
+    var add3 = document.getElementById("addl3").value
+    var pincode = document.getElementById("pincode").value
+    var state = document.getElementById("state").value
+    var phone = document.getElementById("phone").value
 
+    var aBook = {
+        add1 : add1,
+        add2 : add2,
+        add3 : add3,
+        pincode : pincode,
+        state : state,
+        phone : phone  
+    }
+    addressBook.push(aBook)
+    if(add1 ==="" || pincode === "" || state==="" || phone===""){
+        alert("Fill all Data")
+    }
+    else{
+        localStorage.setItem("addressBook", JSON.stringify(addressBook))
+        window.location.href="/pages/appointment.html"
+    }
+})
 var cart = document.getElementById("display-item")
 let cdata = JSON.parse(localStorage.getItem("consultancy"))
 cdata.forEach(ele => {
@@ -86,8 +99,6 @@ cdata.forEach(ele => {
             p7.textContent=`₹ ${ele.offerprice}`
         }
     })
-    
-    
 
     cart.append(div,div2,div3)
 });

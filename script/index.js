@@ -83,6 +83,5 @@ function handle_logout() {
     .then(res => res.text()) // or res.json()
     .then(res => console.log(res))
 }
-// window.addEventListener("click", () => {
-//   profile_section.style.display = "none"
-// })
+
+//ketan

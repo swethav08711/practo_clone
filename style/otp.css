@@ -33,7 +33,7 @@
 }
 .register-form-main-div{
     width: 50%;
-    height: 330px;
+    height: 350px;
     margin-top: 4%;
     border-radius: 5px;
     padding: 2%;
@@ -80,7 +80,9 @@
     width: 100%;
     margin-top: -5px;
 }
-
+.name-div > input:focus{
+    outline: 1px solid rgb(20, 190, 240);
+}
 .terms-div-below-the-form{
     display: flex;
     color: rgb(95, 95, 95);

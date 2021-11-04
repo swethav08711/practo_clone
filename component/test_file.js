@@ -95,6 +95,7 @@ async function fetchdata2(){
     btn.textContent="Book Now"
     btn.addEventListener("click",()=>{
         bookSection({image,tname,offerprice})
+        window.location.href="/pages/personData.html"
     })
     div2.append(p2,p3,btn)
     div1.append(img,h3,p1,div2)

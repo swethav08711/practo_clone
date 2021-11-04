@@ -53,6 +53,10 @@
     width: 100%;
     margin-top: -2px;
 }
+.mobile-number-div > input:focus , .password-div > input:focus{
+    outline: 1px solid rgb(20, 190, 240);
+}
+
 .agree-cheque-box {
     margin-top: 20px;
 }
