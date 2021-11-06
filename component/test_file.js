@@ -111,5 +111,5 @@ function bookSection(d) {
   addElement.push(d)
   console.log(addElement) //array of Objects
   localStorage.setItem("consultancy", JSON.stringify(addElement))
-  alert("Conttinue to next page") //back to JSON from Object
+  alert("Continue to next page") //back to JSON from Object
 }
