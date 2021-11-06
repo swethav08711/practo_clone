@@ -57,6 +57,7 @@ bookTime.append(div2, div3, div4, div5)
 
 btn1.addEventListener("click", () => {
   addTime.push("09:00 to 10:00", Date())
+  alert(addTime[addTime.length-2])
   console.log(addTime[addTime.length - 2])
   localStorage.setItem(
     "appointment",
@@ -65,6 +66,7 @@ btn1.addEventListener("click", () => {
 })
 btn2.addEventListener("click", () => {
   addTime.push("10:00 to 11:00", Date())
+  alert(addTime[addTime.length-2])
   console.log(addTime[addTime.length - 2])
   localStorage.setItem(
     "appointment",
@@ -73,6 +75,8 @@ btn2.addEventListener("click", () => {
 })
 btn3.addEventListener("click", () => {
   addTime.push("11:00 to 12:00", Date())
+  alert(addTime[addTime.length-2])
+
   console.log(addTime)
   console.log(addTime[addTime.length - 2])
   localStorage.setItem(
@@ -82,6 +86,63 @@ btn3.addEventListener("click", () => {
 })
 btn4.addEventListener("click", () => {
   addTime.push("3:00 - 4:00 ", Date())
+  alert(addTime[addTime.length-2])
+
+  console.log(addTime)
+  console.log(addTime[addTime.length - 2])
+  localStorage.setItem(
+    "appointment",
+    JSON.stringify(addTime[addTime.length - 2])
+  )
+})
+btn5.addEventListener("click", () => {
+  addTime.push("4:00 - 5:00 ", Date())
+  alert(addTime[addTime.length-2])
+
+  console.log(addTime)
+  console.log(addTime[addTime.length - 2])
+  localStorage.setItem(
+    "appointment",
+    JSON.stringify(addTime[addTime.length - 2])
+  )
+})
+btn6.addEventListener("click", () => {
+  addTime.push("5:00 - 6:00 ", Date())
+  alert(addTime[addTime.length-2])
+
+  console.log(addTime)
+  console.log(addTime[addTime.length - 2])
+  localStorage.setItem(
+    "appointment",
+    JSON.stringify(addTime[addTime.length - 2])
+  )
+})
+btn7.addEventListener("click", () => {
+  addTime.push("6:00 - 7:00 ", Date())
+  alert(addTime[addTime.length-2])
+
+  console.log(addTime)
+  console.log(addTime[addTime.length - 2])
+  localStorage.setItem(
+    "appointment",
+    JSON.stringify(addTime[addTime.length - 2])
+  )
+})
+btn8.addEventListener("click", () => {
+  addTime.push("7:00 - 8:00 ", Date())
+  alert(addTime[addTime.length-2])
+
+  console.log(addTime)
+  console.log(addTime[addTime.length - 2])
+  localStorage.setItem(
+    "appointment",
+    JSON.stringify(addTime[addTime.length - 2])
+  )
+})
+btn9.addEventListener("click", () => {
+  addTime.push("Emargency ", Date())
+  alert(addTime[addTime.length-2])
+
   console.log(addTime)
   console.log(addTime[addTime.length - 2])
   localStorage.setItem(
