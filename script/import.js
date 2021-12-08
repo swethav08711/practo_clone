@@ -1,4 +1,4 @@
-import { footer, header, searchfield } from "../component/export.js"
+import { footer, header, searchfield } from "../component/export"
 const footer_import = document.getElementById("footer_import")
 footer_import.innerHTML = footer()
 const header_import = document.getElementById("header_import")
