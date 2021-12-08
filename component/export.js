@@ -73,7 +73,7 @@ export function footer() {
 export function header() {
   return `<div id="header_part" >
         <div class="header_container min_sreen">
-          <img src="/images/practo.8e3ca798.svg" alt="" onclick="(location.href='../pages/index.html')"/ >
+          <img src="/images/practo.8e3ca798.svg" alt="" onclick="(location.href='../public/index.html')"/ >
         </div>
         <div class="header_container">
           <h1>Find Doctors</h1>

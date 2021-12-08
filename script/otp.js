@@ -56,7 +56,7 @@ function handle_login_again() {
               return response.json()
             })
             .then(function (response) {
-              window.location.assign("http://127.0.0.1:5500/pages/index.html")
+              window.location.assign("http://127.0.0.1:5500/public/index.html")
             })
             .catch(function (error) {
               console.log(error)
