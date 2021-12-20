@@ -2,7 +2,7 @@
 Practo is revolutionizing healthcare by enabling consumers to find the best doctors, book instant appointments, consultations, and make better, more informed health decisions.
 ## Pages Built and steps to run the project
 
-First step clone the repository using the git command - git clone https://github.com/Akshaykumar24/PharmEasy.git
+First step clone the repository using the git command - git clone https://github.com/swethav08711/practo_clone.git
 
 ### 1. Open index.html file on the live server(using VS code live server) 
 
