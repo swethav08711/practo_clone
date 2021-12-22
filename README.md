@@ -4,6 +4,10 @@ Practo is revolutionizing healthcare by enabling consumers to find the best doct
 
 First step clone the repository using the git command - git clone https://github.com/swethav08711/practo_clone.git
 
+Go to PharmEasy Folder git command - cd PharmEasy/  
+
+click on pages folder
+
 ### 1. Open index.html file on the live server(using VS code live server) 
 
 ![r](https://user-images.githubusercontent.com/72690740/147086212-a965d60a-d20f-47bd-9980-74fc57fb6718.PNG)
