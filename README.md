@@ -6,40 +6,47 @@ First step clone the repository using the git command - git clone https://github
 
 ### 1. Open index.html file on the live server(using VS code live server) 
 
+![r](https://user-images.githubusercontent.com/72690740/147086212-a965d60a-d20f-47bd-9980-74fc57fb6718.PNG)
 
 ### 2. This is our landing page and click on Login, Pincode
 
+![l](https://user-images.githubusercontent.com/72690740/147086166-535f3590-d10c-4a59-9feb-85f57286516c.PNG)
 
 ### 3. The user gets 2 ways to add the product to the cart one by searching the required product name in the search bar
 
-
-A list of items will be shown, the user can add products to the cart 
+![m](https://user-images.githubusercontent.com/72690740/147086146-43196463-0f92-48d0-88a2-ee02a2c2155f.PNG)
 
 ### 4. Another way of adding products to the cart is by clicking on the categories , a list of medicine realted to that categories will be opened 
 
+![f](https://user-images.githubusercontent.com/72690740/147086129-868ff2aa-b2c7-4830-b1d6-78f7861b5dcd.PNG)
 
 ### 5. On clicking any of the products, product detail page appears, from there the user can add it to the cart and the number of products added to the cart will be shown at the top of the view cart 
 
+![p](https://user-images.githubusercontent.com/72690740/147086127-52ccb045-554d-4a71-b02b-2a08ba89267f.PNG)
 
 ### 6. On clicking veiw cart selected items will be shown 
 
+![v](https://user-images.githubusercontent.com/72690740/147086124-45e85c5d-48e0-418b-97ec-c9b3af12488a.PNG)
 
 There is also a coupon option available by applying to it the price reduces to that amount of percentage this reflection can be seen in the order summary at the bottom
 
 
+
 ### 7. Users now can click on proceed to pay the button it will redirect to the payment page. After selecting the payment mode click on the place order
 
+![pay](https://user-images.githubusercontent.com/72690740/147086121-401592bc-0f69-4ec3-8431-677276b2b361.PNG)
 
 ### 8. Now the order is placed. Delivery page is shown after payment, the expected date of delivery can be seen and by clicking on back to home it will take to a landing page 
 
-
-
 ### 9. So once the user is done with the purchase he can log out by clicking on the Home button
 
+![r](https://user-images.githubusercontent.com/72690740/147086212-a965d60a-d20f-47bd-9980-74fc57fb6718.PNG)
 
 ### 10. Footer in all the Pages
 
-
+![SUX](https://user-images.githubusercontent.com/72690740/147086219-4b5e68d3-ccf4-474b-a027-cb9b81ab623d.PNG)
+![APPO](https://user-images.githubusercontent.com/72690740/147086226-105d9140-90e1-4161-b4c7-4ba6d59033a9.PNG)
+![ADDR](https://user-images.githubusercontent.com/72690740/147086234-1516f445-0bc6-419d-b579-9e44dabc5c3e.PNG)
 
 ## Functionalities Implemented
 
