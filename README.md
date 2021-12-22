@@ -8,7 +8,7 @@ Go to PharmEasy Folder git command - cd PharmEasy/
 
 click on pages folder
 
-### 1. Open index.html file on the live server(using VS code live server) 
+### 1. Open body.html file on the live server(using VS code live server) 
 
 ![r](https://user-images.githubusercontent.com/72690740/147086212-a965d60a-d20f-47bd-9980-74fc57fb6718.PNG)
 
