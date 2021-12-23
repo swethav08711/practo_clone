@@ -48,7 +48,15 @@ There is also a coupon option available by applying to it the price reduces to t
 
 ### 10. Addres page to fill the USER DETAILS. By and large here subsequent to choosing any thing and later checkout the client get into the location page where the client need to fill the subtleties.
 ![ADDR](https://user-images.githubusercontent.com/72690740/147086234-1516f445-0bc6-419d-b579-9e44dabc5c3e.PNG)
+
+### 10. Followed to the subtleties page the client could choose a specefic time with the meeting with the specialist.
 ![APPO](https://user-images.githubusercontent.com/72690740/147086226-105d9140-90e1-4161-b4c7-4ba6d59033a9.PNG)
+
+
+### 11. Users now can click on proceed to pay the button it will redirect to the payment page. After selecting the payment mode click on the place order
+![pay](https://user-images.githubusercontent.com/72690740/147086121-401592bc-0f69-4ec3-8431-677276b2b361.PNG)
+
+### 12. This the end page where the client can ready to see the chose date and time with the meeting with the specefic cause.
 ![SUX](https://user-images.githubusercontent.com/72690740/147086219-4b5e68d3-ccf4-474b-a027-cb9b81ab623d.PNG)
 
 
