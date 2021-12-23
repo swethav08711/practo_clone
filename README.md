@@ -46,10 +46,11 @@ There is also a coupon option available by applying to it the price reduces to t
 
 ![r](https://user-images.githubusercontent.com/72690740/147086212-a965d60a-d20f-47bd-9980-74fc57fb6718.PNG)
 
-### 10. Footer in all the Pages
+### 10. Addres page to fill the USER DETAILS. By and large here subsequent to choosing any thing and later checkout the client get into the location page where the client need to fill the subtleties.
 ![ADDR](https://user-images.githubusercontent.com/72690740/147086234-1516f445-0bc6-419d-b579-9e44dabc5c3e.PNG)
-![SUX](https://user-images.githubusercontent.com/72690740/147086219-4b5e68d3-ccf4-474b-a027-cb9b81ab623d.PNG)
 ![APPO](https://user-images.githubusercontent.com/72690740/147086226-105d9140-90e1-4161-b4c7-4ba6d59033a9.PNG)
+![SUX](https://user-images.githubusercontent.com/72690740/147086219-4b5e68d3-ccf4-474b-a027-cb9b81ab623d.PNG)
+
 
 
 
