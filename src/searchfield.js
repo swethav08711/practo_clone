@@ -103,6 +103,7 @@ function addtofav(d) {
   addi.push(d)
   localStorage.setItem("cart", JSON.stringify(addi))
   alert("Added to cart")
+   main1.innerText("")
   document.getElementById("tot").innerText = addi.length
 }
 // let arr = JSON.parse(localStorage.getItem("cart"))
