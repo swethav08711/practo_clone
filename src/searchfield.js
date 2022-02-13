@@ -73,6 +73,7 @@ function appendMovies(searchdata) {
     m.append(img, div2, btn1)
     main1.append(m)
   })
+  main1.innerText("")
 }
 async function main(e) {
   e.stopPropagation()
