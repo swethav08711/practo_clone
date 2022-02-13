@@ -477,9 +477,7 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
-#container {
-  display: flex;
-}
+
 .u-content-wrapper {
   width: 1180px;
   display: flex;
