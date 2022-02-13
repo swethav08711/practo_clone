@@ -26,7 +26,7 @@ let imag = imgarr[Math.floor(Math.random() * imgarr.length)]
 detail1.forEach(ele => {
   document.getElementById(
     "cont"
-  ).innerHTML = ` <container class="u-content-wrapper">
+  ).innerHTML = ` <container class="u-content-wrapper" style="display:flex">
       <div class="right-container" id="fir">
         <div class="image-carousel--wrapper">
           <div class="image-carousel--slide_wrapper"></div>
